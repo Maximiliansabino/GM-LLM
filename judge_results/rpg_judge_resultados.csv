@@ -1,0 +1,2 @@
+arquivo,data_sessao,personagem,modelo,GS1_qualidade_narrativa,GS3_coerencia_acao,GS6_consistencia_estado,QC1_criatividade_jogador_pregame,GS4_criatividade_jogador,GS5_eficiencia_mecanica,score_global,acoes_avaliadas,criatividade_media,eficiencia_media,tempo_medio_llm_s,tokens_total_sessao
+sessao_2026-04-26_23-02-09.csv,2026-04-26_23-02-09,Jolie 2,gemma4:e2b,4.54,4.84,2.97,3.53,3.55,2.52,3.7,55,0.711,1.01,2.03,140443

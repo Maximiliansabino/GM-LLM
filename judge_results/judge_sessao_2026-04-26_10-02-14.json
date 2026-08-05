@@ -1,0 +1,48 @@
+{
+  "arquivo": "sessao_2026-04-26_10-02-14.csv",
+  "personagem": "Max testando novo mundo",
+  "modelo": "qwen2.5:7b-instruct",
+  "data_sessao": "2026-04-26_10-02-14",
+  "metricas": {
+    "GS1_qualidade_narrativa": 4.79,
+    "GS3_coerencia_acao": 5.0,
+    "GS6_consistencia_estado": 2.94,
+    "QC1_criatividade_jogador_pregame": 3.6,
+    "GS4_criatividade_jogador": 4.0,
+    "GS5_eficiencia_mecanica": 2.12,
+    "MW1_narracao_mundo": 4.03,
+    "MW2_consistencia_mundo": 2.0,
+    "score_mundo": 3.42,
+    "score_global": 3.87
+  },
+  "internas": {
+    "criatividade_media": 0.801,
+    "criatividade_min": 0.6,
+    "criatividade_max": 1.0,
+    "eficiencia_media": 0.849,
+    "acoes_avaliadas": 14,
+    "tempo_medio_llm_s": 0.96,
+    "tokens_medio": 1028,
+    "tokens_total_sessao": 39081
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada",
+      "mundo_movimento",
+      "mundo_acao_livre",
+      "mundo_encontro",
+      "mundo_mod_magia",
+      "mundo_mod_fogo"
+    ],
+    "total_acoes": 75
+  },
+  "diagnostico": {
+    "modelo_judge": "qwen2.5:7b-instruct",
+    "backend_judge": "ollama",
+    "chamadas_totais": 59,
+    "chamadas_com_parse_ok": 59,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

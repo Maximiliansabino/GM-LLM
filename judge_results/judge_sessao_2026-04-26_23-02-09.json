@@ -1,0 +1,46 @@
+{
+  "arquivo": "sessao_2026-04-26_23-02-09.csv",
+  "personagem": "Jolie 2",
+  "modelo": "gemma4:e2b",
+  "data_sessao": "2026-04-26_23-02-09",
+  "metricas": {
+    "GS1_qualidade_narrativa": 4.54,
+    "GS3_coerencia_acao": 4.84,
+    "GS6_consistencia_estado": 2.97,
+    "QC1_criatividade_jogador_pregame": 3.53,
+    "GS4_criatividade_jogador": 3.55,
+    "GS5_eficiencia_mecanica": 2.52,
+    "MW1_narracao_mundo": 3.13,
+    "MW2_consistencia_mundo": null,
+    "score_mundo": 3.13,
+    "score_global": 3.7
+  },
+  "internas": {
+    "criatividade_media": 0.711,
+    "criatividade_min": 0.5,
+    "criatividade_max": 1.0,
+    "eficiencia_media": 1.01,
+    "acoes_avaliadas": 55,
+    "tempo_medio_llm_s": 2.03,
+    "tokens_medio": 1325,
+    "tokens_total_sessao": 140443
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada",
+      "mundo_acao_livre",
+      "mundo_movimento",
+      "mundo_encontro"
+    ],
+    "total_acoes": 60
+  },
+  "diagnostico": {
+    "modelo_judge": "gemma4:e2b",
+    "backend_judge": "ollama",
+    "chamadas_totais": 196,
+    "chamadas_com_parse_ok": 196,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "arquivo": "sessao_2026-04-18_20-43-52.csv",
+  "personagem": "fe",
+  "modelo": "qwen2.5:1.5b",
+  "data_sessao": "2026-04-18_20-43-52",
+  "metricas": {
+    "GS1_qualidade_narrativa": 4.53,
+    "GS3_coerencia_acao": 5.0,
+    "GS6_consistencia_estado": 2.33,
+    "QC1_criatividade_jogador_pregame": 2.0,
+    "GS4_criatividade_jogador": 3.5,
+    "GS5_eficiencia_mecanica": 2.5,
+    "MW1_narracao_mundo": 3.95,
+    "MW2_consistencia_mundo": 3.0,
+    "score_mundo": 3.67,
+    "score_global": 3.66
+  },
+  "internas": {
+    "criatividade_media": 0.7,
+    "criatividade_min": 0.7,
+    "criatividade_max": 0.7,
+    "eficiencia_media": 1.0,
+    "acoes_avaliadas": 2,
+    "tempo_medio_llm_s": 1.77,
+    "tokens_medio": 835,
+    "tokens_total_sessao": 4176
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  },
+  "diagnostico": {
+    "modelo_judge": "qwen2.5:7b-instruct",
+    "backend_judge": "ollama",
+    "chamadas_totais": 40,
+    "chamadas_com_parse_ok": 40,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

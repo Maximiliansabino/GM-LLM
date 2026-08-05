@@ -1,0 +1,46 @@
+{
+  "arquivo": "sessao_2026-04-25_23-57-48.csv",
+  "personagem": "Silent",
+  "modelo": "ticlazau/meta-llama-3.1-8b-instruct:latest",
+  "data_sessao": "2026-04-25_23-57-48",
+  "metricas": {
+    "GS1_qualidade_narrativa": 4.63,
+    "GS3_coerencia_acao": 4.89,
+    "GS6_consistencia_estado": 2.03,
+    "QC1_criatividade_jogador_pregame": 3.6,
+    "GS4_criatividade_jogador": 3.89,
+    "GS5_eficiencia_mecanica": 2.79,
+    "MW1_narracao_mundo": 3.93,
+    "MW2_consistencia_mundo": null,
+    "score_mundo": 3.93,
+    "score_global": 3.73
+  },
+  "internas": {
+    "criatividade_media": 0.777,
+    "criatividade_min": 0.571,
+    "criatividade_max": 1.0,
+    "eficiencia_media": 1.114,
+    "acoes_avaliadas": 21,
+    "tempo_medio_llm_s": 0.96,
+    "tokens_medio": 1121,
+    "tokens_total_sessao": 40356
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada",
+      "mundo_acao_livre",
+      "mundo_movimento",
+      "mundo_encontro"
+    ],
+    "total_acoes": 42
+  },
+  "diagnostico": {
+    "modelo_judge": "ticlazau/meta-llama-3.1-8b-instruct:latest",
+    "backend_judge": "ollama",
+    "chamadas_totais": 100,
+    "chamadas_com_parse_ok": 100,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

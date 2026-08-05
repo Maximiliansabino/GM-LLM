@@ -1,0 +1,250 @@
+{
+  "0,0,0": {
+    "nome": "Borda Teste",
+    "fatos": [
+      "pedra cinza",
+      "rio ao leste"
+    ],
+    "ts": "2026-04-22T21:14:02"
+  },
+  "0,-1,0": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-23T10:58:00"
+  },
+  "0,-2,0": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-23T10:58:30"
+  },
+  "0,-3,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-23T10:59:03"
+  },
+  "0,-3,-1": {
+    "nome": "Savana do Lobo-Guará",
+    "fatos": [],
+    "ts": "2026-04-23T10:59:12"
+  },
+  "0,-3,1": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-23T10:59:42"
+  },
+  "0,-4,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-23T14:48:04"
+  },
+  "0,1,0": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-26T00:06:10"
+  },
+  "1,1,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T00:06:22"
+  },
+  "1,0,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T00:06:32"
+  },
+  "2,0,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T00:28:41"
+  },
+  "3,0,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T00:29:25"
+  },
+  "4,0,0": {
+    "nome": "Lugar Desconhecido",
+    "fatos": [],
+    "ts": "2026-04-26T00:29:41"
+  },
+  "5,0,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T00:30:31"
+  },
+  "6,0,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T00:30:59"
+  },
+  "7,0,0": {
+    "nome": "Encosta das Bromeliáceas",
+    "fatos": [],
+    "ts": "2026-04-26T00:33:22"
+  },
+  "8,0,0": {
+    "nome": "Encosta das Bromeliáceas",
+    "fatos": [],
+    "ts": "2026-04-26T00:37:14"
+  },
+  "9,0,0": {
+    "nome": "Encosta das Bromeliáceas",
+    "fatos": [],
+    "ts": "2026-04-26T00:37:33"
+  },
+  "10,0,0": {
+    "nome": "Encosta das Bromeliáceas",
+    "fatos": [],
+    "ts": "2026-04-26T00:47:51"
+  },
+  "11,0,0": {
+    "nome": "Carrasco do Xique-Xique",
+    "fatos": [],
+    "ts": "2026-04-26T00:48:08"
+  },
+  "0,2,0": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-26T16:38:01"
+  },
+  "0,3,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T16:41:32"
+  },
+  "0,4,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T16:42:32"
+  },
+  "0,5,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T16:43:32"
+  },
+  "0,6,0": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-26T16:43:37"
+  },
+  "0,7,0": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-26T16:43:42"
+  },
+  "0,8,0": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-26T16:43:46"
+  },
+  "0,9,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T16:44:30"
+  },
+  "0,10,0": {
+    "nome": "Savana do Lobo-Guará",
+    "fatos": [],
+    "ts": "2026-04-26T16:45:22"
+  },
+  "0,11,0": {
+    "nome": "Savana do Lobo-Guará",
+    "fatos": [],
+    "ts": "2026-04-26T16:45:30"
+  },
+  "0,12,0": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-26T16:45:41"
+  },
+  "-1,0,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T16:54:23"
+  },
+  "-2,0,0": {
+    "nome": "Savana do Lobo-Guará",
+    "fatos": [],
+    "ts": "2026-04-26T16:54:34"
+  },
+  "-3,0,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T16:54:39"
+  },
+  "-4,0,0": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-26T16:54:46"
+  },
+  "-1,5,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T17:23:53"
+  },
+  "-2,5,0": {
+    "nome": "Chapada dos Buritis",
+    "fatos": [],
+    "ts": "2026-04-26T17:23:58"
+  },
+  "2,1,0": {
+    "nome": "Lugar Desconhecido",
+    "fatos": [],
+    "ts": "2026-04-26T23:19:00"
+  },
+  "0,0,-1": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-26T23:45:55"
+  },
+  "0,0,-2": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-26T23:57:19"
+  },
+  "0,0,-3": {
+    "nome": "Gruta de Pedra",
+    "fatos": [],
+    "ts": "2026-04-26T23:57:29"
+  },
+  "0,0,1": {
+    "nome": "Planalto dos Pequizeiros",
+    "fatos": [],
+    "ts": "2026-04-27T00:27:23"
+  },
+  "0,0,2": {
+    "nome": "Cerrado das Veredas",
+    "fatos": [],
+    "ts": "2026-04-27T00:27:30"
+  },
+  "0,0,3": {
+    "nome": "Campo dos Ipês Amarelos",
+    "fatos": [],
+    "ts": "2026-04-27T00:27:42"
+  },
+  "0,0,4": {
+    "nome": "Chapada dos Ventos",
+    "fatos": [],
+    "ts": "2026-04-27T00:27:48"
+  },
+  "-3,-1,0": {
+    "nome": "Selva dos Curupiras",
+    "fatos": [],
+    "ts": "2026-04-27T01:10:54"
+  },
+  "-3,-2,0": {
+    "nome": "Lugar Desconhecido",
+    "fatos": [],
+    "ts": "2026-04-27T01:12:08"
+  },
+  "-3,-3,0": {
+    "nome": "Selva dos Curupiras",
+    "fatos": [],
+    "ts": "2026-04-27T01:12:56"
+  },
+  "-3,-4,0": {
+    "nome": "Bosque das Seringueiras",
+    "fatos": [],
+    "ts": "2026-04-27T01:13:05"
+  }
+}

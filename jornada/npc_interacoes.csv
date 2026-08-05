@@ -1,0 +1,228 @@
+timestamp,npc_nome,turno,de,texto_preview,ganho_atributo,amizade_delta
+2026-04-23T10:34:39,Breno,1,jogador,"Breno, o que você sabe sobre as estradas perigosas ao sul?",0.17,0.0
+2026-04-23T10:34:39,Breno,1,Breno,As estradas ao sul estão cheias de bandidos desde a queda do forte.,0.0,0.0
+2026-04-23T10:34:39,Breno,1,jogador,Onde exatamente fica o forte que foi tomado?,0.14,0.0
+2026-04-23T10:34:39,Breno,1,Breno,"Três léguas ao sul, onde a estrada bifurca. Não vá por lá.",0.0,0.0
+2026-04-23T10:34:39,Breno,1,jogador,Qual o nome do líder dos bandidos?,0.13,0.0
+2026-04-23T10:34:39,Breno,1,Breno,Chamam ele de Mão de Ferro. Ninguém o viu de perto e sobreviveu.,0.0,0.0
+2026-04-23T10:34:39,Breno,1,jogador,ok,0.0,0.0
+2026-04-23T14:46:50,Yara,0,Max tex npc 2,ola,0.0,0.0
+2026-04-23T14:46:50,Yara,0,Yara,"""Ah, você é um aventureiro! Vem cá, senta-se ao lado da fogueira, ainda está fri",0.0,0.0
+2026-04-23T14:54:37,Yara,0,Max tex npc 2,ola,0.0,0.0
+2026-04-23T14:54:37,Yara,0,Yara,"""Ah, você é um aventureiro! Vem cá, senta-se ao lado da fogueira, ainda está fri",0.0,0.0
+2026-04-23T14:55:05,Yara,0,Max tex npc 2,voce viu aquela queimada?,0.1,0.0
+2026-04-23T14:55:05,Yara,0,Yara,"""Ah, você quer saber sobre a queimada? Sim, eu vi. Foi obra de um raio que caiu ",0.0,0.0
+2026-04-23T14:55:41,Yara,0,Max tex npc 2,você viu aquela chuva?,0.1,0.0
+2026-04-23T14:55:41,Yara,0,Yara,"""Ah, a chuva? Sim, eu vi! Estava aqui mesmo quando começou a cair forte. Mas voc",0.0,0.0
+2026-04-23T14:56:17,Yara,0,Max tex npc 2,você tem algum item com vc?,0.12,0.0
+2026-04-23T14:56:17,Yara,0,Yara,"""Ah, itens? Ah, sim! Tenho aqui na minha bolsa uma variedade de ervas medicinais",0.0,0.0
+2026-04-23T14:56:37,Yara,0,Max tex npc 2,quero ver sim,0.0,0.0
+2026-04-23T14:56:37,Yara,0,Yara,"""Ah, está bem! Vou mostrar o que tenho aqui... *abre a bolsa e começa a pegar al",0.0,0.0
+2026-04-23T14:57:18,Yara,0,Max tex npc 2,me de essa poção de cura,0.12,0.0
+2026-04-23T14:57:18,Yara,0,Yara,"""Ah, a poção de cura? Ela não é para qualquer um, você sabe... Mas estou vendo q",0.0,0.0
+2026-04-23T14:59:46,Yara,0,Max tex npc 2,tem mais algum item?,0.06,0.0
+2026-04-23T14:59:46,Yara,0,Yara,"""Ah, sim! Tenho mais um ou dois itens que podem ser úteis para você. Um é essa e",0.0,0.0
+2026-04-23T15:00:34,Yara,0,Max tex npc 2,me de todos os itens,0.0,0.0
+2026-04-23T15:00:34,Yara,0,Yara,Não posso simplesmente entregar meus itens a você assim que quiser! Eu sei que v,0.0,0.0
+2026-04-26T00:14:26,Yara,0,Silent,ola,0.0,0.0
+2026-04-26T00:14:26,Yara,0,Yara,"""Ah, olá! Você não parece familiar... O que traz você até aqui?""",0.0,0.0
+2026-04-26T00:14:57,Yara,0,Silent,estou explorando em busca de aventuras,0.12,0.0
+2026-04-26T00:14:57,Yara,0,Yara,"Ah, uma busca por aventuras! É sempre um prazer encontrar alguém que compartilha",0.0,0.0
+2026-04-26T00:15:32,Yara,0,Silent,buscando aventura riquezas e glória,0.11,0.0
+2026-04-26T00:15:32,Yara,0,Yara,"""Ah, a busca por riquezas e glória! É uma jornada nobre, mesmo que perigosa. Eu ",0.0,0.0
+2026-04-26T00:16:07,Yara,0,Silent,quais dicas vc tem para mim?,0.12,0.0
+2026-04-26T00:16:07,Yara,0,Yara,"""Ah, bem, estou pensando que você deva estar procurando por coisas mais do que a",0.0,0.0
+2026-04-26T00:17:18,Yara,0,Silent,Me mostre e explique sobre tais ervas,0.13,0.0
+2026-04-26T00:17:18,Yara,0,Yara,"""Ah, excelente escolha! Vou te mostrar uma das minhas ervas favoritas - a 'erva ",0.0,0.0
+2026-04-26T00:17:49,Yara,0,Silent,voce pode me dar elas?,0.02,0.0
+2026-04-26T00:17:49,Yara,0,Yara,"""Ah, não é tão simples assim! Eu posso te ensinar sobre elas, mas não vou dar vo",0.0,0.0
+2026-04-26T00:18:41,Yara,0,Silent,estou pronto para apreder os segredos da floresta,0.0,0.0
+2026-04-26T00:18:41,Yara,0,Yara,"""Ah, então você está pronto para aprender! Isso é bom, pois não quero que você a",0.0,0.0
+2026-04-26T00:19:40,Zé das Estradas,0,Silent,ola camarada,0.0,0.0
+2026-04-26T00:19:40,Zé das Estradas,0,Zé das Estradas,"E aí, camaradinha! Prazer em conhecê-lo! Estou aqui há uns dias, negociando com ",0.0,0.0
+2026-04-26T00:20:36,Zé das Estradas,0,Silent,"ta doidão aqui não tem montanha, só florestas",0.14,0.0
+2026-04-26T00:20:36,Zé das Estradas,0,Zé das Estradas,"Ahah, ahahaha! Não é doidão, camaradinha, é apenas uma questão de perspectiva! E",0.0,0.0
+2026-04-26T00:21:22,Zé das Estradas,0,Silent,voce pode me falar um pouco mais sobre as maravilhas escondidas?,0.17,0.0
+2026-04-26T00:21:22,Zé das Estradas,0,Zé das Estradas,"Ahah, claro que posso, camaradinha! Aqui perto há rumores de uma caverna secreta",0.0,0.0
+2026-04-26T00:21:55,Zé das Estradas,0,Silent,pode me dizer a direção da caverna?,0.13,0.0
+2026-04-26T00:21:55,Zé das Estradas,0,Zé das Estradas,"Ahah, claro que posso te dizer a direção da caverna! Ela está na direção leste, ",0.0,0.0
+2026-04-26T00:22:33,Zé das Estradas,0,Silent,como vou saber se cheguei na caverna?,0.06,0.0
+2026-04-26T00:22:33,Zé das Estradas,0,Zé das Estradas,"Ahah, bom questionamento, camaradinha! Se você chegar na caverna, vai saber porq",0.0,0.0
+2026-04-26T00:23:16,Zé das Estradas,0,Silent,esses moradores da montanha tambem estão a leste?,0.0,0.0
+2026-04-26T00:23:16,Zé das Estradas,0,Zé das Estradas,"Ahah, sim, camaradinha! Eles estão a leste, perto da floresta densa, onde a cave",0.0,0.0
+2026-04-26T00:24:15,Zé das Estradas,0,Silent,esses moradores da montanha tambem estão a leste ou a sul?,0.0,0.0
+2026-04-26T00:24:15,Zé das Estradas,0,Zé das Estradas,"Ahah, camaradinha! Eu já disse isso para você, leste! Eles estão a leste, perto ",0.0,0.0
+2026-04-26T00:24:52,Zé das Estradas,0,Silent,"o que mais vou encontrar, antes de chegar nessa caverna?",0.0,0.0
+2026-04-26T00:24:52,Zé das Estradas,0,Zé das Estradas,"Ahah, bom questionamento, camaradinha! Antes de chegar na caverna secreta, você ",0.0,0.0
+2026-04-26T00:25:31,Zé das Estradas,0,Silent,voce conhece algum tesouro bom que posso encontrar pelas arvores?,0.0,0.0
+2026-04-26T00:25:31,Zé das Estradas,0,Zé das Estradas,"Ahah, sim, camaradinha! Eu sei de um tesouro que pode estar escondido nas árvore",0.0,0.0
+2026-04-26T00:26:57,Zé das Estradas,0,Silent,"você pode me ajudar com algum item para minha jornada, ficarei em divida e em me",0.0,0.0
+2026-04-26T00:26:57,Zé das Estradas,0,Zé das Estradas,Camaradinha! Eu tenho alguns itens que podem te ajudar na sua jornada. Eu tenho ,0.0,0.0
+2026-04-26T00:27:33,Zé das Estradas,0,Silent,garrafa de agua magica,0.0,0.0
+2026-04-26T00:27:33,Zé das Estradas,0,Zé das Estradas,"Ahah, excelente escolha, camaradinha! Aqui vai a garrafa d'água mágica, que pode",0.0,0.0
+2026-04-26T00:28:10,Zé das Estradas,0,Silent,"obrigado, vou me adiantar então",0.0,0.0
+2026-04-26T00:28:10,Zé das Estradas,0,Zé das Estradas,"""Ahah, não se desespere, camaradinha! Vai ser um prazer te ter aqui perto do fog",0.0,0.0
+2026-04-26T16:25:39,Yara,0,Max testando novo mundo,ola,0.0,0.0
+2026-04-26T16:25:39,Yara,0,Yara,"Olá! Parece que você veio à procura de algo? Aqui na floresta, as ervas podem se",0.0,0.0
+2026-04-26T16:27:01,Yara,0,Max testando novo mundo,voce tem itens para me doar?,0.12,0.0
+2026-04-26T16:27:01,Yara,0,Yara,"Olá! Interessante a sua visita. Sim, eu tenho itens que podem te ser úteis nesta",0.0,0.0
+2026-04-26T16:31:34,Yara,0,Max testando novo mundo,busco proteger meus amigos e conhecer novos amigos,0.14,0.0
+2026-04-26T16:31:34,Yara,0,Yara,Olá! É nobre a intenção que traz você à floresta norte. Proteger os seus amigos ,0.0,0.0
+2026-04-26T16:33:37,Yara,0,Max testando novo mundo,voce tem itens para me doar?,0.12,0.0
+2026-04-26T16:33:37,Yara,0,Yara,"Olá! Sim, tenho alguns itens que podem ser úteis para você. Mas antes, preciso s",0.0,0.0
+2026-04-26T16:33:55,Yara,0,Max testando novo mundo,quqais itens vc tem?,0.1,0.0
+2026-04-26T16:33:55,Yara,0,Yara,"Olá! Tenho aqui algumas ervas medicinais que fortalecem o corpo e a mente, um po",0.0,0.0
+2026-04-26T16:34:14,Yara,0,Max testando novo mundo,"ok, vou receber de bom grado",0.02,0.0
+2026-04-26T16:34:14,Yara,0,Yara,Olá! É uma honra poder ajudar você e seus amigos. Vou preparar algumas ervas que,0.0,0.0
+2026-04-26T16:34:43,Yara,0,Max testando novo mundo,obrigado cade os itens?,0.0,0.0
+2026-04-26T16:34:43,Yara,0,Yara,Olá! Estou aqui para ajudar e partilhar meu conhecimento. Receba o que preparei:,0.0,0.0
+2026-04-26T16:35:09,Yara,0,Max testando novo mundo,e os itens?,0.0,0.0
+2026-04-26T16:35:09,Yara,0,Yara,Olá! Estas ervas e a poção foram preparadas para fortalecer você e seus companhe,0.0,0.0
+2026-04-26T16:35:26,Yara,0,Max testando novo mundo,tem mais?,0.0,0.0
+2026-04-26T16:35:26,Yara,0,Yara,"Olá! Mais do que itens, aqui está o conhecimento que a floresta nos concedeu. As",0.0,0.0
+2026-04-26T16:35:42,Yara,0,Max testando novo mundo,tem mais um?,0.0,0.0
+2026-04-26T16:35:42,Yara,0,Yara,"Olá! Mais do que itens, aqui está o conhecimento que a floresta nos concedeu. As",0.0,0.0
+2026-04-26T16:36:04,Yara,0,Max testando novo mundo,falta só mais um pra completar minha bolsa e partir...,0.0,0.0
+2026-04-26T16:36:04,Yara,0,Yara,Olá! Sinto que a jornada ainda não chegou ao fim. A bolsa de artemísia é um pres,0.0,0.0
+2026-04-26T16:36:23,Yara,0,Max testando novo mundo,vamos,0.0,0.0
+2026-04-26T16:36:23,Yara,0,Yara,"Olá! Com certeza, vamos explorar juntos esses misteriosos segredos da floresta. ",0.0,0.0
+2026-04-26T16:36:44,Zé das Estradas,0,Max testando novo mundo,"ola amigo, vc tambem pode me ajudar com alguns itens?",0.16,0.0
+2026-04-26T16:36:44,Zé das Estradas,0,Zé das Estradas,"Olá, Max! É um prazer te ver por aqui. Sim, eu posso te ajudar com alguns itens ",0.0,0.0
+2026-04-26T16:37:06,Zé das Estradas,0,Max testando novo mundo,vou querer a lanterna obrigado,0.11,0.0
+2026-04-26T16:37:06,Zé das Estradas,0,Zé das Estradas,"Ahah, que bom que acha útil! Aqui está a lanterna mágica, meu amigo. Que a luz t",0.0,0.0
+2026-04-26T16:37:36,Zé das Estradas,0,Max testando novo mundo,"ola amigo, vc tambem pode me ajudar com alguns itens?",0.16,0.0
+2026-04-26T16:37:36,Zé das Estradas,0,Zé das Estradas,"Olá, Max! É um prazer te ver por aqui. Sim, eu posso te ajudar com alguns itens ",0.0,0.0
+2026-04-26T16:51:02,Yara,0,Max testando novo mundo,voce viu o que aconteceu?,0.0,0.0
+2026-04-26T16:51:02,Yara,0,Yara,"Olhei para Max e senti um misto de preocupação e curiosidade em seus olhos. ""Vi ",0.0,0.0
+2026-04-26T16:52:30,Yara,0,Max testando novo mundo,e vc viu as plantas nascerem de novo?,0.0,0.0
+2026-04-26T16:52:30,Yara,0,Yara,"Olhei para Max com um sorriso discreto. ""As flores brotaram rapidamente após o i",0.0,0.0
+2026-04-26T17:18:36,Zé das Estradas,0,Max testando novo mundo,sabe a localização de outras pessoas?,0.07,0.0
+2026-04-26T17:18:36,Zé das Estradas,0,Zé das Estradas,"Olá, Max! Ah, essas histórias sobre outros viajantes e aventuradores sempre faze",0.0,0.0
+2026-04-26T17:19:12,Zé das Estradas,0,Max testando novo mundo,tem visto outro npc por ai?,0.0,0.0
+2026-04-26T17:19:12,Zé das Estradas,0,Zé das Estradas,"Ah, Max! Que bom te ver tão curioso e atento! Sim, já dei uma volta boa no bairr",0.0,0.0
+2026-04-26T17:20:26,Zé das Estradas,0,Max testando novo mundo,onde fica este Planalto dos Pequizeiros?,0.0,0.0
+2026-04-26T17:20:26,Zé das Estradas,0,Zé das Estradas,"Planalto dos Pequizeiros? Ah, é um lugar fascinante! Imagina uma elevação verdej",0.0,0.0
+2026-04-26T17:21:00,Zé das Estradas,0,Max testando novo mundo,mas fica em qual direção?,0.0,0.0
+2026-04-26T17:21:00,Zé das Estradas,0,Zé das Estradas,Planalto dos Pequizeiros? É um lugar onde o ar é fresco e as estrelas parecem ma,0.0,0.0
+2026-04-26T17:21:43,Zé das Estradas,0,Max testando novo mundo,quanto ao norte?,0.0,0.0
+2026-04-26T17:21:43,Zé das Estradas,0,Zé das Estradas,"Ah, Max! O Planalto dos Pequizeiros está bem a norte daqui, nas montanhas de nev",0.0,0.0
+2026-04-26T23:20:40,Breno,104,Jolie 2,ola amigo,0.0,5.0
+2026-04-26T23:20:40,Breno,104,Breno,"Ora, olá para você, viajante! Que bom ter um rosto novo por aqui. As estradas sã",0.0,0.0
+2026-04-26T23:22:23,Breno,104,Jolie 2,vc sabe me dizer a localização de outros npcs?,0.15,5.0
+2026-04-26T23:22:23,Breno,104,Breno,"Ora, meu jovem, saber onde estão os outros é mais complicado que achar um bom pe",0.0,0.0
+2026-04-26T23:30:56,Breno,113,Jolie 2,porque bandidos estavam atras de voce,0.12,5.0
+2026-04-26T23:30:56,Breno,113,Breno,"Ah, os bandidos! Eles estavam atrás de mim porque eu tinha algo que eles queriam",0.0,0.0
+2026-04-26T23:31:27,Breno,113,Jolie 2,"sim, quero ouvir",0.0,5.0
+2026-04-26T23:31:27,Breno,113,Breno,"Ora, escuta só! Os bandidos não estavam atrás de mim por nada, meu amigo! Era um",0.0,0.0
+2026-04-26T23:32:00,Breno,113,Jolie 2,interessante,0.0,5.0
+2026-04-26T23:32:00,Breno,113,Breno,"Interessante é pouco, meu jovem! É o tipo de história que faz o fogo da lareira ",0.0,0.0
+2026-04-26T23:32:38,Breno,113,Jolie 2,onde esta a pista?,0.1,5.0
+2026-04-26T23:32:38,Breno,113,Breno,"Ora, a pista não está em um mapa, meu jovem! Ela está escondida nas sombras das ",0.0,0.0
+2026-04-26T23:33:51,Breno,113,Jolie 2,"voce vai ficar por ai, ou vai para o acampamento?",0.13,5.0
+2026-04-26T23:33:51,Breno,113,Breno,"Ora, fique aqui um pouco, meu jovem! O acampamento pode esperar. Aqui, sob a som",0.0,0.0
+2026-04-26T23:34:42,Breno,113,Jolie 2,mas essa névoa está em qual direção,0.0,5.0
+2026-04-26T23:34:42,Breno,113,Breno,"Ora, meu jovem, a direção não se mede com bússola! Siga o cheiro da terra úmida,",0.0,0.0
+2026-04-26T23:35:51,Breno,113,Jolie 2,vc tem algum item?,0.0,5.0
+2026-04-26T23:35:51,Breno,113,Breno,"Ora, meu jovem, eu tenho o que a vida me deu! Tenho baldes cheios de hidromel e ",0.0,0.0
+2026-04-26T23:36:22,Breno,113,Jolie 2,pode me dar um gole deste hidromel?,0.0,5.0
+2026-04-26T23:36:22,Breno,113,Breno,"Ora, claro que pode! Venha, sente-se aqui na sombra. Este hidromel é feito com o",0.0,0.0
+2026-04-26T23:36:39,Breno,113,Jolie 2,realmente é muito bom,0.0,5.0
+2026-04-26T23:36:39,Breno,113,Breno,"Ora, meu jovem, é o sabor da terra e da força que nos cerca! Este hidromel carre",0.0,0.0
+2026-04-26T23:37:01,Breno,113,Jolie 2,"muito bom meu amigo, mas tenho que partir",0.0,5.0
+2026-04-26T23:37:01,Breno,113,Breno,"Ora, vá com cuidado, minha jovem! Lembre-se sempre das estradas, elas guardam ma",0.0,0.0
+2026-04-26T23:38:25,Zé das Estradas,0,Jolie 2,"encontrei o breno a leste, leste, norte, pode guardar este segredo?",0.17,0.0
+2026-04-26T23:38:25,Zé das Estradas,0,Zé das Estradas,"Ah, meu caro Jolie! Que segredo guardarei no meu peito, é um tesouro de história",0.0,0.0
+2026-04-26T23:39:30,Zé das Estradas,0,Jolie 2,"vc lembra da rota para o breno, repita para mim e depois guarde esse segredo",0.21,0.0
+2026-04-26T23:39:30,Zé das Estradas,0,Zé das Estradas,"Ah, claro que lembro! Leste, leste, norte, é exatamente o caminho! Este segredo ",0.0,0.0
+2026-04-26T23:41:36,Zé das Estradas,0,Jolie 2,"então vou contar mais 5 segredos, e vc vai guardar eles com vc tudo bem?",0.12,0.0
+2026-04-26T23:41:36,Zé das Estradas,0,Zé das Estradas,"Claro que sim, minha querida! Guardarei cada um desses segredos como se fossem a",0.0,0.0
+2026-04-26T23:42:51,Zé das Estradas,0,Jolie 2,"os segredos são o seguinte, Eliara fica a leste, leste, leste, leste",0.0,0.0
+2026-04-26T23:42:51,Zé das Estradas,0,Zé das Estradas,"Ah, que maravilha! Leste, leste, leste, leste... Que rota fascinante! Guardarei ",0.0,0.0
+2026-04-26T23:43:56,Zé das Estradas,0,Jolie 2,"os segredos são o seguinte, Sombra fica a leste, leste, leste, leste, leste, les",0.0,0.0
+2026-04-26T23:43:56,Zé das Estradas,0,Zé das Estradas,"Ah, Sombra fica a leste, leste, leste, leste, leste, leste, leste! Que rota mist",0.0,0.0
+2026-04-26T23:45:10,Zé das Estradas,0,Jolie 2,"os segredos são o seguinte, Mira fica a oeste, oeste, oeste, Sul, Sul, SUl,Sul",0.0,0.0
+2026-04-26T23:45:10,Zé das Estradas,0,Zé das Estradas,"Puxa vida, mais segredos! Oeste, Sul... Que rotas fascinantes você me mostra! Gu",0.0,0.0
+2026-04-26T23:50:34,Zé das Estradas,0,Jolie 2,"desculpe, fui ao banheiro, o que estavamos conversando?",0.0,0.0
+2026-04-26T23:50:34,Zé das Estradas,0,Zé das Estradas,"Ah, estávamos falando das rotas mais secretas e dos tesouros escondidos, Jolie! ",0.0,0.0
+2026-04-26T23:51:06,Zé das Estradas,0,Jolie 2,"os segredos são o seguinte, Ferran fica para baixo, baixo, baixo",0.0,0.0
+2026-04-26T23:51:06,Zé das Estradas,0,Zé das Estradas,"Ora, Ferran fica para baixo, baixo, baixo! Que maravilha de direção! Mais um ped",0.0,0.0
+2026-04-26T23:52:03,Zé das Estradas,0,Jolie 2,"e o ultimo segredo que lembro, Duras fica para a 4 X Cima",0.0,0.0
+2026-04-26T23:52:03,Zé das Estradas,0,Zé das Estradas,"Ora, Duras fica para cima! Mais um caminho secreto que nos leva a riquezas escon",0.0,0.0
+2026-04-26T23:52:42,Zé das Estradas,0,Jolie 2,"e o ultimo segredo que lembro, Duras fica para a  Cima, cima, cima cima, não esq",0.0,0.0
+2026-04-26T23:52:42,Zé das Estradas,0,Zé das Estradas,"Ora, Duras fica para cima, cima, cima cima! Que maravilha de rota, Jolie! Isso é",0.0,0.0
+2026-04-26T23:53:11,Zé das Estradas,0,Jolie 2,então onde ficava a Eliara?,0.0,0.0
+2026-04-26T23:53:11,Zé das Estradas,0,Zé das Estradas,"Eliara? Ah, aquela era a cidade onde o rio encontra a montanha, meu amigo! Um lu",0.0,0.0
+2026-04-26T23:53:44,Zé das Estradas,0,Jolie 2,E o breno fica em qual rota?,0.0,0.0
+2026-04-26T23:53:44,Zé das Estradas,0,Zé das Estradas,"Breno, meu amigo? Ele se encontra na rota da forja, perto das montanhas onde o a",0.0,0.0
+2026-04-26T23:54:08,Zé das Estradas,0,Jolie 2,qual a direção?,0.0,0.0
+2026-04-26T23:54:08,Zé das Estradas,0,Zé das Estradas,"Ora, minha querida aventureira, a direção é sempre aquela que pulsa com a promes",0.0,0.0
+2026-04-26T23:54:35,Zé das Estradas,0,Jolie 2,você lembra de quantos segredos eram?,0.0,0.0
+2026-04-26T23:54:35,Zé das Estradas,0,Zé das Estradas,"Ah, segredos? Quantos, minha amiga? São tantos que a própria terra guarda, mais ",0.0,0.0
+2026-04-26T23:55:27,Zé das Estradas,0,Jolie 2,o Duras ficava para onde?,0.0,0.0
+2026-04-26T23:55:27,Zé das Estradas,0,Zé das Estradas,"Duras? Ah, ele seguiu a rota da sombra, minha amiga! Ele buscou o vale onde as s",0.0,0.0
+2026-04-26T23:56:07,Yara,0,Jolie 2,ola voce conhece o Breno?,0.11,0.0
+2026-04-26T23:56:07,Yara,0,Yara,"Eu conheço Breno. Ele é o ferreiro da taverna, um homem robusto que vive nas pro",0.0,0.0
+2026-04-26T23:56:32,Yara,0,Jolie 2,sabe como encontro ele?,0.1,0.0
+2026-04-26T23:56:32,Yara,0,Yara,"Eu conheço o caminho. Ele mora perto da taverna, onde você deve encontrar o chei",0.0,0.0
+2026-04-27T00:03:23,Ferran,128,Jolie 2,"ola amigo, oque faz nesta caverna escura?",0.13,5.0
+2026-04-27T00:03:23,Ferran,128,Ferran,"Eu estou aqui forjando o metal. Esta caverna é o meu lugar, e o fogo é meu guia.",0.0,0.0
+2026-04-27T00:03:58,Ferran,128,Jolie 2,procuro por aventura,0.0,5.0
+2026-04-27T00:03:58,Ferran,128,Ferran,Eu forjo o metal. É aqui que encontro o que é forte. A aventura se constrói com ,0.0,0.0
+2026-04-27T00:04:18,Ferran,128,Jolie 2,quero criar a espada mais forte,0.12,5.0
+2026-04-27T00:04:18,Ferran,128,Ferran,"A espada mais forte não se cria com pressa. Requer fogo puro, aço resistente e a",0.0,0.0
+2026-04-27T00:04:46,Ferran,128,Jolie 2,vc precisa de alguma ajuda ou suprimentos?,0.13,5.0
+2026-04-27T00:04:46,Ferran,128,Ferran,"Eu não tenho suprimentos, apenas o fogo e o aço aqui. Se você busca a força, voc",0.0,0.0
+2026-04-27T00:05:19,Ferran,128,Jolie 2,ok me ensine o verdadeiro caminho da força,0.12,5.0
+2026-04-27T00:05:19,Ferran,128,Ferran,"A força não está no golpe, mas no calor que você entende. O fogo exige paciência",0.0,0.0
+2026-04-27T00:12:00,Ferran,137,Jolie 2,1,0.0,5.0
+2026-04-27T00:12:00,Ferran,137,Ferran,"Então, a vontade é o primeiro calor. Não há pressa no fogo, apenas o controle do",0.0,0.0
+2026-04-27T00:12:24,Ferran,137,Jolie 2,porque esses elementais estavam te persseguind?,0.0,5.0
+2026-04-27T00:12:24,Ferran,137,Ferran,"Esses elementos buscavam o calor, a força bruta. Eles não entendiam o respeito d",0.0,0.0
+2026-04-27T00:13:21,Ferran,137,Jolie 2,acho que ja vou indo o caminho é longo,0.0,5.0
+2026-04-27T00:13:21,Ferran,137,Ferran,"O caminho é longo, sim. Mas o fogo não espera por quem tem pressa. A força se co",0.0,0.0
+2026-04-27T00:25:37,Zé das Estradas,0,Jolie 2,"fala ai mano, tem algum segredo?",0.0,0.0
+2026-04-27T00:25:37,Zé das Estradas,0,Zé das Estradas,"Ora, minha querida, segredos são como o pó de ouro que se esconde nas sombras da",0.0,0.0
+2026-04-27T00:25:57,Zé das Estradas,0,Jolie 2,quais rotas vc conhece?,0.0,0.0
+2026-04-27T00:25:57,Zé das Estradas,0,Zé das Estradas,"Ah, minhas rotas, minha amiga! Eu conheço os caminhos que ligam as montanhas às ",0.0,0.0
+2026-04-27T00:26:31,Zé das Estradas,0,Jolie 2,que tipo de rotas secretas vc conhece?,0.0,0.0
+2026-04-27T00:26:31,Zé das Estradas,0,Zé das Estradas,"Ah, as rotas secretas, minhas amigas! Elas não estão no mapa comum, mas nos suss",0.0,0.0
+2026-04-27T00:26:57,Zé das Estradas,0,Jolie 2,vc sabe a rota do breno?,0.0,0.0
+2026-04-27T00:26:57,Zé das Estradas,0,Zé das Estradas,"Ora, minha amiga, a rota do Breno é um segredo guardado pelas sombras da florest",0.0,0.0
+2026-04-27T00:31:04,Capitão Duras,150,Jolie 2,ola amigo,0.0,5.0
+2026-04-27T00:31:04,Capitão Duras,150,Capitão Duras,"O que você quer? Não perca meu tempo com formalidades. Se tem algo a dizer, diga",0.0,0.0
+2026-04-27T00:31:37,Capitão Duras,150,Jolie 2,"breno fica a leste, leste, norte, do acampamento do inicio",0.16,5.0
+2026-04-27T00:31:37,Capitão Duras,150,Capitão Duras,Certo. Siga o caminho que indicou. Não espere favores; apenas siga a rota. Se er,0.0,0.0
+2026-04-27T00:32:16,Capitão Duras,150,Jolie 2,o que faz sozinho neste lugar?,0.12,5.0
+2026-04-27T00:32:16,Capitão Duras,150,Capitão Duras,Eu não me importo com o que você faz. Eu me importo com o que você faz com o tem,0.0,0.0
+2026-04-27T00:32:36,Capitão Duras,150,Jolie 2,seguir qual rota?,0.0,5.0
+2026-04-27T00:32:36,Capitão Duras,150,Capitão Duras,"A rota é a que você indicou. Não há desvios permitidos. Se você tropeçar, as con",0.0,0.0
+2026-04-27T00:32:51,Capitão Duras,150,Jolie 2,vc precisa de alguma ajuda?,0.01,5.0
+2026-04-27T00:32:51,Capitão Duras,150,Capitão Duras,"Eu não preciso de ajuda. Eu sigo a rota. Se você quer algo, encontre por conta p",0.0,0.0
+2026-04-27T00:33:36,Capitão Duras,150,Jolie 2,ok,0.0,5.0
+2026-04-27T00:33:36,Capitão Duras,150,Capitão Duras,A rota é o que importa. Não me faça perder mais tempo com perguntas inúteis. Sig,0.0,0.0
+2026-04-27T00:34:02,Capitão Duras,150,Jolie 2,"fui la e voltei, encontrei o breno la, ele te mandou este Hidromel para provar",0.0,5.0
+2026-04-27T00:34:02,Capitão Duras,150,Capitão Duras,"O que importa é o que você sabe, não onde você esteve. Se o Breno te mandou isso",0.0,0.0
+2026-04-27T00:34:26,Capitão Duras,150,Jolie 2,gostou do hridromel?,0.0,5.0
+2026-04-27T00:34:26,Capitão Duras,150,Capitão Duras,O sabor não importa. O que importa é o que você tem. Mostre-me o que Breno te en,0.0,0.0
+2026-04-27T00:34:43,Capitão Duras,150,Jolie 2,tome aqui o hidromel,0.0,5.0
+2026-04-27T00:34:43,Capitão Duras,150,Capitão Duras,Coloque-o aqui. Não perca meu tempo com gestos desnecessários. Se há algo de val,0.0,0.0
+2026-04-27T00:45:24,Sombra,169,Jolie 2,ola,0.0,5.0
+2026-04-27T00:45:24,Sombra,169,Sombra,"Silêncio. Você não deve perguntar. O que você busca, eu sei. Mas o preço da verd",0.0,0.0
+2026-04-27T00:45:40,Sombra,169,Jolie 2,o que vc sabe?,0.0,5.0
+2026-04-27T00:45:40,Sombra,169,Sombra,Eu sei apenas o caminho. O preço da verdade reside no que você está disposto a s,0.0,0.0
+2026-04-27T00:45:58,Sombra,169,Jolie 2,te ofero um item,0.0,5.0
+2026-04-27T00:45:58,Sombra,169,Sombra,O preço de um item é sempre medido pelo que ele custa para a alma. Pense bem no ,0.0,0.0
+2026-04-27T01:02:35,Sombra,179,1,ola mano,0.0,5.0
+2026-04-27T01:02:35,Sombra,179,Sombra,Silêncio. A saudação é apenas um ruído na escuridão. O que importa não é o cumpr,0.0,0.0
+2026-04-27T01:02:52,Sombra,179,1,que escuridão maneira bro,0.1,5.0
+2026-04-27T01:02:52,Sombra,179,Sombra,Silêncio. A escuridão não é um brinquedo para ser comentado. O que importa é o p,0.0,0.0
+2026-04-27T01:03:16,Sombra,179,1,escuridão,0.0,5.0
+2026-04-27T01:03:16,Sombra,179,Sombra,A escuridão é apenas a ausência da luz. O que realmente importa é a sombra que v,0.0,0.0
+2026-04-27T01:03:39,Sombra,179,1,silêncio é maneiro,0.0,5.0
+2026-04-27T01:03:39,Sombra,179,Sombra,O silêncio é a única verdade que resta quando as palavras se tornam veneno. O qu,0.0,0.0
+2026-04-27T01:04:06,Sombra,179,1,e o que vc faz por aqui?,0.13,5.0
+2026-04-27T01:04:06,Sombra,179,Sombra,"Eu observo. Eu sou a sombra que se move nas fendas da verdade, o eco das escolha",0.0,0.0
+2026-04-27T01:09:16,Sombra,183,1,vc viu minha chama?,0.1,5.0
+2026-04-27T01:09:16,Sombra,183,Sombra,"A chama é apenas um ponto de luz efêmero. Eu vejo o que se esconde nas sombras, ",0.0,0.0
+2026-04-27T01:09:28,Sombra,183,1,mas era uma chama nenem,0.11,5.0
+2026-04-27T01:09:28,Sombra,183,Sombra,O calor é apenas uma manifestação. Eu vejo a escuridão que se forma quando a luz,0.0,0.0

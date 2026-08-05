@@ -1,0 +1,47 @@
+{
+  "Breno": {
+    "fatos": [
+      {
+        "categoria": "antagonista",
+        "texto": "Mão de Ferro lidera os bandidos ao sul",
+        "timestamp": "2026-04-23T10:34:39"
+      },
+      {
+        "categoria": "localizacao",
+        "texto": "Forte caiu há 3 meses — fonte dos problemas",
+        "timestamp": "2026-04-23T10:34:39"
+      }
+    ],
+    "ultima_atualizacao": "2026-04-23T10:34:39"
+  },
+  "Ferran": {
+    "fatos": [
+      {
+        "categoria": "segredo",
+        "texto": "pode aprimorar maestria_max de armas em +50 por um favor ou pagamento justo",
+        "timestamp": "2026-04-27T00:11:04"
+      }
+    ],
+    "ultima_atualizacao": "2026-04-27T00:11:04"
+  },
+  "Capitão Duras": {
+    "fatos": [
+      {
+        "categoria": "segredo",
+        "texto": "suspeita que um conselheiro está colaborando com bandidos",
+        "timestamp": "2026-04-27T00:39:32"
+      }
+    ],
+    "ultima_atualizacao": "2026-04-27T00:39:32"
+  },
+  "Sombra": {
+    "fatos": [
+      {
+        "categoria": "segredo",
+        "texto": "é um antigo aventureiro que se esconde do Senhor das Sombras",
+        "timestamp": "2026-04-27T01:09:57"
+      }
+    ],
+    "ultima_atualizacao": "2026-04-27T01:09:57"
+  }
+}

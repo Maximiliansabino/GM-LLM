@@ -1,0 +1,32 @@
+{
+  "arquivo": "sessao_2026-04-16_17-07-58.csv",
+  "personagem": "123456",
+  "modelo": "qwen2.5:0.5b",
+  "data_sessao": "2026-04-16_17-07-58",
+  "metricas": {
+    "GS1_qualidade_narrativa": 2.92,
+    "GS3_coerencia_acao": 3.5,
+    "GS6_consistencia_estado": 3.33,
+    "QC1_questionario": 0.0,
+    "GS4_criatividade_jogador": 3.5,
+    "GS5_eficiencia_mecanica": 2.0,
+    "MW1_narracao_mundo": 2.3,
+    "MW2_consistencia_mundo": 5.0,
+    "score_mundo": 3.11,
+    "score_global": 2.78
+  },
+  "internas": {
+    "criatividade_media": 0.7,
+    "criatividade_min": 0.7,
+    "criatividade_max": 0.7,
+    "eficiencia_media": 0.8,
+    "acoes_avaliadas": 1,
+    "tempo_medio_llm_s": 5.96,
+    "tokens_medio": 1481,
+    "tokens_total_sessao": 1481
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  }
+}

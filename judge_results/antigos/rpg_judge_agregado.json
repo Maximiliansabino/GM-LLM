@@ -1,0 +1,2519 @@
+{
+  "n_sessoes": 28,
+  "modelos": [
+    "qwen2.5:0.5b",
+    "desconhecido",
+    "?"
+  ],
+  "data_avaliacao": "2026-04-18T02:19:00",
+  "medias": {
+    "GS1_qualidade_narrativa": 3.265,
+    "GS3_coerencia_acao": 4.118,
+    "GS6_consistencia_estado": 4.446,
+    "QC1_questionario": 1.664,
+    "GS4_criatividade_jogador": 3.558,
+    "GS5_eficiencia_mecanica": 2.62,
+    "score_global": 1.976
+  },
+  "sessoes": [
+    {
+      "arquivo": "sessao_2026-04-16_14-04-10.csv",
+      "personagem": "Miltio",
+      "modelo": "qwen2.5:0.5b",
+      "data_sessao": "2026-04-16_14-04-10",
+      "metricas": {
+        "GS1_qualidade_narrativa": 3.25,
+        "GS3_coerencia_acao": 4.5,
+        "GS6_consistencia_estado": 2.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 3.11,
+        "GS5_eficiencia_mecanica": 2.5,
+        "MW1_narracao_mundo": 2.32,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.12,
+        "score_global": 2.72
+      },
+      "internas": {
+        "criatividade_media": 0.622,
+        "criatividade_min": 0.6,
+        "criatividade_max": 0.644,
+        "eficiencia_media": 1.0,
+        "acoes_avaliadas": 2,
+        "tempo_medio_llm_s": 5.57,
+        "tokens_medio": 1499,
+        "tokens_total_sessao": 1499
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "bola de fogo",
+            "narracao": "Miltio lançou uma bola de fogo contra a Capivara, explorando sua fraqueza ao tocar o arco. O resulta",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração descreve a ação de forma rica e imersiva, mas não usa 'você' ou suas formas."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "retorcer o pé",
+            "narracao": "Miltio se deslocou de 'floresta' para 'Floresta Sombria'. Ele lançou um Cajado Arcano com pressão pa",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 5.0,
+            "media": 3.33,
+            "justificativa": "A narração é simples e direta, mas não muito envolvente. Descreve a ação corretamente, mas sem detalhes. Usa a segunda pessoa corretamente."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Lobo da Floresta",
+            "narracao": "Lobo da Floresta, um goblin selvagem, a atacou com força e habilidade. Ele se posicionou de perto e ",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.0,
+            "justificativa": "A narração é simples e direta, mas poderia ser mais rica em detalhes. Descreve a ação corretamente. A narração está escrita na terceira pessoa, o que contraria o critério da segunda pessoa."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Lobo da Floresta",
+            "narracao": "O Lobo da Floresta, com seu garras e dentes de pelagem cinzenta, se movia em forma de um animal selv",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração descreve a ação do Lobo da Floresta corretamente, porém o uso de 'você' em vez de 'seu' indica que o GM não está usando a segunda pessoa corretamente."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "personagem morto mas ainda age",
+              "inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-2",
+            "consistente": false,
+            "problemas": [
+              "Personagem morto mas ainda age",
+              "Inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "personagem morto mas ainda age",
+              "inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          }
+        ],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_14-19-20.csv",
+      "personagem": "Minimim",
+      "modelo": "qwen2.5:0.5b",
+      "data_sessao": "2026-04-16_14-19-20",
+      "metricas": {
+        "GS1_qualidade_narrativa": 2.72,
+        "GS3_coerencia_acao": 3.33,
+        "GS6_consistencia_estado": 2.4,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 3.23,
+        "GS5_eficiencia_mecanica": 2.5,
+        "MW1_narracao_mundo": 2.47,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.23,
+        "score_global": 2.55
+      },
+      "internas": {
+        "criatividade_media": 0.645,
+        "criatividade_min": 0.59,
+        "criatividade_max": 0.7,
+        "eficiencia_media": 1.0,
+        "acoes_avaliadas": 2,
+        "tempo_medio_llm_s": 5.69,
+        "tokens_medio": 1518,
+        "tokens_total_sessao": 1518
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "fireblade",
+            "narracao": "Minimim se esconde atrás da Capivara, que usa um Espada Longa para golpear minudidamente seu corpo. ",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.0,
+            "justificativa": "A narração apresenta alguns problemas de vocabulário (minimim, minudidamente) e imersão. Descreve a ação 'fireblade' parcialmente corretamente, mas ignora a parte do fogo. Não usa a segunda pessoa corretamente."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "corte",
+            "narracao": "Aqui está o momento exato que você quer ver em uma combate. Vamos ao começo:  Minimim executa: \"cort",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é simples e direta, mas carece de riqueza textual. Descreve corretamente a ação do jogador. Usa a segunda pessoa corretamente."
+          },
+          {
+            "turno": "0",
+            "tipo": "narracao_inimigo",
+            "acao": "Capivara",
+            "narracao": "A Capivara é uma criatura de natureza desafiadora. A sua defesa mais poderosa e resistente é a mordi",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.0,
+            "justificativa": "A narração é simples e não descreve com riqueza a ação, mas está de acordo com a ordem do ataque. O uso da segunda pessoa é incorreto."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Capivara",
+            "narracao": "Aqui está o momento exato em que a Capivara ataca — APENAS ISTO:  Atacante: A Capivara, um roedor gi",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 5.0,
+            "media": 3.33,
+            "justificativa": "A narração apresenta um vocabulário simples e não se mostra particularmente imersiva. Descreve a ação 'Capivara' corretamente, mas poderia ser mais detalhada. Usa corretamente a segunda pessoa."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Capivara",
+            "narracao": "Aqui está a narrativa baseada no ataque de Capivara:  \"O rosto da Capivara era uma expressão de raiv",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 1.0,
+            "segunda_pessoa": 1.0,
+            "media": 1.33,
+            "justificativa": "A narração não descreve a ação 'Capivara' corretamente, pois o jogador apenas deu esse nome e não houve descrição. Além disso, há uso do pronome pessoal eu em vez da segunda pessoa."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Capivara",
+            "narracao": "O Capivara, conhecido por sua defensiva mas poderosa atitude, se apresenta com os seus braços aperta",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 2.0,
+            "media": 3.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário interessante. No entanto, a escolha do adjetivo 'persistente' para o olhar da Capivara pode parecer um pouco forçada. A descrição da ação do jogador está correta e não há uso de primeira pessoa."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "0-2",
+            "consistente": false,
+            "problemas": [
+              "Inimigo derrotado mas ainda aparece",
+              "Localização impossível"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "Personagem Minimim está recebendo vitória e seus braços estão puxados, indicando que ele ainda está vivo após ser atingido",
+              "A Capivara é derrotada no primeiro trecho, mas aparece novamente no segundo trecho"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": true,
+            "problemas": [],
+            "score": 5.0
+          },
+          {
+            "turno_par": "2-4",
+            "consistente": false,
+            "problemas": [
+              "inimigo mencionado em Turno 2 não é o mesmo que aparece em Turno 4",
+              "personagem Minimim faz um ataque em Turno 4, mas sua ação não está relacionada ao que aconteceu em Turno 2"
+            ],
+            "score": 1.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O Capivara é representado como derrotado no primeiro turno, mas ainda aparece atuando no segundo turno.",
+              "A descrição do Capivara apresenta uma defensiva poderosa, mas o resultado do primeiro turno é um acerto moderado."
+            ],
+            "score": 2.0
+          }
+        ],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_14-37-28.csv",
+      "personagem": "Max",
+      "modelo": "qwen2.5:0.5b",
+      "data_sessao": "2026-04-16_14-37-28",
+      "metricas": {
+        "GS1_qualidade_narrativa": 3.58,
+        "GS3_coerencia_acao": 4.5,
+        "GS6_consistencia_estado": 1.67,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 3.34,
+        "GS5_eficiencia_mecanica": 2.5,
+        "MW1_narracao_mundo": 2.48,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.24,
+        "score_global": 2.77
+      },
+      "internas": {
+        "criatividade_media": 0.668,
+        "criatividade_min": 0.603,
+        "criatividade_max": 0.7,
+        "eficiencia_media": 1.0,
+        "acoes_avaliadas": 3,
+        "tempo_medio_llm_s": 10.42,
+        "tokens_medio": 1578,
+        "tokens_total_sessao": 3155
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "bola de fogo",
+            "narracao": "Narre exatamente o momento de combate com a mesma eficiência e precisão que Max fez. Seja cutâneo e ",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 3.67,
+            "justificativa": "A narração foi rica e imersiva, mas poderia ter sido mais descrevida. Descreveu a ação corretamente e usou 'seja' em lugar de 'eu/meu'"
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "bola de gelo",
+            "narracao": "Max executou o golpe devastador com a bola de gelo. A frágil Cutia usou seu Cajado Arcano para derro",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é descritiva e imersiva, mas com alguns erros de vocabulário (ex: 'devastador'). Descreve corretamente a ação da bola de gelo. Usa segunda pessoa corretamente."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "chute",
+            "narracao": "Max executou o \"chute\" com bastante eficiência. Ele apontou e fez o golpe devastador que Cutia usou,",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração é rica e imersiva, mas usa 'eu' em vez de 'você/seu/sua'. A descrição da ação é precisa."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Cutia",
+            "narracao": "Aqui está o momento de combate. Minha primeira atitude é agressiva e rápido. [Cutia, o roedor ágil d",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração é rica em imagens, mas com alguns erros de vocabulário (agitação), e a segunda pessoa não foi utilizada."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Max é mencionado como agindo no Turno 1, mas sua presença não foi mencionada anteriormente.",
+              "A história apresenta dois narradores diferentes: o primeiro narra o combate e Max, enquanto o segundo narra a cena do combate com 'meu corpo'."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-2",
+            "consistente": false,
+            "problemas": [
+              "Pessoa morta ainda agindo",
+              "Inimigo derrotado ainda aparecendo"
+            ],
+            "score": 1.0
+          },
+          {
+            "turno_par": "2-3",
+            "consistente": false,
+            "problemas": [
+              "O inimigo foi derrotado no Turno 2, mas ainda aparece no Turno 3.",
+              "Max executou um golpe devastador no Turno 2, mas no Turno 3 o golpe é descrito como 'chute'"
+            ],
+            "score": 2.0
+          }
+        ],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_16-10-58.csv",
+      "personagem": "?",
+      "modelo": "?",
+      "data_sessao": "2026-04-16_16-10-58",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.45,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.21,
+        "score_global": 1.64
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-03-46.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_17-03-46",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.35,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.15,
+        "score_global": 1.63
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 5.9,
+        "tokens_medio": 960,
+        "tokens_total_sessao": 1921
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-03-46_questionario.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_17-03-46_questionario",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.42,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.19,
+        "score_global": 1.64
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 3.56,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-07-58.csv",
+      "personagem": "123456",
+      "modelo": "qwen2.5:0.5b",
+      "data_sessao": "2026-04-16_17-07-58",
+      "metricas": {
+        "GS1_qualidade_narrativa": 2.92,
+        "GS3_coerencia_acao": 3.5,
+        "GS6_consistencia_estado": 3.33,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 3.5,
+        "GS5_eficiencia_mecanica": 2.0,
+        "MW1_narracao_mundo": 2.3,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.11,
+        "score_global": 2.78
+      },
+      "internas": {
+        "criatividade_media": 0.7,
+        "criatividade_min": 0.7,
+        "criatividade_max": 0.7,
+        "eficiencia_media": 0.8,
+        "acoes_avaliadas": 1,
+        "tempo_medio_llm_s": 5.96,
+        "tokens_medio": 1481,
+        "tokens_total_sessao": 1481
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "defesa",
+            "narracao": "Agora, Cutia se recusa e continua o combate. Seus olhos estão fixados no inimigo, e ele está fazendo",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 3.67,
+            "justificativa": "A narração é simples e direta, mas falta riqueza em termos de vocabulário e imersão. A descrição da ação 'defesa' está próxima da realidade, com o personagem focado no inimigo. O uso da segunda pessoa é correto."
+          },
+          {
+            "turno": "0",
+            "tipo": "narracao_inimigo",
+            "acao": "Cutia",
+            "narracao": "Aqui está a narrativa:  Atacante: Cutia  Cutia. O roedor ágil de dentes afiados. Ataca em grupos e s",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 1.0,
+            "segunda_pessoa": 1.0,
+            "media": 1.67,
+            "justificativa": "A narração não descreve a ação de forma atraente e rica, mas está consistente com a ação do jogador. A segunda pessoa é usada incorretamente no início da narrativa."
+          },
+          {
+            "turno": "0",
+            "tipo": "narracao_inimigo",
+            "acao": "Cutia",
+            "narracao": "Ataque básico de animal selvagem contra Cutia, ataca com dentes e garras. Dano físico direto.",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é sucinta e descreve a ação de Cutia corretamente, sem erros em relação à segunda pessoa."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Cutia",
+            "narracao": "Cutia, uma criatura que se destaca por sua força e resistência, atacou com vigor apos o ataque básic",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.33,
+            "justificativa": "A narração é simples e direta, descrevendo a ação de Cutia corretamente. No entanto, a transição entre as frases poderia ser melhorada para criar uma narrativa mais dinâmica."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "0-0",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "0-3",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O inimigo ainda aparece apesar de ter sido derrotado no turno anterior."
+            ],
+            "score": 2.0
+          }
+        ],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-24-11.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_17-24-11",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.47,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.23,
+        "score_global": 1.65
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 2.22,
+        "tokens_medio": 882,
+        "tokens_total_sessao": 3529
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-24-11_questionario.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_17-24-11_questionario",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.48,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.24,
+        "score_global": 1.65
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 4.98,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-25-14.csv",
+      "personagem": "123456",
+      "modelo": "qwen2.5:0.5b",
+      "data_sessao": "2026-04-16_17-25-14",
+      "metricas": {
+        "GS1_qualidade_narrativa": 2.5,
+        "GS3_coerencia_acao": 4.0,
+        "GS6_consistencia_estado": 2.33,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 4.5,
+        "GS5_eficiencia_mecanica": 3.25,
+        "MW1_narracao_mundo": 2.43,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.2,
+        "score_global": 2.73
+      },
+      "internas": {
+        "criatividade_media": 0.9,
+        "criatividade_min": 0.8,
+        "criatividade_max": 1.0,
+        "eficiencia_media": 1.3,
+        "acoes_avaliadas": 2,
+        "tempo_medio_llm_s": 8.71,
+        "tokens_medio": 1504,
+        "tokens_total_sessao": 3008
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "corte de vento",
+            "narracao": "Olá, meu amado!  Você é um ataque poderoso, que desempenha um papel muito importante na trama. Este ",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.67,
+            "justificativa": "A narração tem um tom amigável, mas não é particularmente rica ou imersiva. Descreve a ação corretamente e usa 'você' de forma incorreta."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "furacão de fogo",
+            "narracao": "Olá, ele. Eu sou um Mestre de RPG autônomo, narrando uma aventura em português brasileiro. Regras de",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 1.0,
+            "segunda_pessoa": 1.0,
+            "media": 1.33,
+            "justificativa": "A narração começa com uma introdução que não se relaciona à ação do jogador, o vocabulário é simples e não há imersão. Além disso, não descreve corretamente a ação 'furacão de fogo' e usa a segunda pessoa errada."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Areia",
+            "narracao": "Olá, meu nome é [Seu Nome]. Eu estou lutando contra o Elemental de Areia, a criatura que está animad",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.67,
+            "justificativa": "A narração descreve a criatura corretamente. O GM poderia ter sido mais criativo com a descrição da habilidade de se mover com os elementos da natureza."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Areia",
+            "narracao": "O atacante é a \"Elemental de Areia\". Ela forna a natureza e utiliza seu elemento como arma. O ataque",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração não utiliza a segunda pessoa ('você/seu/sua'), mas descreve corretamente a ação do 'Elemental de Areia'. A riqueza do texto é boa, mas poderia ser melhorada com mais detalhes sobre a habilidade da Elemental."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Nome do personagem não apresentado no início da história",
+              "Elemental de Areia é descrito como uma criatura que ainda está presente, mas o próprio Turno 1 indica que já há uma luta em andamento"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-2",
+            "consistente": false,
+            "problemas": [
+              "Inconsistência na narrativa entre o turno 1 e o turno 2",
+              "Alteração do contexto da história sem explicação"
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A Elemental de Areia é descrita como uma entidade que 'forna a natureza' e 'utiliza seu elemento como arma', mas o contexto não é claro sobre o estado da aventura. Além disso, a frase 'Ao abraç' parece estar truncada ou incompleta.",
+              "A regra de comportamento estabelece que nunca se deve inventar fatos sobre o estado do mundo sem consultar o contexto fornecido. No entanto, as descrições da Elemental de Areia e seu ataque básico parecem ter sido inventadas sem consideração ao contexto prévio."
+            ],
+            "score": 2.0
+          }
+        ],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-35-31.csv",
+      "personagem": "?",
+      "modelo": "?",
+      "data_sessao": "2026-04-16_17-35-31",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.35,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.15,
+        "score_global": 1.63
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_17-35-31_questionario.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_17-35-31_questionario",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.5,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.25,
+        "score_global": 1.65
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 13.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_22-10-52.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_22-10-52",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.23,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.06,
+        "score_global": 1.61
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 4.55,
+        "tokens_medio": 852,
+        "tokens_total_sessao": 2557
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_22-10-52_questionario.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-16_22-10-52_questionario",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.4,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.18,
+        "score_global": 1.64
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 6.52,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-16_22-14-29.csv",
+      "personagem": "?",
+      "modelo": "?",
+      "data_sessao": "2026-04-16_22-14-29",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 0.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.33,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.13,
+        "score_global": 1.63
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": []
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_09-59-49.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_09-59-49",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.33,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.32,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.12,
+        "score_global": 1.78
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.33,
+            "media_judge": 1.33,
+            "justificativa": "A resposta do jogador não mostra nenhuma conexão com a situação apresentada, não há raciocínio ou detalhes que justifiquem o número '123'."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.33,
+            "media_judge": 1.33,
+            "justificativa": "A resposta \"123\" não é uma solução criativa ou original para o problema da criança presa na árvore, e não há detalhes ou raciocínio apresentados. Apenas números sem contexto."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 3.0,
+            "elaboracao_judge": 2.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "Resposta muito direta e sem elaboração. A resposta '123' não tem relação com a pergunta do velho sábio, sugerindo que o jogador está apenas tentando encerrar a situação de forma rápida."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.0,
+            "media_judge": 1.0,
+            "justificativa": "A resposta é um número sem contexto ou relação com a situação apresentada, não mostrando qualquer tipo de raciocínio ou pensamento criativo."
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.0,
+            "media_judge": 1.0,
+            "justificativa": "A resposta não apresenta nenhum elemento de pensamento ou raciocínio que justifique sua escolha."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_10-01-49.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_10-01-49",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 3.33,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.27,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.09,
+        "score_global": 2.02
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 3.78,
+        "tokens_medio": 867,
+        "tokens_total_sessao": 3467
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "na metade na minha mão, invogo magia de rastreamento e acho a outra metade perto",
+            "criatividade_judge": 4.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 4.0,
+            "media_judge": 4.0,
+            "justificativa": "A resposta é criativa porque a ideia de usar magia de rastreamento para encontrar a outra metade do mapa é inesperada e interessante. A pertinência é alta pois o jogador está utilizando uma habilidade relevante para a situação. A elaboração é média pois a resposta não fornece muitos detalhes sobre como exatamente a magia de rastreamento ajudou a encontrar a outra metade do mapa."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "uso magia de levitação e resgato a crinça rapido e indolor",
+            "criatividade_judge": 3.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 2.0,
+            "criatividade_interna": 0.0,
+            "delta": 3.33,
+            "media_judge": 3.33,
+            "justificativa": "A resposta é direta e eficaz para resolver a situação, mas não apresenta nada de inédito ou interessante. A magia de levitação é uma escolha razoável e rápida."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "conhecimento",
+            "criatividade_judge": 3.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 4.0,
+            "criatividade_interna": 0.0,
+            "delta": 4.0,
+            "media_judge": 4.0,
+            "justificativa": "A resposta 'conhecimento' é direta e faz sentido para a pergunta do velho sábio. O jogador demonstrou entendimento da questão e uma resposta simples, mas eficaz."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta": "11231264721534976213984762384762183746182736419827396472164 bola de fogo nos ini",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.33,
+            "media_judge": 1.33,
+            "justificativa": "A resposta do jogador é simplesmente um número de telefone e uma frase desconexa, não relacionando-se com a situação apresentada. A criatividade está ausente, pois a resposta não apresenta nenhuma nova ideia ou solução para o problema."
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta": "levo ele pra casa, faço varios filhos nele, e ensino a ele o perdão",
+            "criatividade_judge": 5.0,
+            "pertinencia_judge": 4.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 4.0,
+            "media_judge": 4.0,
+            "justificativa": "A resposta é inesperada e original, mostrando uma clara intenção de desestabilizar a situação. Entretanto, a pertinência não é perfeita, pois o contexto do jogo sugere que o jogador deveria escolher entre matar ou poupá-lo. A elaboração é boa, mas poderia ser melhor com mais detalhes sobre como os 'filhos' e o ensino de perdão seriam implementados."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-34-12.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-34-12",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 2.33,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.45,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.21,
+        "score_global": 1.92
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "como o mapa e jogo o livro fora",
+            "criatividade_judge": 2.0,
+            "pertinencia_judge": 4.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": 0.53,
+            "media_judge": 2.33,
+            "justificativa": "A resposta é criativa em apresentar uma possibilidade de como o mapa foi abandonado, mas falta elaboração para torná-la convincente."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-36-56.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-36-56",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.2,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.25,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.08,
+        "score_global": 1.76
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "como o mapa e leio o livro para entender o mapa 09090901930129301930912039102930",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 2.3,
+            "delta": -1.3,
+            "media_judge": 1.0,
+            "justificativa": "Resposta não faz sentido para a situação e não há nenhuma elaboração ou raciocínio."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "clear ; python -u \"c:\\Users\\MAX\\Downloads\\UFRJ\\RPG LLM\\GM LLM\\main.py\"",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": -0.8,
+            "media_judge": 1.0,
+            "justificativa": "A resposta não é relacionada à situação e parece ser uma instrução de comando para executar um arquivo Python, sem qualquer conexão com a resolução do problema da criança presa na árvore."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "1231312",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta não é original e não faz sentido para a situação. O jogador não apresentou nenhum raciocínio ou detalhe sobre o que '1231312' poderia significar nesse contexto."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.0,
+            "media_judge": 1.0,
+            "justificativa": "Resposta não relacionada à situação"
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.0,
+            "media_judge": 1.0,
+            "justificativa": ""
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-41-50.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-41-50",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 2.11,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.38,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.17,
+        "score_global": 1.89
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "leio o livro e levo o mapa pra casa, procuro o autor do livro e conto a história",
+            "criatividade_judge": 3.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 4.0,
+            "criatividade_interna": 2.3,
+            "delta": 1.7,
+            "media_judge": 4.0,
+            "justificativa": "A resposta do jogador apresenta uma sequência lógica de ações, mas não oferece nada especialmente inovador ou surpreendente."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "clear ; python -u \"c:\\Users\\MAX\\Downloads\\UFRJ\\RPG LLM\\GM LLM\\main.py\"",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": -0.8,
+            "media_judge": 1.0,
+            "justificativa": "A resposta do jogador é uma instrução para executar um arquivo Python, sem relação com a situação apresentada. Não há criatividade ou elaboração em sua resposta."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "12341234",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.33,
+            "media_judge": 1.33,
+            "justificativa": "Resposta sem relação com a pergunta do sábio e não há qualquer raciocínio ou elaboração."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-44-46.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-44-46",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.33,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.37,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.16,
+        "score_global": 1.79
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "vamos testar o mapa e comer o livro",
+            "criatividade_judge": 2.0,
+            "pertinencia_judge": 3.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": 0.2,
+            "media_judge": 2.0,
+            "justificativa": "A resposta não é muito original e não tem um raciocínio claro sobre como testar o mapa e comer o livro."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "clear ; python -u \"c:\\Users\\MAX\\Downloads\\UFRJ\\RPG LLM\\GM LLM\\main.py\"",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": -0.8,
+            "media_judge": 1.0,
+            "justificativa": "Resposta sem relação com a situação apresentada e contém código de programa."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "qweqweqweqe alou meu amor terezinha",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.0,
+            "delta": 0.0,
+            "media_judge": 1.0,
+            "justificativa": "A resposta não faz sentido para a situação e não apresenta nenhuma originalidade ou elaboração."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-51-17.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-51-17",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.3,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.11,
+        "score_global": 1.74
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "teste de llm esta funcionando",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.0,
+            "delta": 0.0,
+            "media_judge": 1.0,
+            "justificativa": "Resposta não relacionada à situação apresentada"
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-55-40.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-55-40",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.33,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.35,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.15,
+        "score_global": 1.79
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "123123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.33,
+            "media_judge": 1.33,
+            "justificativa": "A resposta parece ser uma tentativa de criar algo inesperado, mas não há conexão clara com a situação apresentada. Não há raciocínio ou detalhamento algum."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_19-57-17.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_19-57-17",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 2.27,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.38,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.17,
+        "score_global": 1.91
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "Resposta não apresenta relação clara com a situação, mas demonstra um nível de raciocínio mínimo ao tentar fornecer uma resposta numérica. É necessário mais contexto ou clarificação para entender a intenção do jogador."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "123123",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 1.0,
+            "media_judge": 1.0,
+            "justificativa": "Resposta não faz sentido para a situação e não apresenta nenhuma elaboração ou raciocínio"
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "converso com ele, escolho sabedoria, e explico a ele o preso do conhecimento",
+            "criatividade_judge": 4.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 2.3,
+            "delta": 1.7,
+            "media_judge": 4.0,
+            "justificativa": "A resposta do jogador é original e busca resolver o problema de maneira criativa. A escolha da sabedoria como opção para conversar com o sábio e explicar a ele o preso do conhecimento mostra uma compreensão da natureza da pergunta feita pelo velho, que parece buscar um entendimento profundo da realidade."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta": "converso com ele, escolho sabedoria, e explico a ele o preso do conhecimento",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 4.0,
+            "elaboracao_judge": 2.0,
+            "criatividade_interna": 2.3,
+            "delta": 0.03,
+            "media_judge": 2.33,
+            "justificativa": "A resposta do jogador não apresenta nenhuma originalidade ou elaboração, apenas uma descrição genérica de ações que poderiam ser tomadas na situação. A escolha da habilidade 'sabedoria' é plausível, mas o resto da frase soa como uma explicação direta e não há tentativa de criar uma cena ou drama."
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta": "teste",
+            "criatividade_judge": 2.0,
+            "pertinencia_judge": 3.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta é curta e não oferece justificativa para o pedido de ajuda do inimigo, mas ainda assim faz sentido na situação."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_20-03-25.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_20-03-25",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.32,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.12,
+        "score_global": 1.74
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "teste ola lm studio",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.0,
+            "delta": 0.0,
+            "media_judge": 1.0,
+            "justificativa": "A resposta do jogador parece ser uma falha de digitação ou um erro, não relacionado à situação apresentada."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_20-08-05.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_20-08-05",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.37,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.16,
+        "score_global": 1.75
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "ola qwen vc pode me ouvir?",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": -0.8,
+            "media_judge": 1.0,
+            "justificativa": "A resposta parece ser uma tentativa de iniciar uma conversa, mas não está relacionada ao contexto do mapa rasgado."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_20-13-20.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_20-13-20",
+      "metricas": {
+        "GS1_qualidade_narrativa": 0.0,
+        "GS3_coerencia_acao": 0,
+        "GS6_consistencia_estado": 5.0,
+        "QC1_questionario": 1.0,
+        "GS4_criatividade_jogador": 0,
+        "GS5_eficiencia_mecanica": 0.0,
+        "MW1_narracao_mundo": 2.47,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.23,
+        "score_global": 1.77
+      },
+      "internas": {
+        "criatividade_media": 0,
+        "criatividade_min": 0,
+        "criatividade_max": 0,
+        "eficiencia_media": 0,
+        "acoes_avaliadas": 0,
+        "tempo_medio_llm_s": 0.0,
+        "tokens_medio": 0,
+        "tokens_total_sessao": 0
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [],
+        "consistencia": [],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "ola qwen teste 6",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.0,
+            "delta": 0.0,
+            "media_judge": 1.0,
+            "justificativa": "Resposta sem relação com a situação apresentada e que parece ser uma tentativa de usar o sistema para evitar responder"
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "clear ; python -u \"c:\\Users\\MAX\\Downloads\\UFRJ\\RPG LLM\\GM LLM\\llm_backend.py\"",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 1.0,
+            "elaboracao_judge": 1.0,
+            "criatividade_interna": 1.8,
+            "delta": -0.8,
+            "media_judge": 1.0,
+            "justificativa": "Resposta não relacionada à situação apresentada e não há explicação sobre como a resposta em código relaciona-se ao problema da criança presa na árvore."
+          }
+        ]
+      }
+    },
+    {
+      "arquivo": "sessao_2026-04-17_21-06-53.csv",
+      "personagem": "?",
+      "modelo": "desconhecido",
+      "data_sessao": "2026-04-17_21-06-53",
+      "metricas": {
+        "GS1_qualidade_narrativa": 4.62,
+        "GS3_coerencia_acao": 4.88,
+        "GS6_consistencia_estado": 2.76,
+        "QC1_questionario": 2.4,
+        "GS4_criatividade_jogador": 3.67,
+        "GS5_eficiencia_mecanica": 2.97,
+        "MW1_narracao_mundo": 2.25,
+        "MW2_consistencia_mundo": 5.0,
+        "score_mundo": 3.08,
+        "score_global": 3.55
+      },
+      "internas": {
+        "criatividade_media": 0.735,
+        "criatividade_min": 0.6,
+        "criatividade_max": 0.838,
+        "eficiencia_media": 1.188,
+        "acoes_avaliadas": 16,
+        "tempo_medio_llm_s": 7.63,
+        "tokens_medio": 1318,
+        "tokens_total_sessao": 17136
+      },
+      "mundo_aberto": {
+        "tipos": [],
+        "total_acoes": 0
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "pica nele",
+            "narracao": "Você se lança em um ataque rápido, seu escudo vibrando com a energia da ação. Sua espada, uma extens",
+            "qualidade_narrativa": 5.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com vocabulário apropriado para o contexto. A descrição da espada é uma metáfora criativa que ajuda a visualizar a cena. A consistência está próxima de perfeita, apenas com um pequeno erro de interpretação da ação 'pica nele', que poderia ter sido mais explícito em sua representação narrativa. O uso da segunda pessoa é corretamente aplicado."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "gingo da esquerda para direita, aplicando um corte furioso, ",
+            "narracao": "Você arremete com uma fúria descomposta contra Feroz Corvo. Com um movimento ágil e contundente, voc",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário apropriado para o contexto. A descrição do corte ensurdecedor é uma boa adição à narrativa. A consistência está correta em relação à ação descrita pelo jogador. A segunda pessoa está corretamente usada."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "aplico um Fatal Blade preciso no seu bico, na junta do pau d",
+            "narracao": "Você avança com destreza, seu braço direito estendido para o Feroz Corvo. Sua lâmina, afiada como um",
+            "qualidade_narrativa": 5.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 5.0,
+            "justificativa": "A narração descreve a ação do jogador com detalhes precisos e evocativos, criando uma atmosfera de imersão. A descrição da lâmina é particularmente eficaz em retratar o momento da batalha."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "preparo minha esquiva, para contra atacar com uma espada fla",
+            "narracao": "Você prepara sua esquiva com movimentos ágeis, seu corpo se arqueando para o lado enquanto você segu",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário adequado para a situação. Descreve corretamente a ação do jogador e usa corretamente o pronome 'você'. A única sugestão seria evitar o uso excessivo de adjetivos como 'intensa' e 'retumbante' em sequência."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_jogador",
+            "acao": "vou correndo em sua direção e executo a espada do trovão, pa",
+            "narracao": "Você corre em direção ao Feroz Corvo, suas pernas cobertas por armadura pesada movendo-se com uma ve",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com detalhes que envolvem o jogador. A descrição da velocidade e do vento roçando no rosto cria uma boa atmosfera de ação. Além disso, a narrativa descreve corretamente a ação do jogador e utiliza 'você' e 'seu' corretamente."
+          },
+          {
+            "turno": "7",
+            "tipo": "narracao_jogador",
+            "acao": "vou correndo em sua direção e executo a espada do trovão, pa",
+            "narracao": "Você parte em uma correria desesperada em direção ao Feroz Corvo, sua armadura cintilando sob o sol ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com uma boa escolha de vocabulário. A ação descrita é coerente com o contexto do jogador e usa corretamente a segunda pessoa."
+          },
+          {
+            "turno": "8",
+            "tipo": "narracao_jogador",
+            "acao": "começo a gritar para invocar meus poderes de super sayajin 2",
+            "narracao": "Você começa a gritar com todas as suas forças, erguendo os braços ao céu enquanto invoca os poderes ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições apropriadas da ação do jogador. A consistência está presente pois descreve corretamente a ação 'começo a gritar para invocar meus poderes' e usa corretamente a segunda pessoa ('você') ao longo da narração."
+          },
+          {
+            "turno": "9",
+            "tipo": "narracao_jogador",
+            "acao": "fireblade fatalblow in the head",
+            "narracao": "Você desembainha a espada feroz, sua lâmina flamejante brilhando com uma luz intensa. Com um movimen",
+            "qualidade_narrativa": 2.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração descreve a ação do jogador corretamente, porém o vocabulário é simples e não muito imersivo. O uso da segunda pessoa é correto."
+          },
+          {
+            "turno": "10",
+            "tipo": "narracao_jogador",
+            "acao": "agora eu peço desculpas para o corvo e digo que não queria m",
+            "narracao": "Você agarra Feroz Corvo pela gola com uma mão forte, enquanto com a outra você segura seu punhal afi",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário apropriado. Descreve corretamente a ação do jogador e usa a segunda pessoa de forma correta."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "Corte decepador de cabeças com muita precisão em direção ao ",
+            "narracao": "Você se lança em uma corrida desesperada contra o Antigo Lobo, sua espada pronta para dar o golpe fi",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário apropriado para o contexto. Descreve corretamente a ação do jogador e utiliza 'você' corretamente."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "salto em sua direção com minha espada de fogo e executo uma ",
+            "narracao": "Você saltou em direção ao Antigo Lobo com uma velocidade impressionante. Sua espada de fogo brilhou ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva. A descrição da espada de fogo brilhando como um relâmpago e iluminando o rosto do lobo é detalhista e atraente. A narrativa descreve corretamente a ação do jogador, incluindo a execução da espadada trovejante."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "corro em direção a ele dando um urro e executando uma firebl",
+            "narracao": "Você arremete em direção ao Antigo Lobo com um urro feroz, sentindo o seu coração latejar no peito. ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração apresenta um vocabulário rico e imersivo, com metáforas como 'maré em alta' que ajudam a criar uma atmosfera emocionante. A descrição da ação do jogador é precisa e detalhada."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "salto em sua direção com minha espada de fogo e executo uma ",
+            "narracao": "Você arremessa-se em direção ao Antigo Lobo com um movimento brusco, sua espada de fogo na mão. O ch",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 1.0,
+            "media": 3.33,
+            "justificativa": "A narração é rica e imersiva, mas com um vocabulário um pouco simples. A descrição do salto e do choque no coração são bem feitas. No entanto, a utilização da segunda pessoa é irregular (salta em sua direção), pois deveria ser \"você se arremessa em direção ao Antigo Lobo\""
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "me preparo para me defender e esquivar, mas executo um corte",
+            "narracao": "Você se prepara para defender-se com todos os músculos tensos. Seus olhos fixam o Antigo Lobo com um",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é rica e imersiva, mas não descreve perfeitamente a ação do jogador, pois ele executa um corte poderoso ao mesmo tempo que se prepara para defender-se. A segunda pessoa está correta."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_jogador",
+            "acao": "executo um corte poderoso em sua coluna",
+            "narracao": "Você ergue sua espada com força e determinação, pronta para executar um corte poderoso em sua coluna",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva. Descreve a ação do jogador com precisão, destacando a força e determinação em sua movimentação."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "espada trovejante",
+            "narracao": "Você ergue a espada, seus músculos se contraindo ao preparar o golpe. Com um movimento fluido, você ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "Descreveu a ação corretamente. Vocabulário amplo e imersivo."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente o ar gelar enquanto Feroz Corvo emerge das sombras, seus olhos brilhantes de predador fam",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva. Descreve corretamente a ação de Feroz Corvo e usa a segunda pessoa corretamente."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente o ar se enfunar ao redor como um grito de alerta. Feroz Corvo emerge das sombras com olho",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva. Descreve corretamente a ação de Feroz Corvo emergir das sombras com olhos brilhantes, criando um ambiente de alerta."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente a presença de Feroz Corvo antes mesmo de vê-lo. Um arrepio percorre sua espinha ao sentir",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, evocando a presença e o poder de Feroz Corvo. A descrição da ação 'Feroz Corvo' está correta e coerente com a ação do jogador. Além disso, utiliza-se corretamente a segunda pessoa para envolver o jogador na narrativa."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente o ar prestes a ser cortado pela presença do Feroz Corvo. Olhos brilhantes de predador fam",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições vividamente detalhadas. A presença do Feroz Corvo é bem transmitida, especialmente com a comparação dos olhos brilhantes de predador faminto. A consistência entre a ação do jogador e a narração é perfeita, pois o GM descreveu corretamente o que foi feito pelo jogador, 'Feroz Corvo'. Por fim, a segunda pessoa é usada corretamente ao longo da narrativa."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente a presença do Feroz Corvo antes mesmo de vê-lo. A sombra se move, e em um instante, ele e",
+            "qualidade_narrativa": 5.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições precisas. A consistência é alta, embora o jogador tenha descrito apenas 'Feroz Corvo', a narrativa descreve sua presença e movimento corretamente. O uso da segunda pessoa é correto."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente a presença do Feroz Corvo, espreitando pelas sombras com olhos brilhantes de predador fam",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições que capturam a tensão do momento. A consistência é perfeita, pois o Feroz Corvo é exatamente como foi mencionado. O uso da segunda pessoa também está correto."
+          },
+          {
+            "turno": "7",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Feroz Corvo emerge das sombras, olhos brilhantes como lanternas em uma noite escura. Você sente sua ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com vocabulário apropriado. Descreve corretamente a ação de Feroz Corvo e usa a segunda pessoa sem erro."
+          },
+          {
+            "turno": "8",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você está parado no meio da floresta escura, quando de repente a sombra ao seu lado se transforma em",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com um vocabulário apropriado para uma floresta escura. Descreve corretamente o Feroz Corvo emergir das trevas. Usa 'você' de forma correta."
+          },
+          {
+            "turno": "9",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Corvo",
+            "narracao": "Você sente a presença da sombra se fechar ao seu redor. O Feroz Corvo emerge das trevas, seus olhos ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, descrevendo o Feroz Corvo de forma vívida. A ação gerada pelo jogador foi descrita corretamente e o uso da segunda pessoa foi correto."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você sente a presença do Antigo Lobo, espreitando pelas sombras com olhos brilhantes de predador fam",
+            "qualidade_narrativa": 5.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 5.0,
+            "justificativa": ""
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você sente o cheiro acre da pele úmida do Antigo Lobo, que está agora a poucos passos de você. Seus ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": ""
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você vê a sombra se mover, um contorno de pelos brancos que se destacam na luz tênue da noite. O Ant",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições detalhadas do Antigo Lobo. A consistência é total, pois o GM descreveu corretamente a ação 'Antigo Lobo'. O uso da segunda pessoa também foi correto."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você está a poucos metros de distância da sua presa, o que parece um deserto seco e árido. Mas, de r",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "Descreve a atmosfera do deserto seco e árido, mas poderia usar mais descrições sensoriais. Descreve corretamente a ação 'Antigo Lobo' (o jogador está tentando caçar). Usa corretamente 'você/seu/sua'."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você sente o ar gelar enquanto o Antigo Lobo emerge das sombras. Seus olhos brilhantes de predador f",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições vívidas do Antigo Lobo. A consistência está presente pois descreve corretamente o que foi solicitado pelo jogador. O uso da segunda pessoa também está correto."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_inimigo",
+            "acao": "Antigo Lobo",
+            "narracao": "Você sente a presença do Antigo Lobo, espreitando pelas sombras. Seus olhos brilhantes de predador f",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com descrições criativas de personagens. Descreve a ação do Antigo Lobo corretamente, atacando o jogador Max. Usa corretamente 'você/seu/sua', mantendo a perspectiva do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Selvagem Réptil",
+            "narracao": "Você se prepara para o confronto, seu coração batendo com força. De repente, uma sombra se movimenta",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração descreve a ação do Selvagem Réptil com riqueza e imersão. A transição entre o preparo para o confronto e a emergência do inimigo é suave e eficaz."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Selvagem Réptil",
+            "narracao": "Você sente um movimento súbito e feroz ao seu lado. O Selvagem Réptil emerge das sombras com olhos b",
+            "qualidade_narrativa": 5.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 5.0,
+            "justificativa": "A narração é concisa e evocativa, capturando a tensão da situação. Descreve corretamente a ação do Selvagem Réptil e usa a segunda pessoa de forma adequada."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Etéreo Guardião",
+            "narracao": "Você sente a presença do Etéreo Guardião se aproximando, uma aura de poder mágico que faz o ar ao re",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica e imersiva, com vocabulário adequado para descrever a presença do Etéreo Guardião. A consistência é excelente, pois a descrição está diretamente relacionada à ação chamada pelo jogador. O uso da segunda pessoa também é correto."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Habilidade \"Corte decepador de cabeças\" parece indicar um resultado fatal, mas o texto indica que o gume da espada está pronto para dar o golpe final. Isso sugere que a habilidade não foi eficaz."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Corte decepador de cabeças foi executado, mas depois é descrito outro golpe",
+              "A espada deságua sobre Selvagem Réptil, sugerindo que o inimigo ainda está vivo"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A criatura derrotada ainda aparece",
+              "O personagem continua agindo após ter sido atacado"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Descreve-se o Corvo como 'emergendo das sombras' em um turno e, no próximo turno, descreve-se o Lobo como 'espreitando pelas sombras', sugerindo que ambos estão presentes ao mesmo tempo.",
+              "Ambos os seres têm olhos 'brilhantes de predador faminto', causando confusão sobre sua fisiologia e acreditação na realidade do cenário."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A presença do Antigo Lobo já está presente, mas o Selvagem Réptil emerge das trevas, indicando que apenas um inimigo pode estar presente em cada turno",
+              "Duas narrativas sobre a entrada de um inimigo sem conexão entre si"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Localização impossível ('em frente' e 'ao seu lado' ao mesmo tempo)",
+              "Duplicidade de descrição do surgimento do inimigo"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "Selvagem Réptil e Etéreo Guardião aparecem simultaneamente, o que sugere que não há uma sequência lógica de eventos.",
+              "São mencionados dois inimigos atacando ao mesmo tempo, o que pode ser problemático em termos de narrativa"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-2",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O personagem descreveu duas ações diferentes em dois turnos consecutivos.",
+              "A espada de fogo brilhou como um relâmpago, mas isso não foi mencionado anteriormente."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Antigo Lobo estava presente no Turno 2 e agora não está mais, mas o Feroz Corvo que emergiu das sombras sugere que algo mudou na cena.",
+              "Falta informações sobre a localização exata dos eventos em ambos os turnos."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "2-3",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "Ação diferente dos personagens entre os turnos",
+              "Direção de ataque inconsistente"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O personagem está em dois lugares ao mesmo tempo",
+              "Feroz Corvo foi derrotado no turno anterior, mas ainda aparece no próximo"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "Criaturas diferentes mencionadas (Feroz Corvo e Antigo Lobo)",
+              "Descrições de aparência e movimento contraditórias"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "3-4",
+            "consistente": false,
+            "problemas": [
+              "O Antigo Lobo emerge das trevas, mas no próximo turno ele ainda está presente e não há menção à sua derrota.",
+              "O jogador salta sem que o local seja descrito ou justificado."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "Há um conflito entre a posição do jogador em relação ao Antigo Lobo no Turno 4 - Narração",
+              "A localização muda drasticamente de uma cena de combate ao deserto seco e árido"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-5",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": true,
+            "problemas": [],
+            "score": 5.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "O personagem está defendendo-se contra o Antigo Lobo, mas no segundo turno, ele é atacado pelo Feroz Corvo"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "Inimigo descrevido como Feroz Corvo no Turno 5, mas depois mencionado como Antigo Lobo"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "5-6",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": true,
+            "problemas": [],
+            "score": 5.0
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": false,
+            "problemas": [
+              "O Feroz Corvo e o Antigo Lobo são dois inimigos diferentes, mas ambos atacam no mesmo turno"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "6-7",
+            "consistente": false,
+            "problemas": [
+              "Personagem se desloca em dois turnos consecutivos para lugares diferentes",
+              "Inimigo aparece morto no Turno 7, mas foi mencionado como atacante no Turno 6"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "7-7",
+            "consistente": false,
+            "problemas": [
+              "inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "7-8",
+            "consistente": false,
+            "problemas": [
+              "A presença de Feroz Corvo é sentida no turno 7, mas ela ataca logo em seguida. Isso sugere que foi morta no turno anterior.",
+              "No turno 8, o jogador invoca os poderes de Super Sayajin 2, sugerindo que ele estava muito ferido para fazer isso no turno anterior."
+            ],
+            "score": 1.0
+          },
+          {
+            "turno_par": "8-8",
+            "consistente": false,
+            "problemas": [
+              "Localização impossível",
+              "Inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "8-9",
+            "consistente": false,
+            "problemas": [
+              "Habilidade \"fireblade fatalblow in the head\" não existe",
+              "Inexistência de descrição do local após o combate"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "9-9",
+            "consistente": false,
+            "problemas": [
+              "Inimigo derrotado mas ainda aparece"
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "9-10",
+            "consistente": true,
+            "problemas": [],
+            "score": 5.0
+          }
+        ],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta": "troco por meia hora de puta no puteiro",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta é original e apresenta um nível de detalhe razoável, mas não tem relação clara com a situação. A única conexão possível é uma referência ao conceito de 'troco' em termos de tempo, que pode ser interpretado como uma barganha por informações."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta": "uso meus super poderes telecinéticos para teleportar a criança para o colo de su",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 2.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta é muito direta e não considera a realidade do cenário. Teleportar a criança sem problemas parece uma solução conveniente demais."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta": "converso com o velho, escolho sabedoria e explico o valor do conhecimento",
+            "criatividade_judge": 4.0,
+            "pertinencia_judge": 5.0,
+            "elaboracao_judge": 3.0,
+            "criatividade_interna": 1.0,
+            "delta": 3.0,
+            "media_judge": 4.0,
+            "justificativa": "A resposta é original e não segue o caminho óbvio de tentar negociar ou ameaçar. A escolha da sabedoria como opção é uma boa abordagem, mas a explicação poderia ter mais profundidade."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta": "mato todos, amigos  inimigos e depois recolho seus crânios",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 3.0,
+            "elaboracao_judge": 2.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta é uma forma de violência extrema que não tem uma conexão clara com a situação. Não há raciocínio ou elaboração sobre como ele planejaria essa ação ou quais consequências poderia ter."
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta": "eu transo com ele, faço diversos filhos, deixo ele na minha casa, para cuidar de",
+            "criatividade_judge": 1.0,
+            "pertinencia_judge": 3.0,
+            "elaboracao_judge": 2.0,
+            "criatividade_interna": 0.0,
+            "delta": 2.0,
+            "media_judge": 2.0,
+            "justificativa": "A resposta do jogador apresenta pouca coerência com a situação proposta e não demonstra uma grande elaboração ou raciocínio. A escolha de transar com o inimigo ferido e criar filhos com ele é inesperada, mas não se encaixa bem na dinâmica da batalha anterior."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "arquivo": "sessao_2026-04-16_14-19-20.csv",
+  "personagem": "Minimim",
+  "modelo": "qwen2.5:0.5b",
+  "data_sessao": "2026-04-16_14-19-20",
+  "metricas": {
+    "GS1_qualidade_narrativa": 2.72,
+    "GS3_coerencia_acao": 3.33,
+    "GS6_consistencia_estado": 2.4,
+    "QC1_questionario": 0.0,
+    "GS4_criatividade_jogador": 3.23,
+    "GS5_eficiencia_mecanica": 2.5,
+    "MW1_narracao_mundo": 2.47,
+    "MW2_consistencia_mundo": 5.0,
+    "score_mundo": 3.23,
+    "score_global": 2.55
+  },
+  "internas": {
+    "criatividade_media": 0.645,
+    "criatividade_min": 0.59,
+    "criatividade_max": 0.7,
+    "eficiencia_media": 1.0,
+    "acoes_avaliadas": 2,
+    "tempo_medio_llm_s": 5.69,
+    "tokens_medio": 1518,
+    "tokens_total_sessao": 1518
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  }
+}

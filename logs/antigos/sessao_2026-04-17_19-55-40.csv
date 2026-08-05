@@ -1,0 +1,2 @@
+timestamp,turno,tipo,personagem,modelo,entrada_preview,resposta_preview,tokens_prompt,tokens_resposta,tokens_total,tempo_s,custo_usd,criatividade,eficiencia,finish_reason
+2026-04-17T19:55:40,0,questionario_p1,?,desconhecido,"[P1/mental] Você acaba de encontrar um mapa rasgado dentro de um livro abandonado. O mapa parece indicar algo importante, mas metade…",R: 123123 | Resposta muito curta — descreva uma ação.,0,0,0,0.0,0.0,0.5,0.0,

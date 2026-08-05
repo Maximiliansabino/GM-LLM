@@ -1,0 +1,48 @@
+{
+  "arquivo": "sessao_2026-04-18_19-45-11.csv",
+  "personagem": "Fe",
+  "modelo": "qwen2.5:1.5b",
+  "data_sessao": "2026-04-18_19-45-11",
+  "metricas": {
+    "GS1_qualidade_narrativa": 4.67,
+    "GS3_coerencia_acao": 5.0,
+    "GS6_consistencia_estado": 2.36,
+    "QC1_criatividade_jogador_pregame": 2.13,
+    "GS4_criatividade_jogador": 3.75,
+    "GS5_eficiencia_mecanica": 2.92,
+    "MW1_narracao_mundo": 3.94,
+    "MW2_consistencia_mundo": 3.0,
+    "score_mundo": 3.66,
+    "score_global": 3.72
+  },
+  "internas": {
+    "criatividade_media": 0.75,
+    "criatividade_min": 0.7,
+    "criatividade_max": 0.9,
+    "eficiencia_media": 1.167,
+    "acoes_avaliadas": 6,
+    "tempo_medio_llm_s": 2.81,
+    "tokens_medio": 849,
+    "tokens_total_sessao": 12728
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada",
+      "mundo_acao_livre",
+      "mundo_mod_escavacao",
+      "mundo_movimento",
+      "mundo_mod_corte",
+      "mundo_encontro"
+    ],
+    "total_acoes": 62
+  },
+  "diagnostico": {
+    "modelo_judge": "qwen2.5:7b-instruct",
+    "backend_judge": "ollama",
+    "chamadas_totais": 50,
+    "chamadas_com_parse_ok": 50,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

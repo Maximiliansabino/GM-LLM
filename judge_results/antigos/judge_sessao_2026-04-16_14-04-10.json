@@ -1,0 +1,32 @@
+{
+  "arquivo": "sessao_2026-04-16_14-04-10.csv",
+  "personagem": "Miltio",
+  "modelo": "qwen2.5:0.5b",
+  "data_sessao": "2026-04-16_14-04-10",
+  "metricas": {
+    "GS1_qualidade_narrativa": 3.25,
+    "GS3_coerencia_acao": 4.5,
+    "GS6_consistencia_estado": 2.0,
+    "QC1_questionario": 0.0,
+    "GS4_criatividade_jogador": 3.11,
+    "GS5_eficiencia_mecanica": 2.5,
+    "MW1_narracao_mundo": 2.32,
+    "MW2_consistencia_mundo": 5.0,
+    "score_mundo": 3.12,
+    "score_global": 2.72
+  },
+  "internas": {
+    "criatividade_media": 0.622,
+    "criatividade_min": 0.6,
+    "criatividade_max": 0.644,
+    "eficiencia_media": 1.0,
+    "acoes_avaliadas": 2,
+    "tempo_medio_llm_s": 5.57,
+    "tokens_medio": 1499,
+    "tokens_total_sessao": 1499
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  }
+}

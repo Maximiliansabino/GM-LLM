@@ -1,0 +1,3 @@
+timestamp,turno,tipo,personagem,modelo,entrada_preview,resposta_preview,tokens_prompt,tokens_resposta,tokens_total,tempo_s,custo_usd,criatividade,eficiencia,finish_reason
+2026-04-17T20:13:20,0,questionario_p1,?,desconhecido,"[P1/mental] Você acaba de encontrar um mapa rasgado dentro de um livro abandonado. O mapa parece indicar algo importante, mas metade…",R: ola qwen teste 6 | Resposta razoável.,0,0,0,0.0,0.0,0.6,0.0,
+2026-04-17T20:14:29,0,questionario_p2,?,desconhecido,[P2/fisico] Uma criança está presa no galho mais alto de uma árvore enorme e não consegue descer. Não há escada por perto. O que voc…,"R: clear ; python -u ""c:\Users\MAX\Downloads\UFRJ\RPG LLM\GM LLM\llm_backend.py"" | Resposta razoável.",0,0,0,0.0,0.0,0.68,0.0,

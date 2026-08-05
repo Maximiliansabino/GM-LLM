@@ -1,0 +1,2 @@
+timestamp,turno,tipo,personagem,modelo,entrada_preview,resposta_preview,tokens_prompt,tokens_resposta,tokens_total,tempo_s,custo_usd,criatividade,eficiencia,finish_reason
+2026-04-18T12:03:29,0,questionario_p1,?,desconhecido,"[P1/mental] Você acaba de encontrar um mapa rasgado dentro de um livro abandonado. O mapa parece indicar algo importante, mas metade…",R: levo para casa para analizar | O jogador levou o mapa rasgado para casa sem planejar como analisá-lo ou protegê…,0,0,0,9.111,0.0,0.6,0.0,

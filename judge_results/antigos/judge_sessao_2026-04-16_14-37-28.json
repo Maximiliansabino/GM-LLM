@@ -1,0 +1,32 @@
+{
+  "arquivo": "sessao_2026-04-16_14-37-28.csv",
+  "personagem": "Max",
+  "modelo": "qwen2.5:0.5b",
+  "data_sessao": "2026-04-16_14-37-28",
+  "metricas": {
+    "GS1_qualidade_narrativa": 3.58,
+    "GS3_coerencia_acao": 4.5,
+    "GS6_consistencia_estado": 1.67,
+    "QC1_questionario": 0.0,
+    "GS4_criatividade_jogador": 3.34,
+    "GS5_eficiencia_mecanica": 2.5,
+    "MW1_narracao_mundo": 2.48,
+    "MW2_consistencia_mundo": 5.0,
+    "score_mundo": 3.24,
+    "score_global": 2.77
+  },
+  "internas": {
+    "criatividade_media": 0.668,
+    "criatividade_min": 0.603,
+    "criatividade_max": 0.7,
+    "eficiencia_media": 1.0,
+    "acoes_avaliadas": 3,
+    "tempo_medio_llm_s": 10.42,
+    "tokens_medio": 1578,
+    "tokens_total_sessao": 3155
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  }
+}

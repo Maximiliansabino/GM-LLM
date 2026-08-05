@@ -1,0 +1,43 @@
+{
+  "arquivo": "sessao_2026-04-23_10-55-02.csv",
+  "personagem": "Max test mundo procedural 3",
+  "modelo": "ticlazau/meta-llama-3.1-8b-instruct:latest",
+  "data_sessao": "2026-04-23_10-55-02",
+  "metricas": {
+    "GS1_qualidade_narrativa": 0.0,
+    "GS3_coerencia_acao": null,
+    "GS6_consistencia_estado": null,
+    "QC1_criatividade_jogador_pregame": 3.0,
+    "GS4_criatividade_jogador": null,
+    "GS5_eficiencia_mecanica": null,
+    "MW1_narracao_mundo": 4.33,
+    "MW2_consistencia_mundo": null,
+    "score_mundo": 4.33,
+    "score_global": 2.29
+  },
+  "internas": {
+    "criatividade_media": 0,
+    "criatividade_min": 0,
+    "criatividade_max": 0,
+    "eficiencia_media": 0,
+    "acoes_avaliadas": 0,
+    "tempo_medio_llm_s": 1.07,
+    "tokens_medio": 837,
+    "tokens_total_sessao": 4184
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada"
+    ],
+    "total_acoes": 1
+  },
+  "diagnostico": {
+    "modelo_judge": "ticlazau/meta-llama-3.1-8b-instruct:latest",
+    "backend_judge": "ollama",
+    "chamadas_totais": 6,
+    "chamadas_com_parse_ok": 6,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

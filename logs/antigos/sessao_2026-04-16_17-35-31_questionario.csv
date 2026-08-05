@@ -1,0 +1,2 @@
+timestamp,personagem,modelo,pergunta_id,dominio,pergunta_texto,resposta_jogador,criatividade,comentario_llm,bonus_psique,bonus_atributo,tokens_prompt,tokens_resposta,tempo_s
+2026-04-16T17:35:31,?,desconhecido,1,mental,"Você acaba de encontrar um mapa rasgado dentro de um livro abandonado. O mapa parece indicar algo importante, mas metade está destruída. O que você faz?",128376187345817348176328716387164871268726 rasgar o livro e comer o mapa,0.5,O jogador está tentando descobrir a chave para abrir o livro abandonado.,0.0,0.0,0,0,12.999

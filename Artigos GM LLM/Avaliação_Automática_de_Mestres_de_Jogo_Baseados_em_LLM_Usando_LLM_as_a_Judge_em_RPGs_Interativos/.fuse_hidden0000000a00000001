@@ -1,0 +1,275 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[shortlabels]{enumitem}
+\usepackage{fancyhdr}
+\usepackage{sbgames}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\sloppy
+
+\input{sbgames_info}
+
+\title{Avaliação Automática de Mestres de Jogo Baseados em LLM em RPGs Interativos Usando LLM-as-a-Judge \\
+\medskip
+\small{
+    \textit{Title: Automatic Evaluation of LLM-Based Game Masters in Interactive RPGs Using LLM-as-a-Judge}
+}
+}
+
+\author{[OMITIDO PARA REVISÃO ANÔNIMA]}
+
+\address{[OMITIDO PARA REVISÃO ANÔNIMA]
+  \email{[OMITIDO PARA REVISÃO ANÔNIMA]}
+}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{plain}
+
+\begin{abstract}
+\textbf{Introduction:} Evaluating narrative experiences in tabletop RPGs is traditionally subjective, dependent on human analysis, and difficult to reproduce. With the emergence of LLM-based Game Masters (GMs), systematic methods for assessing narrative quality, coherence, and state consistency become necessary.
+\textbf{Objective:} This work proposes an automatic evaluation pipeline based on LLM-as-a-judge, adapted from RPGBench \cite{yu:2025}, applied to real text-mediated RPG sessions operating entirely on local models.
+\textbf{Steps:} The system implements three evaluation scenarios---combat (A), dialogue (B), and open world (C)---with structured CSV logs as input. Six weighted metrics (GS1, GS3, GS4, GS5, GS6, QC1) assess narrative quality, action-to-narration coherence, and state consistency via a 16-step pipeline with three-layer persistence (SQLite, JSON, CSV).
+\textbf{Expected Results:} Preliminary results indicate that the method enables reproducible and scalable evaluation of LLM-based RPG systems with expected global score above 3.0/5.0, though limitations related to evaluator model bias and circularity when using the same model for generation and evaluation must be considered.
+\end{abstract}
+
+\keywords{RPG, Large Language Model, Procedural Generation, LLM-as-a-Judge, Design Science Research.}
+
+\begin{resumo}
+\textbf{Introdução:} A avaliação de experiências narrativas em RPGs de mesa é tradicionalmente subjetiva, dependente de análise humana e de difícil reprodutibilidade. Com o surgimento de Mestres de Jogo (MJs) baseados em LLMs, torna-se necessário estabelecer métodos sistemáticos de avaliação de qualidade narrativa, coerência e consistência de estado.
+\textbf{Objetivo:} Este trabalho propõe um pipeline de avaliação automática baseado em LLM-as-a-judge, adaptado do benchmark RPGBench \cite{yu:2025}, aplicado a sessões reais de RPG mediadas por texto, operando inteiramente com modelos locais.
+\textbf{Etapas:} O sistema implementa três cenários de avaliação---combate (A), diálogo (B) e mundo aberto (C)---com logs CSV estruturados como entrada. Seis métricas ponderadas (GS1, GS3, GS4, GS5, GS6, QC1) avaliam qualidade narrativa, coerência ação--narração e consistência de estado, com pipeline de 16 etapas e persistência em três camadas (SQLite, JSON, CSV).
+\textbf{Resultados Esperados:} Resultados preliminares indicam que o método permite avaliação reprodutível e escalável de sistemas de RPG baseados em LLM, com score global esperado acima de 3,0/5,0, embora apresente limitações inerentes ao viés do modelo avaliador e à circularidade quando o mesmo modelo é usado para geração e avaliação.
+\end{resumo}
+
+\palavraschave{RPG, Modelo de Linguagem, Geração Procedural, LLM-as-a-Judge, Design Science Research.}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Introdução}
+
+Jogos de RPG de mesa (\textit{tabletop RPG}) dependem de um Mestre de Jogo (MJ) humano para conduzir a narrativa, arbitrar regras e manter a consistência do mundo. Com o avanço dos Grandes Modelos de Linguagem (LLMs), tornou-se possível automatizar parcialmente essas funções, criando MJs artificiais capazes de gerar narrativas interativas.
+
+No entanto, a \textbf{avaliação} desses sistemas permanece um desafio aberto. A qualidade narrativa, a coerência entre ações e descrições e a consistência de estado ao longo de múltiplas interações são aspectos difíceis de mensurar objetivamente. Métodos tradicionais baseados em avaliação humana apresentam limitações de escalabilidade, custo e reprodutibilidade.
+
+Trabalhos recentes propõem o uso de LLMs como avaliadores (\textit{LLM-as-a-judge}), possibilitando análise automática de textos gerados. Em particular, o RPGBench \cite{yu:2025} introduz métricas específicas para sistemas de RPG baseados em LLM. Contudo, essas abordagens são geralmente aplicadas a cenários controlados e não a sessões interativas completas com múltiplos turnos.
+
+Este trabalho propõe um pipeline de avaliação automática aplicado a sessões reais de RPG, utilizando logs estruturados e métricas adaptadas do RPGBench. A principal contribuição é o módulo \texttt{rpg\_judge.py}: um sistema reprodutível de avaliação com execução em modelos locais---eliminando dependência de serviços em nuvem---que cobre combate, diálogo e exploração de mundo aberto.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Trabalhos Relacionados}
+
+\textbf{LLMs em Jogos.}
+Gallotta et al. \cite{gallotta:2024} apresentam um \textit{survey} abrangente do uso de LLMs em jogos, identificando papéis em geração de conteúdo, controle de NPCs e narrativa interativa. Aplicações específicas a RPGs aparecem em trabalhos recentes da comunidade brasileira: \cite{sbgames:llm:2025} explora LLMs em jogos narrativos, e \cite{sbgames:tabletop:2025} aplica RAG para geração de diálogos em \textit{tabletop RPG}. Antes da popularização dos LLMs, comportamento de NPCs e coordenação multi-agente em jogos eram tipicamente modelados via Behavior Trees e regras simbólicas \cite{agis:2020}, com vantagens de previsibilidade e custo computacional, porém limitações de generalização para diálogos abertos.
+
+\textbf{LLMs como Mestres de RPG.}
+Acharya et al. \cite{acharya:2023} investigam suporte computacional baseado em LLMs para Game Masters de TTRPG, focando em assistência ao MJ humano. O presente trabalho difere ao investigar substituição autônoma do MJ, com sessão integralmente conduzida pelo LLM e avaliação automática posterior. Yu et al. \cite{yu:2025} propõem o RPGBench, \textit{benchmark} para avaliar LLMs como motores de RPG com métricas de qualidade narrativa, consistência de estado e coerência de ação. A metodologia LLM-as-a-judge é adotada neste trabalho com adaptações para o contexto brasileiro e suporte a modelos locais.
+
+\textbf{LLM-as-a-Judge.}
+Zheng et al. \cite{zheng:2023} validam o uso de LLMs como avaliadores automáticos de qualidade textual no contexto do MT-Bench, demonstrando correlação superior a 80\% com julgamento humano para tarefas abertas. Essa evidência sustenta a escolha metodológica de avaliar sessões de jogo sem participantes humanos. Uma limitação importante é o possível viés quando o mesmo modelo base é usado para geração e avaliação---ponto discutido na Seção~6. Reviriego et al. \cite{reviriego:2024} mostram que métricas de diversidade lexical (TTR, MTLD) são complementares à avaliação semântica e podem detectar degradação de qualidade não capturada por LLM-as-a-judge isolado, motivando a inclusão dessas métricas em trabalho futuro.
+
+\textbf{Geração Procedural e Persistência.}
+Shaker, Togelius e Nelson \cite{shaker:2016} oferecem o referencial canônico para o Cenário C, onde biomas, inimigos e nomes de localidades são gerados proceduralmente a partir de coordenadas espaciais $(x,y,z)$. A persistência via SQLite garante que modificações ambientais sobrevivam entre sessões, mantendo consistência narrativa estrutural independente de memória interna do modelo.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Arquitetura do Sistema}
+
+\subsection{Visão Geral}
+
+O sistema é composto por três camadas funcionais: (1) \textbf{Interface} --- questionário narrativo inicial com avaliação LLM e menu de modos; (2) \textbf{Jogo} --- motor de combate, mundo aberto e narrativa de NPCs; (3) \textbf{Persistência} --- log unificado em CSV, SQLite por coordenada e JSON de estado.
+
+Três backends de LLM são suportados via \texttt{llm\_backend.py}: Ollama (local), Groq API (cloud gratuito) e LM Studio 0.4.11 (servidor local com API nativa \texttt{/api/v1/chat}). O backend e o modelo são lidos do arquivo \texttt{llm\_config.py} em tempo de execução a cada chamada, sem cache, permitindo troca de modelo sem reinicialização.
+
+\subsection{Pipeline de Combate}
+
+O Cenário A implementa um pipeline de 16 etapas por turno, incluindo: exibição de HUD com arte ASCII por subtipo de inimigo, avaliação LLM de criatividade (0--1) e eficiência (0--2), detecção de ação defensiva pura ou mista, cálculo de dano, narração em \textit{streaming}, atualização de \textit{status effects} (sangramento, veneno, paralisia), progressão de maestria de arma e registro completo no \texttt{session\_log}.
+
+A detecção de ação defensiva diferencia ações puras (``esquiva'', ``bloqueio'') de ações mistas que combinam defesa e ataque (``preparo minha esquiva e contra-ataco''). Ações mistas são tratadas como ataque normal com componente defensivo, evitando que o jogador burle o sistema de avaliação.
+
+\subsection{Cenário C --- Mundo Aberto}
+
+O Cenário C implementa exploração livre em malha de coordenadas $(x,y,z)$. O bioma é determinado pela distância euclidiana à origem: floresta ($d<2$), planície ($d<5$), deserto/pântano ($d<9$), ruínas ($d>9$), caverna ($z<-2$) e montanha ($z>3$). A Tabela~\ref{tab:modificacoes} lista os tipos de modificação ambiental detectados.
+
+\begin{table}[ht]
+\centering
+\caption{Modificações ambientais persistentes por coordenada no Cenário C}
+\label{tab:modificacoes}
+\begin{tabular}{ll}
+\toprule
+\textbf{Tipo} & \textbf{Palavras-chave detectadas} \\
+\midrule
+Fogo       & bola de fogo, incêndio, chamas \\
+Corte      & corto a árvore, machado, derruba \\
+Magia      & conjuro, lanço, raio arcano \\
+Escavação  & cavo, escavar, picareta \\
+Construção & construo, ergo, barricada \\
+Gelo       & congelo, nevar, freeze \\
+Explosão   & explodo, blast \\
+Água       & inundo, flood \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Cada local visitado é persistido em SQLite com nome gerado proceduralmente, descrição LLM e histórico de modificações. Ao revisitar um local, o sistema exibe as modificações anteriores no contexto enviado à LLM, mantendo consistência narrativa sem depender de memória interna do modelo.
+
+O \texttt{mundo\_log.csv} registra todos os eventos com campo \texttt{session\_id}, permitindo que o \texttt{rpg\_judge} avalie apenas os eventos da sessão correspondente mesmo quando múltiplas sessões compartilham o mesmo arquivo.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Framework de Avaliação Automática}
+
+\subsection{Metodologia}
+
+A avaliação segue a metodologia Design Science Research (DSR) \cite{hevner:2004,peffers:2007} em cinco fases adaptadas: identificação do problema, objetivos, design, demonstração e avaliação. Hevner et al. \cite{hevner:2004} fornecem o framework conceitual de DSR; Peffers et al. \cite{peffers:2007} formalizam o processo em etapas reutilizáveis. A fase de avaliação emprega sessões instrumentadas com logging automático, analisadas pelo módulo \texttt{rpg\_judge.py} via LLM-as-a-judge, conforme pipeline ilustrado na Figura~\ref{fig:pipeline}.
+
+Sem participantes humanos formais, a avaliação é baseada em sessões jogadas pelo pesquisador (mínimo 30 sessões, três vezes o mínimo sugerido por Yu et al. \cite{yu:2025}), avaliadas automaticamente. Yu et al. adotam a mesma abordagem em RPGBench, validando metodologicamente a escolha.
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  node distance=0.45cm,
+  every node/.style={
+    rectangle, rounded corners, draw=black, thick,
+    minimum width=5.2cm, minimum height=0.65cm,
+    align=center, font=\small
+  },
+  judge/.style={fill=gray!18},
+  arr/.style={-{Latex[length=2mm]}, thick}
+]
+\node (a) {Sessão de RPG (combate / diálogo / mundo aberto)};
+\node (b) [below=of a] {Log CSV estruturado (\texttt{session\_id}, ação, narração)};
+\node (c) [below=of b] {Parser de eventos (\texttt{rpg\_judge.py})};
+\node (d) [below=of c] {Seleção de trechos narrativos por métrica};
+\node (e) [below=of d, judge] {LLM-as-a-Judge (prompt isolado por métrica)};
+\node (f) [below=of e] {Métricas ponderadas: GS1, GS3, GS6, GS4, GS5, QC1};
+\node (g) [below=of f] {Score Global + relatórios CSV/JSON};
+\foreach \x/\y in {a/b, b/c, c/d, d/e, e/f, f/g} \draw[arr] (\x) -- (\y);
+\end{tikzpicture}
+\caption{Pipeline de avaliação automática baseado em LLM-as-a-judge. Logs estruturados de sessões são processados e avaliados por um modelo de linguagem segundo métricas narrativas e de consistência de estado, produzindo um relatório reprodutível independente de avaliação humana.}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection{Métricas}
+
+O módulo \texttt{rpg\_judge.py} implementa seis métricas ponderadas, descritas na Tabela~\ref{tab:metricas}. As métricas GS1, GS3 e GS6 somam 91\% do score e medem exclusivamente a qualidade do MJ LLM. GS4 e QC1 medem a calibração do sistema de avaliação interno, não o desempenho do jogador. Com o Cenário C ativo, MW1 (qualidade das narrações de exploração) e MW2 (consistência das modificações) são incluídos com peso total de 27\%, redistribuindo os demais.
+
+\begin{table}[ht]
+\centering
+\caption{Métricas do rpg\_judge.py (adaptadas de RPGBench)}
+\label{tab:metricas}
+\begin{tabular}{clcc}
+\toprule
+\textbf{Código} & \textbf{Métrica} & \textbf{Peso (sem C)} & \textbf{O que avalia} \\
+\midrule
+GS1 & Qualidade Narrativa     & 36\% & Riqueza, vocabulário, imersão \\
+GS3 & Coerência Ação→Narração & 25\% & GM narrou a ação correta? \\
+GS6 & Consistência de Estado  & 30\% & Sem contradições entre turnos \\
+GS4 & Consistência Avaliação  &  4\% & Score de criatividade calibrado? \\
+GS5 & Eficiência Mecânica     &  2\% & Motor de combate eficiente? \\
+QC1 & Qualidade Avaliação GM  &  3\% & Feedback do GM é útil? \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+O score global é aprovado com nota $\geq 3{,}0/5{,}0$. O avaliador (LLM-judge) recebe o texto da narração e a ação do jogador que a originou, atribuindo notas de 1 a 5 em subcritérios específicos por métrica. A Figura~\ref{fig:metricas} resume a estrutura ponderada: as três métricas dominantes (GS1, GS3, GS6) concentram 91\% do score, refletindo a decisão de projeto de privilegiar qualidade narrativa, fidelidade ação--narração e consistência de estado como dimensões críticas do MJ.
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  every node/.style={font=\small, align=center},
+  box/.style={rectangle, rounded corners, draw=black, thick,
+              minimum width=3.0cm, minimum height=1.1cm},
+  top/.style={box, fill=gray!25},
+  arr/.style={-{Latex[length=2mm]}, thick}
+]
+\node[top] (sg) {Score Global\\\footnotesize $\geq 3{,}0/5{,}0$};
+\node[box, below=1.4cm of sg, xshift=-4.1cm] (gs1) {\textbf{GS1} 36\%\\\footnotesize Qualidade\\\footnotesize Narrativa};
+\node[box, below=1.4cm of sg]                 (gs3) {\textbf{GS3} 25\%\\\footnotesize Coerência\\\footnotesize Ação$\to$Narração};
+\node[box, below=1.4cm of sg, xshift=4.1cm]  (gs6) {\textbf{GS6} 30\%\\\footnotesize Consistência\\\footnotesize de Estado};
+\draw[arr] (gs1.north) -- (sg.south west);
+\draw[arr] (gs3.north) -- (sg.south);
+\draw[arr] (gs6.north) -- (sg.south east);
+\node[below=2.5cm of sg, font=\itshape\small] {GS4, GS5 e QC1 contribuem com 9\% restantes (calibração interna).};
+\end{tikzpicture}
+\caption{Estrutura ponderada das métricas do \texttt{rpg\_judge.py}. GS1+GS3+GS6 perfazem 91\% do score global, refletindo o foco em qualidade do MJ LLM; as demais métricas medem calibração do sistema de avaliação interno.}
+\label{fig:metricas}
+\end{figure}
+
+\subsection{LLM-as-a-Judge}
+
+O modelo avaliador (\textit{judge}) recebe como entrada trechos da sessão---a ação do jogador e a narração gerada pelo MJ---acompanhados de instruções específicas para atribuição de notas em escala Likert (1--5). Cada prompt de avaliação é isolado por métrica, evitando que o contexto de uma avaliação influencie outra.
+
+O mesmo backend LLM configurado em \texttt{llm\_config.py} pode ser utilizado tanto para geração quanto para avaliação. Embora isso introduza possível circularidade---o modelo tendendo a avaliar favoravelmente o que ele próprio geraria---essa abordagem é metodologicamente válida conforme Yu et al. \cite{yu:2025}, desde que documentada. Para mitigar o viés, recomenda-se usar modelos diferentes para geração e julgamento nas sessões de avaliação formal.
+
+O \texttt{rpg\_judge.py} suporta filtragem por \texttt{session\_id} no \texttt{mundo\_log.csv}, garantindo que apenas eventos da sessão correspondente sejam avaliados nas métricas de mundo aberto (MW1, MW2).
+
+\subsection{Mitigação de Alucinação}
+
+Uma limitação observada em modelos \textit{reasoning} (Gemma~4, DeepSeek-R1, Qwen3) foi a tendência de inventar contexto narrativo não mencionado no prompt. A mitigação adotada---instrução explícita ``NUNCA invente personagens, eventos ou contexto não mencionados'' no \texttt{SYSTEM\_PROMPT\_NARRACAO}---reduziu os casos, mas não os eliminou completamente em modelos com temperatura $> 0{,}7$.
+
+Modelos \textit{reasoning} também produzem blocos internos \texttt{<think>...</think>} antes de responder. O sistema filtra esses blocos via expressão regular após acumular todo o texto do \textit{stream}, evitando que tokens de raciocínio interno apareçam na narração exibida ao jogador.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Implementação}
+
+O sistema foi implementado em Python, com o módulo \texttt{rpg\_judge.py} responsável pela avaliação automática. As sessões de jogo geram arquivos CSV estruturados com os seguintes campos: tipo de interação (\texttt{avaliacao}, \texttt{narracao\_jogador}, \texttt{narracao\_inimigo}, \texttt{questionario\_p1-5}, \texttt{mundo\_*}), entrada do jogador, resposta do MJ, tokens consumidos e tempo de resposta. A partir de Abril de 2026, os campos de entrada e resposta são registrados sem truncamento (até 2000 caracteres), garantindo que narrações completas estejam disponíveis para avaliação.
+
+A arquitetura suporta três backends LLM: modelos locais via Ollama, servidores locais via LM Studio 0.4.11 e APIs externas (Groq). O sistema opera sem cache, lendo o backend e o modelo diretamente do \texttt{llm\_config.py} a cada chamada, permitindo troca dinâmica de modelos sem reinicialização.
+
+\begin{footnotesize}
+\begin{verbatim}
+python rpg_judge.py logs/sessao_2026-04-18.csv
+python rpg_judge.py logs/
+# Saida: judge_results/rpg_judge_resultados.csv
+#        judge_results/rpg_judge_agregado.json
+\end{verbatim}
+\end{footnotesize}
+
+\section{Resultados Esperados e Discussão}
+
+Com base em testes preliminares e na análise de uma sessão de referência (69 entradas, modelo \texttt{gemma4:e2b} \cite{deepmind:gemma4:2026}, 34 narrações, 5 perguntas do questionário), o sistema demonstrou funcionamento correto em todos os módulos: pipeline de combate, persistência do mundo aberto, log unificado com modelo identificado e avaliação automática via \texttt{rpg\_judge.py}.
+
+Para as sessões de avaliação formal (mínimo 30 sessões), esperamos:
+
+\begin{itemize}
+  \item Score global médio $\geq 3{,}0/5{,}0$ (limiar de aprovação);
+  \item GS6 (consistência) como principal diferenciador entre modelos: modelos com contexto maior mantêm maior coerência entre turnos;
+  \item Modelos 7--8B (llama3.1:8b, gemma2:9b) apresentando latência inferior a 5s/chamada com qualidade narrativa satisfatória ($GS1 > 3{,}0$);
+  \item Modelos \textit{reasoning} 27B+ produzindo GS1 superior, mas com latência 10--30s/chamada, impactando negativamente a fluidez do jogo.
+\end{itemize}
+
+\textbf{Limitações.} A abordagem apresenta três limitações principais: (1) \textit{viés do modelo avaliador}---o judge tende a favorecer estilos próximos ao seu próprio padrão de geração; (2) \textit{dependência de prompts}---pequenas variações no prompt de avaliação podem alterar significativamente as notas; (3) \textit{circularidade}---quando o mesmo modelo base é usado para geração e julgamento, o sistema pode superestimar a qualidade das próprias narrações. Além disso, a ausência de participantes humanos limita a validade externa das métricas de imersão e agência percebida. O viés de circularidade é mitigado usando modelos diferentes para geração e julgamento nas sessões formais.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Conclusão}
+
+Este trabalho apresentou um sistema de MJ autônomo baseado em LLMs locais com três cenários de avaliação e o módulo \texttt{rpg\_judge.py} para avaliação automática via LLM-as-a-judge. A arquitetura de persistência em três camadas (SQLite, JSON, CSV) demonstrou-se eficaz para manutenção de consistência narrativa, e o sistema de avaliação implementa métricas comparáveis às propostas em RPGBench \cite{yu:2025}.
+
+Como trabalho futuro, pretende-se: (1) validação com avaliadores humanos para correlacionar as métricas automáticas com percepção subjetiva de qualidade; (2) uso de múltiplos modelos \textit{judge} para reduzir o viés de circularidade e aumentar a robustez das avaliações; (3) refinamento das métricas narrativas com análise de diversidade lexical (TTR, MTLD) conforme Reviriego et al. \cite{reviriego:2024}; (4) integração de banco vetorial FAISS para memória semântica de longo prazo; (5) expansão do Cenário C com encontros de diálogo no mundo aberto.
+
+\textbf{Agradecimentos.} [OMITIDO PARA REVISÃO ANÔNIMA]
+
+\bibliographystyle{sbc}
+\bibliography{Referencias/referencias}
+
+\end{document}

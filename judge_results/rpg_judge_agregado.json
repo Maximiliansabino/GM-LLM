@@ -1,0 +1,1760 @@
+{
+  "n_sessoes": 1,
+  "modelos": [
+    "gemma4:e2b"
+  ],
+  "data_avaliacao": "2026-04-27T01:18:02",
+  "medias": {
+    "GS1_qualidade_narrativa": 4.54,
+    "GS3_coerencia_acao": 4.84,
+    "GS6_consistencia_estado": 2.97,
+    "QC1_criatividade_jogador_pregame": 3.53,
+    "GS4_criatividade_jogador": 3.55,
+    "GS5_eficiencia_mecanica": 2.52,
+    "score_global": 3.7
+  },
+  "sessoes": [
+    {
+      "arquivo": "sessao_2026-04-26_23-02-09.csv",
+      "personagem": "Jolie 2",
+      "modelo": "gemma4:e2b",
+      "data_sessao": "2026-04-26_23-02-09",
+      "metricas": {
+        "GS1_qualidade_narrativa": 4.54,
+        "GS3_coerencia_acao": 4.84,
+        "GS6_consistencia_estado": 2.97,
+        "QC1_criatividade_jogador_pregame": 3.53,
+        "GS4_criatividade_jogador": 3.55,
+        "GS5_eficiencia_mecanica": 2.52,
+        "MW1_narracao_mundo": 3.13,
+        "MW2_consistencia_mundo": null,
+        "score_mundo": 3.13,
+        "score_global": 3.7
+      },
+      "internas": {
+        "criatividade_media": 0.711,
+        "criatividade_min": 0.5,
+        "criatividade_max": 1.0,
+        "eficiencia_media": 1.01,
+        "acoes_avaliadas": 55,
+        "tempo_medio_llm_s": 2.03,
+        "tokens_medio": 1325,
+        "tokens_total_sessao": 140443
+      },
+      "mundo_aberto": {
+        "tipos": [
+          "mundo_chegada",
+          "mundo_acao_livre",
+          "mundo_movimento",
+          "mundo_encontro"
+        ],
+        "total_acoes": 60
+      },
+      "diagnostico": {
+        "modelo_judge": "gemma4:e2b",
+        "backend_judge": "ollama",
+        "chamadas_totais": 196,
+        "chamadas_com_parse_ok": 196,
+        "chamadas_falha_parse": 0,
+        "taxa_sucesso_parse": 1.0,
+        "exemplos_falha": []
+      },
+      "detalhes": {
+        "narrativas": [
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "corte duplo",
+            "narracao": "Você executa o \"corte duplo\"... A lâmina de Jolie 2 se move com uma velocidade febril, um borrão de ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos e adjetivos fortes ('velocidade febril', 'borrão de intenção pura', 'sequência implacável') para descrever a ação de forma vívida. A consistência é perfeita, pois descreve exatamente o que o jogador executou ('corte duplo'). O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte preciso",
+            "narracao": "Você executa o movimento, e o ar se rasga com a precisão de uma lâmina afiada. Seu braço se estende ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando metáforas fortes ('ar se rasga com a precisão de uma lâmina afiada', 'linha de pura força concentrada') que elevam a ação simples ('corte preciso') a um momento épico. A consistência é perfeita, descrevendo a execução do movimento de forma vívida. O uso da segunda pessoa ('você', 'seu') é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "corte duplo preciso",
+            "narracao": "Você executa o \"corte duplo preciso\"... A lâmina se move com uma velocidade implacável, um borrão de",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando metáforas fortes ('borrão de intenção', 'som seco e agudo do aço') que elevam a ação de um simples corte a um evento sensorial. A consistência é perfeita, descrevendo de forma vívida o ato de um corte duplo. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "mordida furiosa",
+            "narracao": "Você executa a \"mordida furiosa\". Seus dentes se fecham com uma força bruta e inesperada, buscando a",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário sensorial ('força bruta e inesperada', 'impacto imediato e visceral', 'pressão áspera e concentrada') para descrever a ação de forma vívida. A consistência é perfeita, descrevendo a ação física da mordida de maneira lógica. O uso da segunda pessoa é adequado para direcionar a experiência diretamente ao jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte profundo sangrento",
+            "narracao": "Você executa o movimento com precisão fria. Seu braço avança, e o ar se rasga com a força do seu gol",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando verbos fortes ('rasga', 'cedendo', 'implacável') e descrições sensoriais ('ruído úmido e violento', 'sangrento') que elevam a ação. A consistência é perfeita, pois descreve diretamente o resultado do 'corte profundo sangrento'. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "corro na direça e desfiro um corte preciso na jugular",
+            "narracao": "Você corre na direção da ameaça, cada músculo tensionado em uma explosão de movimento. O ar parece r",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando metáforas fortes ('ar parece rasgar', 'velocidade implacável') que elevam a ação. A consistência é perfeita, descrevendo a corrida e o corte de forma fluida. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "corte profundo sangrento",
+            "narracao": "Você executa o movimento com uma precisão brutal. O ar se rasga ao seu redor enquanto a lâmina encon",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('ar se rasga', 'rasgar úmido e agonizante') que eleva a ação de um simples corte para um evento visceral. A consistência é perfeita, pois descreve exatamente o impacto físico do golpe. O uso da segunda pessoa é impecável, mantendo o foco na experiência direta do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte rapido flamejante",
+            "narracao": "Você executa o \"corte rápido flamejante\"... A lâmina irrompe em um borrão de fogo e metal incandesce",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando verbos fortes ('irrompe', 'rasga', 'dançante') e descrições sensoriais (fogo, calor abrasador). A consistência é perfeita, descrevendo o ataque de forma fluida. O uso da segunda pessoa está correto, direcionando a ação diretamente ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "corte triplo furioso",
+            "narracao": "Você executa o \"corte triplo furioso\"... A força de sua ação irrompe no ar, um movimento fulminante ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos e adjetivos fortes ('fulminante', 'precisão brutal', 'dança violenta e concentrada') que elevam a ação. A consistência é excelente, descrevendo a execução do ataque de forma dinâmica. O uso da segunda pessoa é perfeito, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corro na direção do meu inimigo, preparo um saque de espada ",
+            "narracao": "Você corre na direção do seu inimigo, a adrenalina pulsando em suas veias enquanto você avança. Seu ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando metáforas fortes ('adrenalina pulsando', 'urgência feroz') que elevam a ação. A consistência é perfeita, descrevendo fielmente a ação do jogador. O uso da segunda pessoa é impecável, mantendo o foco na experiência do personagem."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "corte preciso em seu pescoço",
+            "narracao": "Você executa o corte preciso em seu pescoço. A lâmina desliza com uma fluidez letal, encontrando a p",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando verbos e adjetivos fortes ('fluidez letal', 'som seco e agudo') que elevam a ação física a um evento dramático. A consistência é perfeita, descrevendo de forma vívida o ato de cortar. O uso da segunda pessoa ('você', 'seu') está impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "fatalblade finish him",
+            "narracao": "Você avança com a precisão letal do fatalblade, a lâmina brilhando sob a luz tênue do combate. Você ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando metáforas fortes ('precisão letal do fatalblade', 'ar se rasga') que elevam a ação. A consistência é perfeita, descrevendo claramente o impacto do golpe. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "corte relampago",
+            "narracao": "Você executa o \"corte relampago\"... Uma onda de energia pura irrompe de sua lâmina, um clarão branco",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos fortes ('irrompe', 'rasga', 'devastadora') e descrições sensoriais ('clarão branco e fulgurante', 'linha de luz') que elevam a ação. A consistência é perfeita, descrevendo exatamente o efeito esperado de um 'corte relâmpago'. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "bola de raios",
+            "narracao": "Você concentra toda a sua força, e a energia se manifesta em seu braço. Uma explosão de luz irrompe ",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.33,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas carece de riqueza e vocabulário mais evocativo. A consistência é excelente, pois descreve exatamente o que o jogador solicitou ('bola de raios'). O uso da segunda pessoa está correto."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "lamina de raios",
+            "narracao": "Você executa a manobra, e a energia se concentra em sua forma, uma lâmina etérea pulsando com a forç",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é visualmente forte e utiliza vocabulário evocativo ('lâmina etérea', 'descarga de luz e calor concentrado', 'ar se rasga'), aumentando a imersão. A consistência é perfeita, pois descreve a ação solicitada. O uso da segunda pessoa está correto, focando na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "lamina de raios negros cortantes",
+            "narracao": "Você executa a ação, e a lâmina de raios negros cortantes se manifesta em seu movimento... uma onda ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando descrições sensoriais fortes (visão, som, olfato) para descrever a manifestação da arma. A consistência é excelente, pois a narração se conecta diretamente com a ação do jogador ('lamina de raios negros cortantes'). O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "lamina de raios negros perfurantes vampíricos",
+            "narracao": "Você executa a lâmina de raios negros perfurantes vampíricos. Uma onda escura e fria irrompe do seu ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('lâmina de raios negros perfurantes vampíricos', 'escuridão absoluta', 'rastros espectrais') que eleva a ação. A consistência é perfeita, descrevendo a ação do ataque de forma vívida. O uso da segunda pessoa está correto, focando na experiência do jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "lamina de fogo negro",
+            "narracao": "Você executa a ação. Uma lâmina de fogo negro irrompe de suas mãos, uma manifestação densa e voraz d",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('lâmina de fogo negro', 'manifestação densa e voraz', 'calor puro e esmagador') para descrever a ação. A consistência é excelente, pois a descrição se encaixa perfeitamente na ação do jogador. O uso da segunda pessoa é correto, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_jogador",
+            "acao": "lamina violenta de fogo negro",
+            "narracao": "Você executa a lâmina violenta de fogo negro... Uma onda de calor abrasador e escuridão incandescent",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é visualmente forte e imersiva, utilizando adjetivos impactantes ('violenta', 'abrasador', 'escuridão incandescente', 'fúria'). A consistência é excelente, pois a narração expande diretamente a ação do jogador. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "7",
+            "tipo": "narracao_jogador",
+            "acao": "lamina violenta de raio negro",
+            "narracao": "Você executa a lâmina violenta de raio negro. Uma torrente escura e incandescente se desenrola em su",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é visualmente forte e utiliza vocabulário evocativo ('torrente escura e incandescente', 'fenda de pura escuridão e energia bruta', 'brilho espectral'), aumentando a imersão. A consistência é perfeita, descrevendo a ação solicitada de forma dinâmica. O uso da segunda pessoa é adequado para a perspectiva do jogador."
+          },
+          {
+            "turno": "8",
+            "tipo": "narracao_jogador",
+            "acao": "lamina violenta de raio negro",
+            "narracao": "Você executa a lâmina violenta de raio negro. Uma onda de escuridão pura e ardente se projeta de sua",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é visualmente forte e imersiva, utilizando adjetivos impactantes ('escuridão pura e ardente', 'fio de energia negra e incandescente'). A consistência é excelente, pois expande a ação inicial de forma lógica e dramática. O uso da segunda pessoa é perfeito, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do fogo negro",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do fogo negro\"...  Uma onda de calor infernal irrompe de",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('fogo negro', 'escuridão ardente', 'rasga o tecido da realidade') que eleva a ação. A consistência é excelente, pois a descrição se alinha diretamente ao comando do jogador. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte limpo",
+            "narracao": "Você executa o \"corte limpo\"... A lâmina se move com uma precisão brutal, uma onda de energia pura q",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('precisão brutal', 'onda de energia pura', 'poder bruto') para descrever uma ação de combate. A consistência é excelente, pois descreve de forma vívida o efeito de um ataque de corte. O uso da segunda pessoa é perfeito, direcionando a ação diretamente ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do raio negro",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do raio negro\"...  Uma onda de escuridão e fogo frio irr",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('escuridão e fogo frio', 'raio negro e viscoso') que evoca uma sensação visceral. A consistência é excelente, descrevendo de forma clara e violenta a execução da ação solicitada. O uso da segunda pessoa é correto, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do fogo negro",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do fogo negro\"...  Uma onda de escuridão incandescente a",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('escuridão incandescente', 'fúria espectral', 'lâmina espectral') que eleva a ação. A consistência é excelente, pois a descrição se alinha perfeitamente ao comando do jogador. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do fogo negro",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do fogo negro\"... A lâmina se move com uma violência esp",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('violência espectral', 'precisão implacável', 'força bruta') que eleva a ação. A consistência é excelente, pois descreve a execução do ataque com clareza. O uso da segunda pessoa ('você') está correto e direciona a ação diretamente ao jogador."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "corte limpo",
+            "narracao": "Você executa o \"corte limpo\"... Uma onda de força bruta irrompe de você, um movimento rápido e preci",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos fortes ('rasga', 'estremece') e descrições sensoriais ('impacto ensurdecedor', 'vapor branco e furioso'), elevando a qualidade narrativa. A consistência é perfeita, pois descreve diretamente o resultado da ação solicitada ('corte limpo'). O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do lama negra venenosa",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do lama negra venenosa\"...  O ar se rasga com uma onda v",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('viscosa', 'maligna', 'corrosivo') para descrever o ataque. A consistência é perfeita, descrevendo a ação solicitada de forma vívida. O uso da segunda pessoa ('Seu golpe', 'envolve o ar') é adequado para a perspectiva do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento do lama negra",
+            "narracao": "Você executa o \"Corte obscurecido sangrento do lama negra\"... A lâmina avança com uma força sombria,",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário forte ('sombría', 'viscoso', 'brutal') e sons sensoriais ('som úmido e pesado'). A consistência é excelente, pois descreve diretamente a ação solicitada. O uso da segunda pessoa é perfeito, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento",
+            "narracao": "Você executa o \"Corte obscurecido sangrento\"... A lâmina se move através do ar, uma fenda escura e a",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é muito imersiva e usa linguagem forte ('fenda escura e ardente', 'ruído gutural'), elevando a ação. A consistência é boa, descrevendo o impacto da ação. O uso da segunda pessoa é perfeito, focando diretamente no jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "Corte obscurecido sangrento",
+            "narracao": "Você executa o \"Corte obscurecido sangrento\"... A lâmina desliza através da forma densa do Sombrio U",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando vocabulário sensorial ('desliza', 'rasgo sombrio e penoso', 'som úmido') que evoca a ação de forma vívida. A consistência é perfeita, descrevendo o ato de cortar uma criatura. O uso da segunda pessoa ('Você executa', 'sua') é adequado e correto para a perspectiva do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "Corte de raio negro poderoso",
+            "narracao": "Você executa o \"Corte de raio negro poderoso\"...  Um feixe de escuridão pura, uma linha de energia n",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos fortes ('rasgando', 'irrompe') e adjetivos evocativos ('escuridão pura', 'velocidade estonteante'), aumentando a sensação de poder da ação. A consistência é perfeita, descrevendo exatamente o que o jogador fez. O uso da segunda pessoa é adequado ao contexto de narração direta ao jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "Corte sério de raio negro poderoso",
+            "narracao": "Você executa o \"Corte sério de raio negro poderoso\"... Uma onda escura e fria irrompe de sua mão, um",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é visualmente forte e imersiva, utilizando verbos e adjetivos evocativos ('onda escura e fria', 'engolir a luz'). A consistência é perfeita, descrevendo a ação solicitada. O uso da segunda pessoa está correto, direcionando a ação ao jogador."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "Corte de raio negro poderoso , visando ferir suas pernas e d",
+            "narracao": "Você desfere o ataque. Um corte de raio negro poderoso irrompe do seu punho, uma fenda escura e inca",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando vocabulário forte ('corte de raio negro poderoso', 'fenda escura e incandescente', 'velocidade estonteante'). A consistência é perfeita, descrevendo exatamente a ação solicitada. O uso da segunda pessoa ('você', 'seu') está correto e reforça a imersão no ponto de vista do jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, uma força bruta que se manifesta em cada fibr",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem forte ('fúria avassaladora', 'chama interna inextinguível'), elevando a ação. A consistência é perfeita, pois a narração expande a ação do jogador de forma orgânica. O uso da segunda pessoa ('você', 'seu') está correto e reforça a imersão no ponto de vista do jogador."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, uma onda ardente que irrompe em seu peito. Se",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem vívida ('fúria avassaladora', 'onda ardente', 'fogo purificador'), elevando a ação do jogador. A consistência é excelente, pois a narração expande diretamente a ação descrita pelo jogador. O uso da segunda pessoa ('você', 'seu') está correto e reforça a imersão no ponto de vista do jogador."
+          },
+          {
+            "turno": "7",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, uma onda de calor e poder que se instala em s",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando linguagem sensorial forte ('fúria avassaladora', 'onda de calor', 'chama purificadora e voraz') que eleva a ação. A consistência é perfeita, pois a narração expande diretamente a ação do jogador. O uso da segunda pessoa ('você', 'seu') é impecável, mantendo o foco na experiência do personagem."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, uma força bruta que se solidifica em seu corp",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem vívida ('fúria avassaladora', 'corte flamejante', 'onda de fogo puro'), elevando a ação. A consistência é perfeita, pois expande a ação do jogador de forma lógica. O uso da segunda pessoa está correto, mantendo o foco na experiência do personagem."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de seu ser, uma força bruta que se manifesta como uma ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem forte ('fúria avassaladora', 'aço') que eleva a ação. A consistência é perfeita, pois a narração expande diretamente a sensação de fortalecimento e a ação subsequente. O uso da segunda pessoa é impecável, mantendo o foco no jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora irromper em seu ser, fortalecendo cada fibra do seu corpo. Com ess",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em descrições sensoriais ('raios sangrentos', 'som agudo e violento') e imerge o jogador na ação. A consistência é excelente, pois a narração expande a ação do jogador de forma fluida. O uso da segunda pessoa ('você', 'seu') está correto e reforça a imersão."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora percorrer seu ser, uma força bruta que se funde à sua essência, fo",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em descrições sensoriais ('fúria avassaladora', 'fogo puro') e cria uma imagem vívida da ação. A consistência é excelente, pois expande a ação do jogador de forma orgânica. O uso da segunda pessoa ('você', 'seu') é perfeito, mantendo a imersão no ponto de vista do jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "corte rapido",
+            "narracao": "Você executa o movimento com uma precisão súbita, e a lâmina avança em um borrão de movimento. Seu \"",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em adjetivos e utiliza metáforas ("
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia bruta tomar conta de seu ser, uma chama indomável que se incrusta em suas veias",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em metáforas ('chama indomável', 'fogo purificador') e cria uma imersão sensorial forte. A consistência é excelente, pois a narração expande diretamente a sensação de força e a ação física descrita pelo jogador. O uso da segunda pessoa ('você', 'seu') é impecável, mantendo a perspectiva do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte mortal",
+            "narracao": "Você executa o \"corte mortal\"... A lâmina se move com uma velocidade estonteante, um rastro de ar co",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando verbos fortes ('estonteante', 'brutal') e descrições sensoriais ('som seco e ensurdecedor', 'estilhaçar dos ossos'). A consistência é excelente, descrevendo de forma clara o impacto físico do 'corte mortal'. O uso da segunda pessoa é perfeito, direcionando a ação diretamente ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, um calor brutal se acende em suas veias, fort",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem sensorial forte ('calor brutal', 'chamas incandescentes'). A consistência é excelente, pois expande a ação do jogador de forma lógica. O uso da segunda pessoa ('você') está correto e mantém a imersão na perspectiva do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "executo um corte limpo, para acabar com o sofrimento do assa",
+            "narracao": "Você executa um corte limpo, um movimento preciso e focado, visando o ponto fraco daquele que jaz qu",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em adjetivos ('limpo', 'preciso', 'brutal', 'agudo e cortante') e cria uma imagem vívida da ação. A consistência com a ação do jogador é perfeita. O uso da segunda pessoa ('você', 'sua') está correto e imerso na cena."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "executo um corte de gelo no meio da criatura",
+            "narracao": "Você executa um corte de gelo no meio da criatura... A lâmina fria e brilhante desliza através da fo",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando adjetivos sensoriais ('fria e brilhante', 'calor', 'arrepio gélido') para descrever a ação, elevando a qualidade narrativa. A consistência é perfeita, pois descreve exatamente o ato de cortar gelo e a reação da criatura. O uso da segunda pessoa ('você' implícito na ação) é adequado para a perspectiva do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_jogador",
+            "acao": "corte na alma",
+            "narracao": "Você executa o \"corte na alma\"... uma lâmina invisível, mas de uma precisão terrível, atravessa a es",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('lâmina invisível', 'ar estala', 'onda de energia fria e violenta') que eleva a ação de um simples corte para um evento cósmico. A consistência é perfeita, pois a narração se encaixa diretamente na ação solicitada. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "corte com lamina de agua",
+            "narracao": "Você executa o corte com a lâmina de água… A água, que parece seda e cristal, desliza através do ar ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é rica em descrições sensoriais ('seda e cristal', 'precisão cortante', 'frieza implacável') que aumentam a imersão. A consistência é excelente, pois descreve diretamente o impacto da ação solicitada. O uso da segunda pessoa está correto, direcionando a ação ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia se instalar em seu âmago, uma onda abrasadora que inunda cada fibra de seu ser.",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva e usa linguagem forte ('onda abrasadora', 'força bruta e indomável', 'lâmina de fogo puro'), elevando a ação. A consistência é perfeita, pois a narração expande diretamente a sensação e a ação do jogador. O uso da segunda pessoa está correto, focando na experiência do personagem."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_jogador",
+            "acao": "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+            "narracao": "Você sente uma furia avassaladora tomar conta de você, uma força bruta que se entrelaça em cada fibr",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é vívida e imersiva, utilizando linguagem sensorial ('fúria avassaladora', 'calor intenso', 'corte flamejante'). A consistência é excelente, pois a narração expande diretamente a ação do jogador. O uso da segunda pessoa está correto, mantendo o foco na experiência do personagem do jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_jogador",
+            "acao": "corte de raio negro sangrento",
+            "narracao": "Você executa o \"corte de raio negro sangrento\"... A energia sombria se manifesta em um feixe cortant",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem vívida ('linha de escuridão pura', 'tecido da existência parece estalar') que eleva a ação de um simples evento para um momento cósmico. A consistência é perfeita, descrevendo exatamente o impacto do evento solicitado. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_jogador",
+            "acao": "corte de raio negro sangrento",
+            "narracao": "Você executa o \"corte de raio negro sangrento\"... Uma onda de escuridão violenta irrompe de sua arma",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando vocabulário forte ('viscoso', 'ferocidade brutal', 'força sombria') para descrever um evento visual e físico. A consistência é perfeita, pois descreve diretamente a ação solicitada. O uso da segunda pessoa ('você') está correto e mantém o foco na experiência do jogador."
+          },
+          {
+            "turno": "7",
+            "tipo": "narracao_jogador",
+            "acao": "corte de raio negro sangrento decepador",
+            "narracao": "Você executa o \"corte de raio negro sangrento decepador\"... Uma onda de escuridão e lâmina se manife",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e cria uma imagem visual forte (raio negro, velocidade da morte, impacto brutal), mas carece de profundidade emocional ou de detalhes sensoriais mais ricos para atingir notas mais altas. A consistência é alta, pois descreve diretamente a ação solicitada. O uso da segunda pessoa está correto, focando na experiência do jogador."
+          },
+          {
+            "turno": "8",
+            "tipo": "narracao_jogador",
+            "acao": "corte de raio negro sangrento decepador",
+            "narracao": "Você executa o \"corte de raio negro sangrento decepador\".  Uma onda de escuridão e lâmina avança em ",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e cria uma imagem visual forte (onda de escuridão, lâmina espectral), mas o vocabulário é um pouco repetitivo e a transição entre os eventos é um pouco abrupta. A consistência é alta, pois descreve a ação solicitada. O uso da segunda pessoa está correto."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Bandido Corrupto (T1)",
+            "narracao": "O Bandido Corrupto (T1) avança com uma fúria bruta, sua forma humanoide se movendo com uma agilidade",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 4.0,
+            "media": 3.67,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas carece de riqueza e profundidade. A transição entre a descrição da ação do inimigo e a percepção do jogador é um pouco abrupta. A consistência é alta, pois descreve o ataque esperado. O uso da segunda pessoa é correto, focando na experiência do jogador ('você sente')."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Bandido Corrupto (T1)",
+            "narracao": "O Bandido Corrupto (T1) avança com uma ferocidade súbita, sua forma humanoide envolta em sombras se ",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 4.0,
+            "media": 3.67,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas carece de riqueza e detalhes sensoriais para ser excelente. A consistência é alta, pois descreve a ação do T1. O uso da segunda pessoa está correto, embora a frase final ('Você sente o impact') seja um pouco abrupta, mas gramaticalmente correta no contexto de narração de RPG."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Mercenário (T1)",
+            "narracao": "O Mercenário (T1) avança com uma fúria implacável, sua forma humanoide se movendo com uma eficiência",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 4.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas o vocabulário é um pouco genérico. A consistência é excelente, pois descreve exatamente o que o personagem fez. O uso da segunda pessoa é adequado, embora a frase final 'Você sente o impacto como um soco pesado e descontr' tenha uma quebra de fluidez sutil no final, mas cumpre o requisito."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Mercenário (T1)",
+            "narracao": "O Mercenário (T1) avança com uma ferocidade implacável, sua forma humanaide movida pela necessidade ",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.33,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas carece de profundidade e riqueza de detalhes sensoriais. A consistência é excelente, pois descreve diretamente a ação do Mercenário (T1). O uso da segunda pessoa está correto, direcionando a experiência ao jogador (Jolie 2)."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Lobo Alfa (T1)",
+            "narracao": "O Lobo Alfa (T1) irrompe da escuridão, uma sombra selvagem em movimento. Com uma ferocidade indomáve",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é vívida e utiliza um vocabulário forte ('sombra selvagem', 'ferocidade indomável', 'garras poderosas'), criando uma excelente imersão. A consistência é perfeita, pois descreve a ação do Lobo Alfa (T1) de forma intensa. O uso da segunda pessoa é adequado, direcionando a ação diretamente ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se tornam densas e frias ao seu redor, um silêncio pesado paira no ar. De repente, você s",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração estabelece uma atmosfera forte (sombras, silêncio pesado) e usa linguagem evocativa ('silhueta esguia e ameaçadora'). A consistência é alta, pois descreve a aparição do 'Sombrio Felino'. O uso da segunda pessoa é correto, focando na experiência do jogador ('você', 'seus olhos'). Poderia ser mais rica em detalhes sensoriais para atingir uma nota 5 em qualidade narrativa, mas cumpre bem a função de introduzir a ameaça."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se aprofundam, engolindo a luz do ambiente. Você sente uma mudança na atmosfera, um frio ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração utiliza linguagem evocativa ('sombras se aprofundam', 'frio ancestral') que aumenta a imersão. A transição para a aparição do inimigo é fluida e a descrição do Sombrio Felino é impactante. A consistência é perfeita, pois a narração responde diretamente à ação do jogador. O uso da segunda pessoa é correto, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se aprofundam ao seu redor, pesadas e frias como veludo molhado. De repente, a escuridão ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é atmosférica e utiliza metáforas eficazes ('sombras se aprofundam ao seu redor, pesadas e frias como veludo molhado') para criar imersão. A descrição da presença do Sombrio Felino é visualmente forte, embora a frase termine abruptamente com 'dois pontos', o que é uma falha de formatação, mas não de qualidade narrativa em si. A consistência é excelente, pois descreve a aproximação da criatura. O uso da segunda pessoa é correto."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se tornam densas, engolindo a luz ao redor de você... você sente um arrepio percorrer sua",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('sombras se tornam densas', 'arrepio', 'presságio frio') que estabelece uma atmosfera de medo eficaz. A consistência é perfeita, pois a narração se concentra diretamente na aparição e percepção do 'Sombrio Felino'. O uso da segunda pessoa é impecável, mantendo o jogador totalmente imerso na experiência."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Lobo",
+            "narracao": "Você sente um arrepio gélido percorrer sua espinha. As sombras se aprofundam, e de repente, você per",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('arrepio gélido', 'olhos que brilham como brasas famintas'). A consistência é perfeita, pois descreve a ação do Feroz Lobo de forma vívida. O uso da segunda pessoa ('você') está correto e direciona a experiência ao jogador."
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Lobo",
+            "narracao": "As sombras se adensam ao seu redor, frias e pesadas, e de repente, você sente uma presença avassalad",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('sombras se adensam', 'frias e pesadas') e metáforas eficazes ('mancha escura e implacável', 'fome pura de um predador'). A consistência é perfeita, pois descreve a presença ameaçadora do Feroz Lobo. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_inimigo",
+            "acao": "Feroz Lobo",
+            "narracao": "As sombras se tornam densas e frias ao seu redor, e de repente, você sente uma presença imensa se ap",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem sensorial forte ('sombras densas e frias', 'ar vibra com uma tensão selvagem') que estabelece uma atmosfera de medo e perigo. A descrição de Feroz Lobo é vívida e evoca uma imagem poderosa. A consistência é perfeita, pois descreve diretamente a aparição da entidade solicitada. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Vórtice Arcano (T1)",
+            "narracao": "O Vórtice Arcano (T1), a força bruta da natureza, estende seu poder. Você sente a essência do elemen",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e descreve a ação de forma vívida, usando bom vocabulário ('força bruta', 'forma pura e implacável', 'rugido silencioso'). A consistência é alta, pois se alinha diretamente com a invocação da habilidade. O uso da segunda pessoa é excelente, mantendo o foco na experiência do jogador ('você sente', 'se manifesta como um golpe')."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Gelo (T1)",
+            "narracao": "O Elemental de Gelo (T1), a força bruta da natureza, canaliza todo o seu poder elementar em uma flec",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e estabelece uma atmosfera fria e imponente (boa imersão). A consistência é alta, descrevendo claramente o ataque do Elemental de Gelo. O uso da segunda pessoa é excelente, direcionando a ação diretamente ao jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Gelo (T1)",
+            "narracao": "O Elemental de Gelo (T1), forca da natureza, canaliza seu elemento como arma...  Uma onda gélida e i",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando metáforas fortes ('parede de ar congelado', 'força bruta de gelo puro') para descrever a habilidade. A consistência é perfeita, descrevendo a manifestação física do poder do Elemental de Gelo. O uso da segunda pessoa é impecável, direcionando a experiência diretamente ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Trovão (T1)",
+            "narracao": "O Elemental de Trovão (T1), a força bruta da natureza, estende seu poder. A energia pura, o elemento",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é evocativa e usa linguagem forte ('força bruta da natureza', 'relâmpago silencioso', 'onda avassaladora'), aumentando a imersão. A consistência é perfeita, descrevendo a manifestação do ataque do Elemental de Trovão. O uso da segunda pessoa ('você') está correto, direcionando a ação ao jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Trovão (T1)",
+            "narracao": "O Elemental de Trovão (T1), a força indomável da natureza, canaliza todo o seu poder elementar em um",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 1.0,
+            "media": 2.67,
+            "justificativa": "A narração é funcional e descreve a ação de forma visualmente impactante (raio, fogo azul-claro, eletricidade cortante), o que adiciona imersão. No entanto, o uso da segunda pessoa está incorreto; a narração deve focar na ação do Elemental, e não no jogador (Jolie 2). A consistência é alta, pois descreve um ataque poderoso, mas a transição para o alvo é abrupta e a referência ao jogador é um erro de foco."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Urso",
+            "narracao": "As sombras se tornam densas, engolindo a luz ao redor de você. De repente, uma presença imensa se ma",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é altamente imersiva, utilizando linguagem evocativa ('sombras se tornam densas', 'lentidão predatória'). A consistência é excelente, pois descreve a manifestação do 'Sombrio Urso' de forma ameaçadora. O uso da segunda pessoa está implícito, focando na experiência do jogador, embora a frase tenha sido truncada, o que é aceitável no contexto de um gancho narrativo."
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Urso",
+            "narracao": "As sombras se tornam densas e frias ao seu redor, e de repente, uma presença colossal se materializa",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é evocativa e cria uma atmosfera de medo e ameaça ("
+          },
+          {
+            "turno": "5",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Urso",
+            "narracao": "As sombras se tornam densas e frias ao seu redor, e de repente, uma presença imensa se materializa e",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando descrições sensoriais fortes (sombras densas, cheiro de terra molhada e selvageria, ar pesado) que criam uma atmosfera excelente. A consistência é perfeita, pois descreve a materialização da criatura 'Sombrio Urso'. O uso da segunda pessoa é correto, direcionando a experiência diretamente ao jogador."
+          },
+          {
+            "turno": "6",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Urso",
+            "narracao": "As sombras se tornam densas e frias, envolvendo o ar ao seu redor... você sente uma presença imensa ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando linguagem sensorial ('sombras densas e frias', 'presença imensa e selvagem') que estabelece um clima de medo e perigo. A transição para a aparição do Sombrio Urso é impactante. A consistência é perfeita, pois descreve exatamente a aparição do monstro. O uso da segunda pessoa ('você', 'sua atenção') é adequado e eficaz para envolver o jogador diretamente na cena."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Enraivecido Felino",
+            "narracao": "Você sente um frio súbito se instalar no ar pesado da noite. De repente, as sombras se tornam densas",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é atmosférica e utiliza linguagem sensorial ("
+          },
+          {
+            "turno": "4",
+            "tipo": "narracao_inimigo",
+            "acao": "Enraivecido Felino",
+            "narracao": "As sombras se tornam densas, engolindo a luz ao seu redor. De repente, você sente uma pressão fria e",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração utiliza linguagem evocativa ('sombras se tornam densas', 'chama faminta') que aumenta a imersão. A consistência é perfeita, pois a narração descreve a ação do Enraivecido Felino de forma fluida. O uso da segunda pessoa é adequado para direcionar a experiência ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Esqueleto Errante (T1)",
+            "narracao": "O ar ao seu redor se torna instantaneamente mais denso, pesado com uma frieza que não pertence a nad",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é evocativa, utilizando adjetivos fortes ('denso', 'frieza', 'espectral', 'implacável') que criam uma atmosfera de ameaça imediata. A transição da sensação ambiental para a aparição do inimigo é fluida. A consistência é perfeita, pois descreve exatamente o que o jogador está enfrentando. O uso da segunda pessoa é impecável, mantendo o foco na experiência do jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Assassino (T1)",
+            "narracao": "O Assassino (T1) se move com uma precisão letal, sua forma humanaide deslizando pela paisagem tier u",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é funcional e descreve a ação de forma clara, mas carece de riqueza e detalhes sensoriais para ser excelente. A consistência é alta, pois descreve o movimento do personagem. O uso da segunda pessoa é correto, embora a frase final esteja incompleta, o que afeta a imersão final."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Fogo (T1)",
+            "narracao": "O Elemental de Fogo (T1), a força bruta da natureza, canaliza seu elemento como uma arma indomável. ",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando metáforas fortes ('onda de calor e fúria pura', 'ar se distorce') que criam uma excelente sensação de perigo e imersão. A consistência é perfeita, pois descreve a ação do Elemental de Fogo de forma vívida. O uso da segunda pessoa ('você sente') é adequado para a experiência do jogador."
+          },
+          {
+            "turno": "2",
+            "tipo": "narracao_inimigo",
+            "acao": "Elemental de Fogo (T1)",
+            "narracao": "O Elemental de Fogo (T1), a força da natureza em sua forma mais pura, canaliza todo o seu ser em uma",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é evocativa e usa linguagem sensorial ('lâmina incandescente', 'fogo líquido', 'onda de calor'), aumentando a imersão. A consistência é perfeita, descrevendo a manifestação do poder do Elemental de Fogo. O uso da segunda pessoa ('você sente') está correto e direciona a experiência ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se tornam densas, envolvendo o ar com um frio gélido. Você sente uma presença imensa se m",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração é muito imersiva, utilizando linguagem sensorial forte ('sombras densas', 'frio gélido', 'luz faminta') que estabelece uma atmosfera de medo e perigo. A transição da descrição atmosférica para a aparição do inimigo é fluida. A consistência é perfeita, pois descreve a manifestação do 'Sombrio Felino' de forma vívida. O uso da segunda pessoa ('você', 'seu') é adequado para direcionar a experiência ao jogador."
+          },
+          {
+            "turno": "1",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se aprofundam, envolvendo o ar com uma frieza densa. Você sente uma presença imensa se ma",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 3.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração é muito imersiva, utilizando linguagem sensorial forte ('sombras se aprofundam', 'frieza densa', 'luz faminta'). A consistência é boa, pois descreve a aproximação de uma criatura. O uso da segunda pessoa é excelente, mantendo o foco no jogador."
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "As sombras se tornam densas e frias ao seu redor, e de repente, você sente uma presença imensa se ap",
+            "qualidade_narrativa": 3.0,
+            "consistencia": 4.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.0,
+            "justificativa": "A narração estabelece uma atmosfera de medo e perigo ("
+          },
+          {
+            "turno": "3",
+            "tipo": "narracao_inimigo",
+            "acao": "Sombrio Felino",
+            "narracao": "Você sente um ar gélido se adensar ao redor de você, um silêncio pesado que só é quebrado pelo pulsa",
+            "qualidade_narrativa": 4.0,
+            "consistencia": 5.0,
+            "segunda_pessoa": 5.0,
+            "media": 4.67,
+            "justificativa": "A narração utiliza linguagem sensorial forte ('ar gélido', 'silêncio pesado', 'pulsar da respiração') que estabelece imediatamente uma atmosfera imersiva. A transição para a aparição do inimigo é fluida e a descrição do 'Sombrio Felino' é evocativa, sugerindo poder e malícia. A consistência é perfeita, pois a narração se concentra na ação do inimigo, e o uso da segunda pessoa é impecável, direcionando a experiência diretamente ao jogador."
+          }
+        ],
+        "consistencia": [
+          {
+            "turno_par": "1-1",
+            "consistente": true,
+            "problemas": [
+              "Nenhum problema de consistência factual foi encontrado entre os turnos fornecidos."
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O texto descreve duas ações distintas (mordida e corte) sem estabelecer a relação temporal ou a continuidade da ação do personagem, o que cria uma ambiguidade sobre o estado físico do personagem ou a sequência dos eventos."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "As descrições dos dois turnos são factualmente distintas e não se complementam, sugerindo que o mesmo evento não ocorreu da mesma maneira em ambos os turnos, ou que a descrição da ação é inconsistente entre si (ex: 'corte profundo sangrento' vs 'corte triplo furioso')."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A transição entre as descrições é abrupta e não há contexto para o estado do personagem ou do ambiente, o que impede uma verificação de contradições factuais. Embora não haja contradições diretas de eventos, a falta de contexto narrativa torna impossível avaliar a consistência interna da cena."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve uma ação de criação de uma esfera de energia ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição da habilidade/ataque muda drasticamente entre os turnos (de 'fogo negro' para 'raio negro e viscoso'), o que sugere uma inconsistência na nomenclatura ou na natureza da magia/ataque utilizada."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição do ataque no Turno 1 é inconsistente: o primeiro turno descreve um 'raio negro e viscoso' e o segundo descreve uma 'mancha densa e maligna que se desenrola como uma lâmina feita'. Embora ambos sejam ataques sombrios, a descrição da natureza exata do ataque varia significativamente, o que pode indicar uma mudança de poder ou uma descrição imprecisa do mesmo evento."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação e do resultado no Turno 1 é inconsistente. O primeiro turno sugere uma ação mais violenta e imersiva ('Corte obscurecido sangrento do lama negra venenosa', 'onda viscosa e escura'), enquanto o segundo turno descreve um corte mais sutil e menos impactante ('Corte obscurecido sangrento', 'rasgo sombrio e penoso que mal parece ter alcançado a essência da criatura'). A transição entre as duas descrições não é coerente em termos de intensidade ou resultado da luta."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 apresenta uma transição abrupta e desconectada. A primeira parte descreve uma ação física (o corte) e o estado da criatura, enquanto a segunda parte descreve uma mudança interna de estado (fúria/força) seguida de um movimento incompleto ('um cor'). Não há contradição direta de morte/ressurreição, mas a falta de conexão narrativa e a quebra de fluxo tornam a consistência da experiência do jogador questionável."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação final é diferente entre os turnos: 'um corte' no primeiro turno versus 'um corte' no segundo turno (embora o segundo turno tenha uma descrição mais elaborada da sensação física).",
+              "A descrição da sensação física é ligeiramente diferente: 'força bruta que se solidifica em seu corpo' vs. 'chama indomável que se incrusta em suas veias'. Embora ambas descrevam raiva/força, a mudança de metáfora pode indicar uma alteração na intensidade ou natureza da transformação que não é explicitada."
+            ],
+            "score": 4.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação no Turno 1 é incompleta ('você executa um corte') e o Turno 2 introduz um detalhe adicional ('corte flamejante que ir'), mas não há contradição factual direta entre os dois turnos, apenas uma evolução da descrição. No entanto, a falta de contexto sobre o estado do personagem ou do ambiente torna a avaliação de consistência limitada."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve o uso de um corte flamejante (fogo), enquanto o Turno 2 descreve o uso de um corte de gelo (frio). Embora a transição seja possível em um contexto de fantasia (mudar armas/habilidades), a falta de contexto sobre a mudança de estado ou a coerência da ação imediata pode ser vista como uma inconsistência narrativa se não for justificada."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve uma ação física (corte de gelo) seguida por uma reação sensorial (arrepio gélido), e o Turno 2 descreve uma transformação interna (fúria, fortalecimento do corpo). Embora não haja uma contradição direta de estado físico (como um personagem morto agindo), a transição entre uma reação externa imediata e uma transformação interna profunda pode ser abrupta se não for contextualizada. No entanto, a principal inconsistência é a falta de contexto sobre o estado do personagem e do inimigo, o que torna a avaliação de consistência limitada."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve uma transformação interna de raiva em força bruta, mas o Turno 2 descreve o Bandido Corrupto agindo com 'fúria bruta'. Embora não seja uma contradição direta de estado físico, a transição da experiência interna do jogador para a ação do NPC não é conectada ou justificada, sugerindo uma quebra de fluxo narrativo ou de causa e efeito."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": true,
+            "problemas": [
+              "nenhuma contradição factual encontrada"
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve ações de dois personagens distintos (o Mercenário e o Lobo Alfa) sem estabelecer a relação entre eles ou o contexto da cena, tornando a consistência narrativa ambígua. Não há contradições factuais diretas, mas há uma falta de coerência na apresentação dos eventos consecutivos, pois parecem ser descrições separadas sem ligação temporal ou espacial clara."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O texto parece ser uma concatenação de duas narrativas distintas sem um contexto claro de qual é o turno anterior ou qual personagem está agindo, resultando em uma incoerência narrativa entre as duas frases."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 introduz uma presença (",
+              "O Sombrio Felin",
+              " que sugere um inimigo ou evento), mas o Turno 2 imediatamente descreve uma ação de outro poder (",
+              "O Vórtice Arcano",
+              " a força bruta da natureza) sem estabelecer a relação entre a presença anterior e a nova ação, criando uma quebra de contexto ou uma transição abrupta sem justificativa narrativa."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve uma ação em curso ('se condensar em uma forma pura e implacável') que é interrompida, enquanto o Turno 1 subsequente descreve o resultado final da ação ('irrompe de seu ser em um relâmpago silencioso'). Embora não haja uma contradição direta de estado (como um personagem morto), há uma falta de transição lógica ou continuidade na descrição da ação, sugerindo que o primeiro trecho é uma introdução incompleta e o segundo é o clímax, o que pode ser inconsistente dependendo do contexto narrativo desejado."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O texto fornecido não contém dois turnos consecutivos para análise, mas se considerarmos as duas frases como turnos separados, elas não apresentam contradições factuais entre si, apenas descrições de eventos distintos. No entanto, a solicitação pedia a análise de 'dois turnos consecutivos' e a menção a 'personagem morto mas ainda age, inimigo derrotado mas ainda aparece', o que sugere que o contexto completo dos turnos não foi fornecido. Baseando-se estritamente no texto fornecido, não há contradições internas entre as duas narrações apresentadas."
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 apresenta duas descrições de eventos distintos e não relacionados, sugerindo que o texto fornecido não é uma sequência lógica de ações ou eventos de um único turno, mas sim duas descrições separadas. Não há contradições factuais entre as duas descrições em si, mas a estrutura sugere uma falha na coerência da narrativa se forem pretendidas como turnos consecutivos de uma mesma cena."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve um inimigo específico ('O Enraivecido Felino') espreitando, enquanto o Turno 2 introduz um inimigo diferente ('o Esqueleto') como uma presença espectral. Embora não seja uma contradição direta de estado (como um inimigo derrotado), a transição abrupta e a mudança de foco de um movimento furtivo para uma aparição espectral sem contexto de transição narrativa ou combate pode indicar inconsistência na continuidade da cena."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 introduz uma presença espectral ('o Esqueleto'), mas o Turno 2 introduz um personagem ativo ('O Assassino (T1)') sem estabelecer a relação entre eles ou a continuidade da cena. Não há contradição direta de morte/ressurreição, mas há uma quebra de fluxo narrativo e de contexto imediato, sugerindo que o primeiro evento não foi resolvido antes do segundo."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve ações de dois personagens distintos (O Assassino e O Elemental de Fogo) sem estabelecer qual deles está agindo ou se eles estão interagindo, o que cria uma ambiguidade narrativa. Embora não haja contradições factuais diretas (como um personagem morto), a falta de contexto sobre a cena e a relação entre as descrições torna a consistência narrativa questionável."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A transição entre os turnos é abrupta e não estabelece uma relação causal ou temporal clara. O primeiro turno descreve o Elemental de Fogo avançando, e o segundo turno introduz a aparição do Sombrio Felino, mas não há contexto sobre o que aconteceu com o Elemental de Fogo ou a localização exata, gerando uma quebra de consistência narrativa."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "1-1",
+            "consistente": false,
+            "problemas": [
+              "A descrição da aparição do Sombrio Felino varia significativamente entre os dois turnos. O primeiro turno o descreve como 'emergiendo da penumbra', enquanto o segundo o descreve como 'espreitando da escuridão absoluta' com olhos brilhando com 'luz faminta'. Embora a ação principal (o inimigo aparece) seja a mesma, a qualidade e o detalhe da aparição são inconsistentes."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "1-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 1 descreve uma presença imensa (Sombrio Felino) espreitando, mas o Turno 2 sugere uma ação física imediata do personagem ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação e do som/sensação no Turno 2 é drasticamente diferente entre as duas versões (ex: 'corte preciso' vs. 'ruído úmido e violento, a carne cedendo') e a forma como o golpe é descrito, indicando inconsistência na execução ou na intenção do movimento."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 descreve um corte físico ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 contém duas descrições de ação distintas e não conectadas que parecem pertencer a momentos diferentes ou a ações conflitantes (um ataque com lâmina/fogo e um movimento de corrida/preparação de saque). Não há contradição direta de estado (como personagem morto), mas a narrativa é fragmentada e carece de fluxo lógico entre as duas frases, sugerindo que o contexto imediato da ação não está claro."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A transição entre o preparo do saque de espada (metal brilhando) e o lançamento da 'lamina de raios' (energia/raios) é abrupta e carece de uma conexão lógica ou de uma descrição de transição de ação, embora não seja uma contradição factual estrita, é uma quebra de fluxo narrativo esperado em uma sequência de ações contínuas."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A transição entre a descrição da ação e o resultado é abrupta e carece de conexão lógica imediata. O Turno 2 descreve uma ação de lançamento (",
+              "), mas o próximo trecho descreve uma ação de corte (",
+              "), sugerindo que a lâmina já estava em movimento ou que a ação anterior foi imediatamente seguida por uma nova ação, sem uma pausa ou transição clara de estado."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 descreve duas ações distintas com nomes diferentes ('corte limpo' vs 'Corte obscurecido sangrento do fogo negro') e alvos diferentes (Vórtice Arcano vs Elemental de Gelo), o que sugere uma mudança abrupta de ação ou um erro de transcrição/sequência de eventos que não é contextualizada."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O nome da habilidade/ataque muda de \"fogo negro\" para \"lama negra\".",
+              "O alvo atingido muda de \"Elemental de Gelo (T1)\" para \"Elemental de Trovão (T1)\".",
+              "A descrição da sensação do golpe muda de \"fúria espectral\" para \"som úmido e pesado\"."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação no Turno 2 é abrupta e incompleta, terminando no meio da frase ('rasgand'). Não há contexto suficiente para avaliar a consistência com o Turno 1, mas a transição entre as descrições é incoerente e fragmentada."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A descrição do Turno 2 sugere uma transição abrupta e conflituosa de estados internos e externos. A primeira parte foca em uma ação física ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O texto da narração é fragmentado e não se conecta logicamente em uma sequência coerente. A transição entre a descrição da furia e a execução do ataque é abrupta, e a frase final é cortada, indicando que a ação não foi concluída ou o contexto da derrota do inimigo não está estabelecido."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A descrição do primeiro turno termina abruptamente com 'violên' e o segundo turno começa com uma descrição de ação completamente diferente ('Você executa um corte limpo...'), sugerindo uma transição abrupta ou uma falha na continuidade da ação. Não há uma conexão lógica imediata entre o fim da primeira frase e o início da segunda."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 descreve ações de combate extremamente violentas e letais ('corte na alma', 'rasgando o ar', 'onda de energia fria e violenta'), mas não há contexto anterior que estabeleça que o personagem ou o alvo estejam em uma situação onde tais ações sejam fisicamente possíveis ou coerentes com o cenário estabelecido (ex: se o personagem está ferido, ou se o inimigo está realmente 'quase derrotado' no sentido físico). A transição da descrição física ('corte limpo') para a descrição metafísica/energética ('corte na alma') é abrupta sem uma ponte narrativa clara."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O texto não fornece o contexto anterior (Turno 1), tornando impossível avaliar se o personagem está morto ou se o inimigo foi derrotado. A contradição é potencial, mas não verificável com as informações fornecidas."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": true,
+            "problemas": [
+              "nenhuma contradição factual encontrada"
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 contém duas narrações distintas e desconectadas, sugerindo que o turno não é uma sequência lógica de eventos, mas sim uma justaposição de cenas ou descrições que não se conectam diretamente. A primeira parte foca na ação do Mercenário, enquanto a segunda foca em uma mudança atmosférica e aparição de escuridão, sem estabelecer uma relação causal ou espacial clara com a primeira parte."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "O Turno 2 começa com uma narração focada na experiência sensorial do jogador ('Você sente uma mudança na atmosfera...'), mas o segundo trecho introduz uma ação específica de um personagem ('O Elemental de Gelo (T1)...') sem estabelecer claramente quem é o 'Você' ou se o jogador está ativamente participando da ação descrita no segundo trecho. A transição é abrupta e a referência ao 'Você' não é imediatamente conectada à ação do Elemental de Gelo, criando uma quebra de foco narrativo."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "Inconsistência na descrição da ação e do efeito: O primeiro turno descreve o Elemental de Gelo usando uma flecha gélida e frio cortante. O segundo turno descreve o Elemental de Trovão usando um golpe puro, raio de fogo azul-claro e eletricidade cortante. Embora ambos sejam descritivos, a transição e a natureza da ação (flecha vs. golpe) são diferentes, o que sugere que a descrição do evento é de duas ações distintas, e não de uma continuidade de uma única cena ou evento imediato, a menos que o contexto do jogo permita múltiplas ações simultâneas ou sucessivas sem contradição temporal."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-2",
+            "consistente": false,
+            "problemas": [
+              "A descrição do Turno 2 para o Elemental de Trovão descreve um raio de fogo azul-claro e eletricidade, enquanto a descrição do Turno 2 para o Elemental de Fogo descreve uma lâmina incandescente e onda de calor/fogo líquido. Embora ambos descrevam ataques elementais, a descrição do Trovão sugere uma natureza mais elétrica/fogo, enquanto o Fogo sugere calor/líquido. A inconsistência reside na descrição específica da manifestação do poder entre os dois turnos, embora não haja uma contradição direta de que um personagem esteja morto ou em uma localização impossível."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "2-3",
+            "consistente": true,
+            "problemas": [
+              "Nenhum problema factual ou de consistência foi encontrado entre os turnos."
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": true,
+            "problemas": [],
+            "score": 4.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "A transição entre a descrição da ação ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O primeiro turno descreve uma ação física de corte com uma lâmina física ('lâmina desliza', 'impacto da força aplicada'), enquanto o segundo turno descreve uma manifestação de energia/escuridão ('onda de escuridão vibrante e fria', 'fenda espectral de energia'). Embora não seja uma contradição direta de morte/ressurreição, há uma mudança abrupta no tipo de ataque/interação (físico vs. energético) sem uma transição narrativa clara que justifique a mudança de natureza da ameaça ou da ação."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O Turno 3 descreve duas ações distintas com descrições de efeitos muito diferentes (uma onda de escuridão vs. um corte com fogo negro), mas não há contexto anterior para determinar qual é a ação correta ou se elas se sobrepõem ou se sucedem de forma lógica. A transição entre as descrições é abrupta e não estabelece uma continuidade causal clara."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O Turno 3 da primeira narração termina abruptamente com 'O golpe atinge o El' e a segunda narração começa com 'Você executa o \"Corte obscurecido sangrento\"...' sem uma transição lógica ou continuidade, sugerindo que a ação foi interrompida ou o foco mudou de forma abrupta. A segunda narração parece ser uma continuação ou uma reescrita do mesmo evento, mas a primeira frase é incompleta e a transição é abrupta."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O texto fornecido é uma sequência de narrações de ação e não contém informações contextuais suficientes (como o estado atual do personagem ou do inimigo) para verificar contradições factuais entre os turnos. No entanto, se assumirmos que o contexto anterior não foi fornecido, a consistência interna dos turnos em si é verificada pela coerência da descrição da ação, o que é alta. A inconsistência reside na falta de contexto para avaliar se o personagem ou o inimigo mencionados (Sombrio Urso) estão em um estado que contradiz a ação descrita."
+            ],
+            "score": 4.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O texto fornecido é composto por duas descrições de ações consecutivas, mas não há um contexto anterior (como o estado do personagem ou o cenário) para verificar se a ação é factível ou se há contradições narrativas. No entanto, a natureza da análise solicitada (verificar contradições factuais como 'personagem morto mas ainda age') não pode ser feita apenas com os dois turnos apresentados, pois eles são descrições de eventos, não um histórico de estado do personagem."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "A transição entre a descrição da força interna e a execução do ataque é abrupta e carece de uma conexão lógica imediata. O uso de 'corte de raios sangrentos' seguido pela introdução da 'lâmina de água' sugere uma mudança de arma ou método de ataque sem uma transição clara de como a força renovada se manifesta no movimento físico."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "A transição entre a descrição da ação física (corte com lâmina de água) e a mudança interna do personagem (fúria avassaladora) é abrupta e não conectada causalmente. O texto sugere uma mudança de foco sem uma ponte narrativa clara entre os eventos."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": true,
+            "problemas": [
+              "nenhuma contradição factual encontrada"
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O Turno 3 apresenta uma transição abrupta e desconectada entre a descrição de uma ameaça sensorial/atmosférica (\"As sombras se aprofundam...\") e a ação/descrição de um ataque físico/elemental (\"O Elemental de Gelo (T1), forca da natureza, canaliza seu elemento como arma...\"). Não há contradição factual direta entre as duas frases, mas a falta de contexto sobre o estado do personagem ou do ambiente torna a consistência narrativa fraca. O primeiro trecho sugere um estado de medo/perigo iminente, enquanto o segundo descreve uma ação de combate específica, mas não há informação anterior que ligue o estado do personagem à capacidade de reagir de forma coerente com a descrição do ataque elemental."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "O texto não fornece o contexto necessário para avaliar a consistência, pois não há informações sobre os personagens, o cenário ou o estado anterior dos eventos. Não é possível verificar se um personagem morto ainda age ou se a localização é impossível com base apenas nestes dois trechos de narração."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-3",
+            "consistente": false,
+            "problemas": [
+              "As descrições da sensação inicial são diferentes: um turno foca em sombras densas e frias com uma presença imensa se aproximando, enquanto o outro foca em ar gélido e silêncio pesado. Embora ambas criem uma atmosfera de ameaça, a descrição da sensação física é distinta."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "3-4",
+            "consistente": false,
+            "problemas": [
+              "O Turno 3 descreve um momento de tensão e aparição do inimigo (\"Sombrio Felino\"), enquanto o Turno 4 descreve uma ação de combate imediata onde o personagem ataca o inimigo, sugerindo que o inimigo ainda está presente e ativo, o que é consistente. No entanto, a transição entre a descrição atmosférica do Turno 3 e a ação física do Turno 4 é abrupta, mas não há contradição factual explícita (como personagem morto agindo). A contradição reside mais na falta de contexto de transição, mas a consistência interna da narrativa é mantida."
+            ],
+            "score": 4.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O Turno 4 descreve duas ações de ataque distintas, mas a transição entre elas é abrupta e a descrição da ação subsequente não se conecta logicamente com a anterior, sugerindo que o personagem está executando múltiplos ataques ou que a descrição é fragmentada. Não há contradição factual explícita (como um personagem morto agindo), mas há uma falta de coerência narrativa na sequência de eventos descritos."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O texto parece ser uma concatenação de duas descrições de ação distintas, mas sem o contexto completo do estado do jogo (o que foi atingido, o estado dos personagens, etc.), é impossível determinar se há contradições factuais. No entanto, a justaposição de descrições de ataques e resultados sem a transição lógica ou o estado anterior cria uma inconsistência narrativa."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O Turno 4 apresenta duas descrições de ataques muito diferentes e conflitantes: uma descreve um 'corte limpo' com uma lâmina, enquanto a outra descreve um 'corte de raio negro' ou energia sombria. Isso cria uma inconsistência na natureza da habilidade ou ataque executado."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O texto apresenta uma transição abrupta e uma mudança de foco de ação/sensação sem uma conexão lógica clara entre as duas frases. A primeira descreve um ataque físico ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O texto fornecido é composto por dois trechos separados, não turnos consecutivos de um mesmo fluxo narrativo. Portanto, não é possível avaliar a consistência entre eles como uma sequência de eventos. No entanto, se considerarmos que são dois momentos distintos, eles não apresentam contradições factuais internas entre si, mas dependem do contexto anterior para serem avaliados."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O Turno 4 contém duas narrações distintas e conflitantes sobre o evento: um menciona 'Sombrio Felino' e o outro menciona 'Feroz Lobo'. Isso cria uma contradição sobre qual inimigo está presente ou quem está agindo."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O nome do inimigo muda de 'Feroz Lobo' para 'Sombrio Urso' no mesmo contexto, sugerindo uma inconsistência na identificação do antagonista ou um erro de digitação/narração."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-4",
+            "consistente": false,
+            "problemas": [
+              "O inimigo que aparece no Turno 4 (Sombrio Urso) é diferente do inimigo que aparece no mesmo turno (Enraivecido Felino). Isso sugere uma confusão ou uma mudança abrupta de ameaça sem transição lógica."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "4-5",
+            "consistente": false,
+            "problemas": [
+              "O Turno 4 descreve o Enraivecido Felino olhando fixamente para o personagem, sugerindo que ele é uma ameaça iminente, mas o Turno 5 mostra o personagem executando um ataque poderoso ('corte relâmpago') que rasga o ar entre eles. Não há contradição direta de morte/ressurreição, mas a transição de uma ameaça iminente para um ataque ativo sem uma reação clara do inimigo pode ser inconsistente se o inimigo não for imediatamente neutralizado ou reagir."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "A descrição da ação no Turno 5 é incoerente. O primeiro trecho descreve um 'corte relâmpago' com luz, enquanto o segundo descreve uma 'lâmina de fogo negro' com escuridão incandescente. Embora ambos descrevam ataques, a transição e a natureza exata da habilidade utilizada não são consistentes entre as duas narrações, sugerindo uma mudança abrupta ou uma confusão na descrição da mesma ação."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": true,
+            "problemas": [
+              "nenhuma contradição factual encontrada"
+            ],
+            "score": 5.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": true,
+            "problemas": [],
+            "score": 5.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "O Turno 5 apresenta duas descrições de ação muito diferentes e conflitantes para o mesmo evento (o corte), sugerindo uma falta de coerência na descrição da ação ou na transição entre os eventos."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "O Turno 5 contém duas descrições de eventos distintas e não relacionadas, sugerindo uma possível confusão ou falta de coerência na sequência narrativa. O primeiro foca em um ataque mágico ('corte de raio negro sangrento'), enquanto o segundo foca na aparição de um inimigo ('Feroz Lobo'). Não há contradição factual direta (como um personagem morto agindo), mas há uma quebra de fluxo narrativo que pode indicar inconsistência no contexto geral da história."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "5-5",
+            "consistente": false,
+            "problemas": [
+              "O Turno 5 apresenta duas descrições de eventos muito semelhantes, mas com detalhes diferentes. A primeira foca em 'Feroz Lobo' com olhos brilhando com 'fome pura', enquanto a segunda introduz 'O Sombri' e descreve a sensação ambiental (cheiro de terra molhada e selvageria). Embora não haja uma contradição direta de que o personagem esteja morto ou um inimigo derrotado, a repetição de eventos com descrições distintas sugere uma inconsistência na continuidade da narrativa ou na intenção do autor sobre o que exatamente está acontecendo."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "5-6",
+            "consistente": false,
+            "problemas": [
+              "O Turno 5 introduz uma entidade (",
+              "O Sombri",
+              "implícita ou presente) que se materializa, mas o Turno 6 descreve uma ação do personagem ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": false,
+            "problemas": [
+              "O segundo trecho descreve uma sensação interna e física (fúria, corpo se fortalecendo, energia acumulando) que não é diretamente conectada ou causada pela ação descrita no primeiro trecho (executar a lâmina de fogo negro). Há uma transição abrupta de uma ação externa/mágica para um estado interno/emocional sem uma ponte lógica clara."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": false,
+            "problemas": [
+              "A transição entre as descrições é abrupta e falta contexto sobre o estado do personagem ou do ambiente, embora não haja uma contradição factual direta (como um personagem morto agindo), a falta de conexão narrativa torna a sequência de eventos incoerente."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": false,
+            "problemas": [
+              "O primeiro turno descreve uma ação de ataque/habilidade ("
+            ],
+            "score": null
+          },
+          {
+            "turno_par": "6-6",
+            "consistente": false,
+            "problemas": [
+              "A descrição do inimigo muda de 'Feroz Lobo' para 'Sombrio Urso' no mesmo turno, o que sugere uma inconsistência na identificação ou na narrativa da aparição."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "6-7",
+            "consistente": false,
+            "problemas": [
+              "O Turno 6 termina com a descrição do Sombrio Urso surgindo, mas o Turno 7 imediatamente descreve uma ação de ataque contra 'Feroz Lobo', sem estabelecer se o Sombrio Urso é o alvo ou se a cena continua com ele presente. A transição é abrupta e a identidade do alvo do ataque no Turno 7 não é conectada ao evento do Turno 6."
+            ],
+            "score": 2.0
+          },
+          {
+            "turno_par": "7-7",
+            "consistente": false,
+            "problemas": [
+              "O Turno 7 descreve duas ações distintas e conflitantes que parecem ser de fontes diferentes (uma ação física/mágica e uma reação emocional/física), mas não há contradição direta de que o personagem esteja morto ou que o inimigo tenha sido derrotado. A contradição reside na falta de contexto que torna a transição entre as descrições abrupta, sugerindo que a narrativa pode estar pulando etapas ou misturando eventos sem estabelecer a causalidade necessária."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "7-7",
+            "consistente": false,
+            "problemas": [
+              "O Turno 7 descreve uma transformação física e emocional intensa ('furor avassalador', 'corpo se fortalece instantaneamente') que é imediatamente seguida pela execução de uma ação específica ('corte de raio negro sangrento decepador'). Embora não haja uma contradição direta de estado (o personagem não está morto), a transição entre a descrição interna de poder e a ação externa é abrupta e carece de uma ponte narrativa que justifique a capacidade de realizar tal ataque com a descrição anterior, sugerindo um salto de poder não justificado."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "7-8",
+            "consistente": false,
+            "problemas": [
+              "O nome do alvo muda de 'Sombrio Felino' no Turno 7 para 'Feroz Lobo' no Turno 8, o que sugere uma inconsistência na identificação do alvo ou no contexto da ação, embora a ação em si seja descrita de forma diferente."
+            ],
+            "score": 3.0
+          },
+          {
+            "turno_par": "8-8",
+            "consistente": false,
+            "problemas": [
+              "A descrição do ataque no Turno 8 é inconsistente. O primeiro turno descreve um ataque genérico ('lâmina violenta de raio negro') que atinge Feroz Lobo, enquanto o segundo turno descreve um ataque específico ('corte de raio negro sangrento decepador') com uma descrição visual mais detalhada (lâmina espectral). Embora ambos descrevam ataques de "
+            ],
+            "score": 3.0
+          }
+        ],
+        "questionario": [
+          {
+            "pergunta_id": "p1",
+            "resposta_jogador": "morder e rasgar o mapa e os livros",
+            "comentario_gm": "Você morde e rasga o mapa e os livros em um ato de frustração imediata.",
+            "score_gm": 0.7,
+            "precisao_avaliacao": 2.0,
+            "qualidade_feedback": 3.0,
+            "consistencia_criterio": 4.0,
+            "media_judge": 3.0,
+            "justificativa": "A precisão da avaliação (0.7/1.0) é razoável, pois a ação do jogador é um pouco literal, mas o feedback é útil ao descrever a motivação ('ato de frustração imediata'). A consistência é alta, pois o feedback se baseia diretamente na ação descrita, embora a avaliação de criatividade seja subjetiva. O feedback é bom, mas a avaliação de criatividade poderia ser mais detalhada sobre o potencial narrativo da ação."
+          },
+          {
+            "pergunta_id": "p2",
+            "resposta_jogador": "mordo a arvore e salvo a criança",
+            "comentario_gm": "O jogador tenta resolver o problema de forma extremamente improvável, mordendo a",
+            "score_gm": 0.5,
+            "precisao_avaliacao": 2.0,
+            "qualidade_feedback": 3.0,
+            "consistencia_criterio": 4.0,
+            "media_judge": 3.0,
+            "justificativa": "A avaliação de 0.5/1.0 é um pouco baixa, mas razoável, pois a ação é absurda (morder a árvore), o que denota criatividade, mas não é uma solução lógica. O feedback é útil e específico ao apontar a improvável natureza da ação. A consistência é alta, pois a avaliação se baseia diretamente na natureza criativa da ação proposta pelo jogador."
+          },
+          {
+            "pergunta_id": "p3",
+            "resposta_jogador": "coragem , para desafiar seus inimigos",
+            "comentario_gm": "Você escolheu a coragem como o valor supremo, justificando sua resposta pela nec",
+            "score_gm": 0.85,
+            "precisao_avaliacao": 3.0,
+            "qualidade_feedback": 4.0,
+            "consistencia_criterio": 4.0,
+            "media_judge": 3.67,
+            "justificativa": "O GM LLM forneceu um feedback útil e coerente. A avaliação de 0.85/1.0 sugere que a resposta do jogador foi razoavelmente criativa, e o comentário do GM LLM ('Você escolheu a coragem como o valor supremo, justificando sua resposta pela necessidade de desafiar seus inimigos') é específico e se baseia diretamente na escolha e na justificativa do jogador. Os critérios de criatividade narrativa são aplicados de forma razoável ao contexto de uma escolha filosófica em um cenário de RPG."
+          },
+          {
+            "pergunta_id": "p4",
+            "resposta_jogador": "protejo meus amigos , desafiando e vencendo meus inimigos",
+            "comentario_gm": "Você assume uma postura de desafio imediato, buscando não apenas a sobrevivência",
+            "score_gm": 0.9,
+            "precisao_avaliacao": 3.0,
+            "qualidade_feedback": 4.0,
+            "consistencia_criterio": 4.0,
+            "media_judge": 3.67,
+            "justificativa": "A precisão da avaliação (0.9/1.0) é razoável, pois o jogador escolheu uma ação proativa ('desafiando e vencendo'), que se encaixa bem na categoria de criatividade. O feedback é excelente, pois é específico ('postura de desafio imediato, buscando não apenas a sobrevivência, mas a vitória'), validando a escolha do jogador e a intenção por trás dela. A consistência é alta, pois o critério de criatividade foi aplicado de forma coerente à resposta narrativa, reconhecendo a intenção estratégica do jogador."
+          },
+          {
+            "pergunta_id": "p5",
+            "resposta_jogador": "cuido dele e ensino o valor do perdão",
+            "comentario_gm": "Você escolhe uma abordagem profundamente moral e empática para lidar com o inimi",
+            "score_gm": 0.9,
+            "precisao_avaliacao": 4.0,
+            "qualidade_feedback": 4.0,
+            "consistencia_criterio": 5.0,
+            "media_judge": 4.33,
+            "justificativa": "O GM LLM avaliou bem a resposta. A escolha do jogador ('cuidar dele e ensinar o valor do perdão') é uma ação moralmente complexa, e o feedback ('abordagem profundamente moral e empática') é coerente e útil. O score de criatividade (0.9/1.0) reflete bem a qualidade da escolha narrativa, e o feedback é específico e relevante para a decisão tomada pelo jogador."
+          }
+        ]
+      }
+    }
+  ]
+}

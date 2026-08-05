@@ -1,0 +1,5892 @@
+{
+  "eventos": [
+    {
+      "turno": 1,
+      "tipo": "narrativa",
+      "descricao": "A aventura começa na Vila de Pedra Branca."
+    },
+    {
+      "turno": 2,
+      "tipo": "combate",
+      "descricao": "Enfrentou um Lobo da Floresta e venceu."
+    },
+    {
+      "turno": 3,
+      "tipo": "item",
+      "descricao": "Encontrou uma Espada Longa no covil do lobo."
+    },
+    {
+      "turno": 4,
+      "tipo": "npc",
+      "descricao": "Conversou com Breno, o ferreiro. Ele mencionou o Curupira."
+    },
+    {
+      "turno": 5,
+      "tipo": "combate",
+      "descricao": "Derrotou uma Cutia com golpe de corte."
+    },
+    {
+      "turno": 6,
+      "tipo": "narrativa",
+      "descricao": "Entrou na Floresta das Sombras."
+    },
+    {
+      "turno": 7,
+      "tipo": "combate",
+      "descricao": "Confronto com Capivara — usou bola de fogo."
+    },
+    {
+      "turno": 8,
+      "tipo": "npc",
+      "descricao": "Encontrou Mira, a arqueira. Amizade: 45."
+    },
+    {
+      "turno": 9,
+      "tipo": "combate",
+      "descricao": "Derrotou Goblin Batedeiro com raio elétrico."
+    },
+    {
+      "turno": 10,
+      "tipo": "movimento",
+      "descricao": "Moveu-se para as Ruínas do Templo."
+    },
+    {
+      "turno": 11,
+      "tipo": "combate",
+      "descricao": "Enfrentou Jacaré do Pantanal. Quase morreu."
+    },
+    {
+      "turno": 12,
+      "tipo": "item",
+      "descricao": "Obteve Faca Enferrujada do Goblin."
+    },
+    {
+      "turno": 13,
+      "tipo": "narrativa",
+      "descricao": "Descobriu altar antigo com inscrições."
+    },
+    {
+      "turno": 14,
+      "tipo": "combate",
+      "descricao": "Venceu Cobra Venenosa com veneno dela mesma."
+    },
+    {
+      "turno": 15,
+      "tipo": "narrativa",
+      "descricao": "Chegou à beira do Pântano."
+    },
+    {
+      "id": 16,
+      "turno": 15,
+      "timestamp": "2026-04-23T10:57:30.782736",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 17,
+      "turno": 15,
+      "timestamp": "2026-04-23T10:57:46.399368",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 18,
+      "turno": 15,
+      "timestamp": "2026-04-23T10:58:00.550861",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 19,
+      "turno": 15,
+      "timestamp": "2026-04-23T10:58:30.085526",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Planalto dos Pequizeiros (0,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 20,
+      "turno": 16,
+      "timestamp": "2026-04-23T10:59:03.201283",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 21,
+      "turno": 16,
+      "timestamp": "2026-04-23T10:59:12.893687",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Savana do Lobo-Guará (0,-3,-1)",
+      "dados": {}
+    },
+    {
+      "id": 22,
+      "turno": 16,
+      "timestamp": "2026-04-23T10:59:26.980639",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 23,
+      "turno": 16,
+      "timestamp": "2026-04-23T10:59:42.649706",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Planalto dos Pequizeiros (0,-3,1)",
+      "dados": {}
+    },
+    {
+      "id": 24,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:01:11.130826",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Urso' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Urso",
+        "nivel": 1,
+        "turno": 20,
+        "loot": []
+      }
+    },
+    {
+      "id": 25,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:01:11.131835",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Urso': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Urso",
+        "resultado": "vitoria",
+        "turnos": 5,
+        "dano_causado": 75.87,
+        "dano_recebido": 8.8,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 26,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:01:11.141834",
+      "tipo": "combate",
+      "descricao": "Max test mundo procedural 5 vs Enraivecido Urso em (0,-3,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 27,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:01:11.142834",
+      "tipo": "movimento",
+      "descricao": "Max test mundo procedural 5 → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 28,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:01:53.646586",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 29,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:46.463540",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 30,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:47.911474",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 31,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:49.034130",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 32,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:49.439717",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 33,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:49.786904",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 34,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:50.158492",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 35,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:50.534474",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 36,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:50.916357",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 37,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:51.150389",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 38,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:51.349492",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 39,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:51.549486",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 40,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:51.754301",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 41,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:51.960511",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 42,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:52.158895",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 43,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:52.353514",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 44,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:52.564757",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 45,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:52.769406",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 46,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:52.975125",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 47,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:53.174487",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 48,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:53.391481",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 49,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:53.607125",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 50,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:03:53.841125",
+      "tipo": "descanso",
+      "descricao": "Max test mundo procedural 5 descansou em (0,-3,0).",
+      "dados": {}
+    },
+    {
+      "id": 51,
+      "turno": 20,
+      "timestamp": "2026-04-23T11:08:26.211525",
+      "tipo": "narrativa",
+      "descricao": "Personagem se deslocou de 'deserto' para 'Deserto de Ossos'.",
+      "dados": {
+        "de": "deserto",
+        "para": "Deserto de Ossos"
+      }
+    },
+    {
+      "id": 52,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:08:45.131503",
+      "tipo": "combate",
+      "descricao": "Combate com 'Giboia': fuga.",
+      "dados": {
+        "inimigo": "Giboia",
+        "resultado": "fuga",
+        "turnos": 2,
+        "dano_causado": 7.41,
+        "dano_recebido": 11.8,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 53,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:09:36.207095",
+      "tipo": "descanso",
+      "descricao": "Max test mundo provedural 7 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 54,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:13:46.709721",
+      "tipo": "descanso",
+      "descricao": "Max test mundo provedural 7 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 55,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:14:33.517480",
+      "tipo": "descanso",
+      "descricao": "Max test mundo provedural 8 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 56,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:17:13.750597",
+      "tipo": "descanso",
+      "descricao": "Max test mundo provedural 8 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 57,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:18:04.016117",
+      "tipo": "descanso",
+      "descricao": "Max test mapa procedural 9 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 58,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:19:48.352761",
+      "tipo": "descanso",
+      "descricao": "Max test mapa procedural 10 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 59,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:19:56.185474",
+      "tipo": "movimento",
+      "descricao": "Max test mapa procedural 10 → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 60,
+      "turno": 22,
+      "timestamp": "2026-04-23T11:19:57.649114",
+      "tipo": "movimento",
+      "descricao": "Max test mapa procedural 10 → Planalto dos Pequizeiros (0,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 61,
+      "turno": 24,
+      "timestamp": "2026-04-23T11:21:00.778461",
+      "tipo": "diplomacia",
+      "descricao": "Enraivecido Lobo fugiu após gesto de carinho",
+      "dados": {}
+    },
+    {
+      "id": 62,
+      "turno": 24,
+      "timestamp": "2026-04-23T11:21:00.788458",
+      "tipo": "combate",
+      "descricao": "Max test mapa procedural 10 vs Enraivecido Lobo em (0,-1,0): fuga_inimigo",
+      "dados": {}
+    },
+    {
+      "id": 63,
+      "turno": 24,
+      "timestamp": "2026-04-23T11:21:00.790460",
+      "tipo": "movimento",
+      "descricao": "Max test mapa procedural 10 → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 64,
+      "turno": 24,
+      "timestamp": "2026-04-23T11:21:15.069108",
+      "tipo": "movimento",
+      "descricao": "Max test mapa procedural 10 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 65,
+      "turno": 24,
+      "timestamp": "2026-04-23T11:21:26.608998",
+      "tipo": "descanso",
+      "descricao": "Max test mapa procedural 10 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 66,
+      "turno": 27,
+      "timestamp": "2026-04-23T14:39:55.694316",
+      "tipo": "narrativa",
+      "descricao": "Personagem se deslocou de 'floresta' para 'Floresta Sombria'.",
+      "dados": {
+        "de": "floresta",
+        "para": "Floresta Sombria"
+      }
+    },
+    {
+      "id": 67,
+      "turno": 31,
+      "timestamp": "2026-04-23T14:46:06.094095",
+      "tipo": "descanso",
+      "descricao": "Max tex npc 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 68,
+      "turno": 31,
+      "timestamp": "2026-04-23T14:46:50.835968",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "ola",
+        "resposta": "\"Ah, você é um aventureiro! Vem cá, senta-se ao lado da fogueira, ainda está frio lá fora. O que traz aqui hoje?\""
+      }
+    },
+    {
+      "id": 69,
+      "turno": 31,
+      "timestamp": "2026-04-23T14:46:50.843471",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: ola",
+      "dados": {}
+    },
+    {
+      "id": 70,
+      "turno": 32,
+      "timestamp": "2026-04-23T14:47:38.695521",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 71,
+      "turno": 32,
+      "timestamp": "2026-04-23T14:47:44.829250",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Planalto dos Pequizeiros (0,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 72,
+      "turno": 32,
+      "timestamp": "2026-04-23T14:47:50.014838",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 73,
+      "turno": 32,
+      "timestamp": "2026-04-23T14:48:04.725705",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Chapada dos Buritis (0,-4,0)",
+      "dados": {}
+    },
+    {
+      "id": 74,
+      "turno": 32,
+      "timestamp": "2026-04-23T14:48:18.734028",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 75,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:50:07.816554",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Felino' derrotado.",
+      "dados": {
+        "nome": "Sombrio Felino",
+        "nivel": 2,
+        "turno": 38,
+        "loot": []
+      }
+    },
+    {
+      "id": 76,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:50:07.817560",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Felino': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Felino",
+        "resultado": "vitoria",
+        "turnos": 7,
+        "dano_causado": 100.73,
+        "dano_recebido": 21.4,
+        "acoes_destaque": [
+          "bola de fogo explosiva gigante"
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:50:07.828561",
+      "tipo": "combate",
+      "descricao": "Max tex npc 2 vs Sombrio Felino em (0,-2,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 78,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:50:07.831561",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Planalto dos Pequizeiros (0,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 79,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:51:02.036005",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,-2,0): A bola de raio explosiva gigante atinge a base de uma grande árvore, despedaçando-a e criando um buraco negro que suga todo o lixo e detritos do chão, transformando o cerrado em um campo de crateras inósp",
+      "dados": {}
+    },
+    {
+      "id": 80,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:51:19.449489",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 81,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:51:28.213471",
+      "tipo": "movimento",
+      "descricao": "Max tex npc 2 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 82,
+      "turno": 38,
+      "timestamp": "2026-04-23T14:52:17.834261",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,0,0): A chuva intensa de Max começa a apagar as chamas, mas também enche os rios e riachos da floresta, aumentando o nível d'água e criando áreas inóspitas e lamacentas para você percorrer.",
+      "dados": {}
+    },
+    {
+      "id": 83,
+      "turno": 40,
+      "timestamp": "2026-04-23T14:53:23.062993",
+      "tipo": "descanso",
+      "descricao": "Max tex npc 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 84,
+      "turno": 40,
+      "timestamp": "2026-04-23T14:53:32.773947",
+      "tipo": "descanso",
+      "descricao": "Max tex npc 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 85,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:54:37.693468",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "ola",
+        "resposta": "\"Ah, você é um aventureiro! Vem cá, senta-se ao lado da fogueira, ainda está frio lá fora. O que traz aqui hoje? Não parece ter vindo apenas para conversar, não é?\""
+      }
+    },
+    {
+      "id": 86,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:54:37.701088",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: ola",
+      "dados": {}
+    },
+    {
+      "id": 87,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:55:05.632754",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "voce viu aquela queimada?",
+        "resposta": "\"Ah, você quer saber sobre a queimada? Sim, eu vi. Foi obra de um raio que caiu lá perto há algumas horas. Estou tentando coletar ervas para criar uma salvação para proteger as plantas mais sensíveis."
+      }
+    },
+    {
+      "id": 88,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:55:05.641755",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: voce viu aquela queimada?",
+      "dados": {}
+    },
+    {
+      "id": 89,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:55:41.022500",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "você viu aquela chuva?",
+        "resposta": "\"Ah, a chuva? Sim, eu vi! Estava aqui mesmo quando começou a cair forte. Mas você não é um aventureiro qualquer que vem pedir notícias da região, eu posso ver isso em você... O que você precisa saber "
+      }
+    },
+    {
+      "id": 90,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:55:41.035816",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: você viu aquela chuva?",
+      "dados": {}
+    },
+    {
+      "id": 91,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:56:17.800712",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "você tem algum item com vc?",
+        "resposta": "\"Ah, itens? Ah, sim! Tenho aqui na minha bolsa uma variedade de ervas medicinais e alguns objetos que possam ser úteis para um aventureiro como você. Quer ver?\""
+      }
+    },
+    {
+      "id": 92,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:56:17.816715",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: você tem algum item com vc?",
+      "dados": {}
+    },
+    {
+      "id": 93,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:56:37.195732",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "quero ver sim",
+        "resposta": "\"Ah, está bem! Vou mostrar o que tenho aqui... *abre a bolsa e começa a pegar algumas ervas secas* Tenho teia de aranha para curar feridas, casca de árvore para proteção contra feitiçaria, e uma poção"
+      }
+    },
+    {
+      "id": 94,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:56:37.203733",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: quero ver sim",
+      "dados": {}
+    },
+    {
+      "id": 95,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:57:18.280984",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "me de essa poção de cura",
+        "resposta": "\"Ah, a poção de cura? Ela não é para qualquer um, você sabe... Mas estou vendo que você está desesperado e precisa, então vou lhe dar uma mãozinha. *puxa o pó de cura rápido* Aqui, use com cuidado. Nã"
+      }
+    },
+    {
+      "id": 96,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:57:18.290990",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: me de essa poção de cura",
+      "dados": {}
+    },
+    {
+      "id": 97,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:59:46.497403",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "tem mais algum item?",
+        "resposta": "\"Ah, sim! Tenho mais um ou dois itens que podem ser úteis para você. Um é essa espada longa que está pendurada na árvore atrás de mim... *olha para a espada* E acho que também tenho uma poção de prote"
+      }
+    },
+    {
+      "id": 98,
+      "turno": 41,
+      "timestamp": "2026-04-23T14:59:46.507404",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: tem mais algum item?",
+      "dados": {}
+    },
+    {
+      "id": 99,
+      "turno": 42,
+      "timestamp": "2026-04-23T15:00:34.293852",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "me de todos os itens",
+        "resposta": "Não posso simplesmente entregar meus itens a você assim que quiser! Eu sei que você precisa deles, mas também preciso saber quem é e o que você planeja fazer com eles. Sei que você ajudou aqueles pobr"
+      }
+    },
+    {
+      "id": 100,
+      "turno": 42,
+      "timestamp": "2026-04-23T15:00:34.300853",
+      "tipo": "dialogo",
+      "descricao": "Max tex npc 2 falou com Yara: me de todos os itens",
+      "dados": {}
+    },
+    {
+      "id": 101,
+      "turno": 46,
+      "timestamp": "2026-04-26T00:06:10.431522",
+      "tipo": "movimento",
+      "descricao": "Silent → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 102,
+      "turno": 46,
+      "timestamp": "2026-04-26T00:06:22.136523",
+      "tipo": "movimento",
+      "descricao": "Silent → Campo dos Ipês Amarelos (1,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 103,
+      "turno": 46,
+      "timestamp": "2026-04-26T00:06:32.490024",
+      "tipo": "movimento",
+      "descricao": "Silent → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 104,
+      "turno": 48,
+      "timestamp": "2026-04-26T00:09:52.351057",
+      "tipo": "item_obtido",
+      "descricao": "Item 'arco_simples' obtido via loot:Sombrio Lobo.",
+      "dados": {}
+    },
+    {
+      "id": 105,
+      "turno": 48,
+      "timestamp": "2026-04-26T00:09:52.353056",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Lobo' derrotado.",
+      "dados": {
+        "nome": "Sombrio Lobo",
+        "nivel": 1,
+        "turno": 48,
+        "loot": [
+          "arco_simples"
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "turno": 48,
+      "timestamp": "2026-04-26T00:09:52.354058",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Lobo': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Lobo",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 76.3,
+        "dano_recebido": 5.5,
+        "acoes_destaque": [
+          "bola de fogo, para transformar ele em comida"
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "turno": 48,
+      "timestamp": "2026-04-26T00:09:52.366059",
+      "tipo": "combate",
+      "descricao": "Silent vs Sombrio Lobo em (0,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 108,
+      "turno": 48,
+      "timestamp": "2026-04-26T00:09:52.368059",
+      "tipo": "movimento",
+      "descricao": "Silent → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 109,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:14:26.026116",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "ola",
+        "resposta": "\"Ah, olá! Você não parece familiar... O que traz você até aqui?\""
+      }
+    },
+    {
+      "id": 110,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:14:26.036116",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: ola",
+      "dados": {}
+    },
+    {
+      "id": 111,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:14:57.901858",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "estou explorando em busca de aventuras",
+        "resposta": "Ah, uma busca por aventuras! É sempre um prazer encontrar alguém que compartilha minha paixão pela exploração. Eu mesma estou aqui há algum tempo, estudando as plantas e ervas da região... E você está"
+      }
+    },
+    {
+      "id": 112,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:14:57.912868",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: estou explorando em busca de aventuras",
+      "dados": {}
+    },
+    {
+      "id": 113,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:15:32.069190",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "buscando aventura riquezas e glória",
+        "resposta": "\"Ah, a busca por riquezas e glória! É uma jornada nobre, mesmo que perigosa. Eu mesma tenho meus objetivos secretos aqui na floresta... Mas, se você está procurando por algo mais do que apenas um teso"
+      }
+    },
+    {
+      "id": 114,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:15:32.084189",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: buscando aventura riquezas e glória",
+      "dados": {}
+    },
+    {
+      "id": 115,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:16:07.678157",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "quais dicas vc tem para mim?",
+        "resposta": "\"Ah, bem, estou pensando que você deva estar procurando por coisas mais do que apenas ouro e glória... Você parece um tipo aventureiro corajoso, então vou te dizer uma coisa: se você quiser encontrar "
+      }
+    },
+    {
+      "id": 116,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:16:07.689157",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: quais dicas vc tem para mim?",
+      "dados": {}
+    },
+    {
+      "id": 117,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:17:18.766264",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "Me mostre e explique sobre tais ervas",
+        "resposta": "\"Ah, excelente escolha! Vou te mostrar uma das minhas ervas favoritas - a 'erva do ouvido'. Ela ajuda a aguçar os sentidos e a entender as linguagens naturais da floresta. E também tenho aqui a 'erva "
+      }
+    },
+    {
+      "id": 118,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:17:18.776265",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: Me mostre e explique sobre tais ervas",
+      "dados": {}
+    },
+    {
+      "id": 119,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:17:49.345607",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "voce pode me dar elas?",
+        "resposta": "\"Ah, não é tão simples assim! Eu posso te ensinar sobre elas, mas não vou dar você as ervas sem saber melhor o que você pretende fazer com elas. Você precisa me dizer por que quer essas plantas e se e"
+      }
+    },
+    {
+      "id": 120,
+      "turno": 50,
+      "timestamp": "2026-04-26T00:17:49.356621",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: voce pode me dar elas?",
+      "dados": {}
+    },
+    {
+      "id": 121,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:18:41.686428",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Yara.",
+      "dados": {
+        "pergunta": "estou pronto para apreder os segredos da floresta",
+        "resposta": "\"Ah, então você está pronto para aprender! Isso é bom, pois não quero que você apenas pegue as ervas sem saber como usá-las. Vou ensinar a você sobre o ouvido e a visão ampliada, mas primeiro vamos co"
+      }
+    },
+    {
+      "id": 122,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:18:41.699428",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Yara: estou pronto para apreder os segredos da floresta",
+      "dados": {}
+    },
+    {
+      "id": 123,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:19:15.023957",
+      "tipo": "descanso",
+      "descricao": "Silent descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 124,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:19:40.410654",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "ola camarada",
+        "resposta": "E aí, camaradinha! Prazer em conhecê-lo! Estou aqui há uns dias, negociando com os caçadores locais... e você? O que traz de tão longe até estas nossas belas montanhas?"
+      }
+    },
+    {
+      "id": 125,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:19:40.419664",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: ola camarada",
+      "dados": {}
+    },
+    {
+      "id": 126,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:20:36.047444",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "ta doidão aqui não tem montanha, só florestas",
+        "resposta": "Ahah, ahahaha! Não é doidão, camaradinha, é apenas uma questão de perspectiva! Estas montanhas estão cobertas por florestas densas, mas não significa que não tenhamos os seus pontos altos e escondidos"
+      }
+    },
+    {
+      "id": 127,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:20:36.058461",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: ta doidão aqui não tem montanha, só florestas",
+      "dados": {}
+    },
+    {
+      "id": 128,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:21:22.646883",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "voce pode me falar um pouco mais sobre as maravilhas escondidas?",
+        "resposta": "Ahah, claro que posso, camaradinha! Aqui perto há rumores de uma caverna secreta cheia de tesouros antigos e joias reluzentes. E eu tenho uma rota comercial para um vilarejo escondido na montanha, ond"
+      }
+    },
+    {
+      "id": 129,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:21:22.659899",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: voce pode me falar um pouco mais sobre as maravilhas escondidas?",
+      "dados": {}
+    },
+    {
+      "id": 130,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:21:55.622599",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "pode me dizer a direção da caverna?",
+        "resposta": "Ahah, claro que posso te dizer a direção da caverna! Ela está na direção leste, cerca de uns bons dias de caminhada pela floresta densa. Mas atenção, camaradinha, é uma rota perigosa e você precisará "
+      }
+    },
+    {
+      "id": 131,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:21:55.638601",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: pode me dizer a direção da caverna?",
+      "dados": {}
+    },
+    {
+      "id": 132,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:22:33.629897",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "como vou saber se cheguei na caverna?",
+        "resposta": "Ahah, bom questionamento, camaradinha! Se você chegar na caverna, vai saber porque ela é uma das maiores e mais famosas do lugar! Tem um grande portal de pedra à entrada, com símbolos antigos gravados"
+      }
+    },
+    {
+      "id": 133,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:22:33.644898",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: como vou saber se cheguei na caverna?",
+      "dados": {}
+    },
+    {
+      "id": 134,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:23:16.314167",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "esses moradores da montanha tambem estão a leste?",
+        "resposta": "Ahah, sim, camaradinha! Eles estão a leste, perto da floresta densa, onde a caverna secreta está escondida. Mas é melhor perguntar sobre os moradores da montanha mais ao sul, eles são um bando de velh"
+      }
+    },
+    {
+      "id": 135,
+      "turno": 51,
+      "timestamp": "2026-04-26T00:23:16.324167",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: esses moradores da montanha tambem estão a leste?",
+      "dados": {}
+    },
+    {
+      "id": 136,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:24:15.604804",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "esses moradores da montanha tambem estão a leste ou a sul?",
+        "resposta": "Ahah, camaradinha! Eu já disse isso para você, leste! Eles estão a leste, perto da floresta densa. Mas não me culpe se você quer mais informações, é só perguntar!"
+      }
+    },
+    {
+      "id": 137,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:24:15.613805",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: esses moradores da montanha tambem estão a leste ou a sul?",
+      "dados": {}
+    },
+    {
+      "id": 138,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:24:52.736060",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "o que mais vou encontrar, antes de chegar nessa caverna?",
+        "resposta": "Ahah, bom questionamento, camaradinha! Antes de chegar na caverna secreta, você vai encontrar a floresta densa, onde os moradores da montanha dizem que os espíritos dos ancestrais ainda habitam. E se "
+      }
+    },
+    {
+      "id": 139,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:24:52.744062",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: o que mais vou encontrar, antes de chegar nessa caverna?",
+      "dados": {}
+    },
+    {
+      "id": 140,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:25:31.703196",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "voce conhece algum tesouro bom que posso encontrar pelas arvores?",
+        "resposta": "Ahah, sim, camaradinha! Eu sei de um tesouro que pode estar escondido nas árvores da floresta densa. Dizem que há uma fonte de cristais róseos que brotam das raízes de uma árvore antiga, e quem os enc"
+      }
+    },
+    {
+      "id": 141,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:25:31.712198",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: voce conhece algum tesouro bom que posso encontrar pelas arvores?",
+      "dados": {}
+    },
+    {
+      "id": 142,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:26:57.169881",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "você pode me ajudar com algum item para minha jornada, ficarei em divida e em meu retorno voce poder",
+        "resposta": "Camaradinha! Eu tenho alguns itens que podem te ajudar na sua jornada. Eu tenho uma garrafa d'água mágica que pode te reviver quando estiveres cansado, e também um punhado de ervas que podem te proteg"
+      }
+    },
+    {
+      "id": 143,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:26:57.178893",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: você pode me ajudar com algum item para minha jornada, ficarei em divida e em me",
+      "dados": {}
+    },
+    {
+      "id": 144,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:27:33.860079",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "garrafa de agua magica",
+        "resposta": "Ahah, excelente escolha, camaradinha! Aqui vai a garrafa d'água mágica, que pode te reviver quando estiveres cansado. É um item valioso e raro, eu vou ficar feliz se você me levar algo de valor em tro"
+      }
+    },
+    {
+      "id": 145,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:27:34.134022",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: garrafa de agua magica",
+      "dados": {}
+    },
+    {
+      "id": 146,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:28:10.213887",
+      "tipo": "dialogo",
+      "descricao": "Silent conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "obrigado, vou me adiantar então",
+        "resposta": "\"Ahah, não se desespere, camaradinha! Vai ser um prazer te ter aqui perto do fogo, e quem sabe, talvez você possa me trazer uma história ou dois para contar quando voltar. Boa sorte na sua jornada!\""
+      }
+    },
+    {
+      "id": 147,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:28:10.222889",
+      "tipo": "dialogo",
+      "descricao": "Silent falou com Zé das Estradas: obrigado, vou me adiantar então",
+      "dados": {}
+    },
+    {
+      "id": 148,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:28:37.079938",
+      "tipo": "movimento",
+      "descricao": "Silent → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 149,
+      "turno": 52,
+      "timestamp": "2026-04-26T00:28:41.784156",
+      "tipo": "movimento",
+      "descricao": "Silent → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 150,
+      "turno": 53,
+      "timestamp": "2026-04-26T00:29:25.020268",
+      "tipo": "movimento",
+      "descricao": "Silent → Campo dos Ipês Amarelos (3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 151,
+      "turno": 53,
+      "timestamp": "2026-04-26T00:29:41.532848",
+      "tipo": "movimento",
+      "descricao": "Silent → Lugar Desconhecido (4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 152,
+      "turno": 54,
+      "timestamp": "2026-04-26T00:30:31.684738",
+      "tipo": "movimento",
+      "descricao": "Silent → Chapada dos Buritis (5,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 153,
+      "turno": 54,
+      "timestamp": "2026-04-26T00:30:59.883392",
+      "tipo": "movimento",
+      "descricao": "Silent → Chapada dos Buritis (6,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 154,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:34:48.526870",
+      "tipo": "item_obtido",
+      "descricao": "Item 'faca_enferrujada' obtido via loot:Feroz Aranha.",
+      "dados": {}
+    },
+    {
+      "id": 155,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:34:48.532880",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Feroz Aranha' derrotado.",
+      "dados": {
+        "nome": "Feroz Aranha",
+        "nivel": 1,
+        "turno": 59,
+        "loot": [
+          "faca_enferrujada"
+        ]
+      }
+    },
+    {
+      "id": 156,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:34:48.535880",
+      "tipo": "combate",
+      "descricao": "Combate com 'Feroz Aranha': vitoria.",
+      "dados": {
+        "inimigo": "Feroz Aranha",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 100.01,
+        "dano_recebido": 6.1,
+        "acoes_destaque": [
+          "bola de fogo para queimar ela",
+          "bola de fogo para queimar ela"
+        ]
+      }
+    },
+    {
+      "id": 157,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:34:48.550880",
+      "tipo": "combate",
+      "descricao": "Silent vs Feroz Aranha em (7,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 158,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:34:48.553879",
+      "tipo": "movimento",
+      "descricao": "Silent → Encosta das Bromeliáceas (7,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 159,
+      "turno": 59,
+      "timestamp": "2026-04-26T00:37:14.420452",
+      "tipo": "movimento",
+      "descricao": "Silent → Encosta das Bromeliáceas (8,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 160,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:46:47.695267",
+      "tipo": "diplomacia",
+      "descricao": "Sombrio Urso fugiu após gesto de carinho",
+      "dados": {}
+    },
+    {
+      "id": 161,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:46:47.707267",
+      "tipo": "combate",
+      "descricao": "Silent vs Sombrio Urso em (9,0,0): fuga_inimigo",
+      "dados": {}
+    },
+    {
+      "id": 162,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:46:47.710269",
+      "tipo": "movimento",
+      "descricao": "Silent → Encosta das Bromeliáceas (9,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 163,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:47:25.600948",
+      "tipo": "descanso",
+      "descricao": "Silent descansou em (9,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 164,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:47:31.076394",
+      "tipo": "descanso",
+      "descricao": "Silent descansou em (9,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 165,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:47:35.878104",
+      "tipo": "descanso",
+      "descricao": "Silent descansou em (9,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 166,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:47:40.732524",
+      "tipo": "descanso",
+      "descricao": "Silent descansou em (9,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 167,
+      "turno": 73,
+      "timestamp": "2026-04-26T00:47:51.444838",
+      "tipo": "movimento",
+      "descricao": "Silent → Encosta das Bromeliáceas (10,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 168,
+      "turno": 79,
+      "timestamp": "2026-04-26T00:50:52.448318",
+      "tipo": "combate",
+      "descricao": "Combate com 'Selvagem Corvo': derrota.",
+      "dados": {
+        "inimigo": "Selvagem Corvo",
+        "resultado": "derrota",
+        "turnos": 7,
+        "dano_causado": 0.0,
+        "dano_recebido": 60.3,
+        "acoes_destaque": [
+          "invocar um chicote de fogo para acertar o centro de meu inim",
+          "invocar diverços espinhos de pedras cortantes a baixo do ini"
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "turno": 79,
+      "timestamp": "2026-04-26T00:50:52.461327",
+      "tipo": "combate",
+      "descricao": "Silent vs Selvagem Corvo em (11,0,0): derrota",
+      "dados": {}
+    },
+    {
+      "id": 170,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:25:39.395379",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "ola",
+        "resposta": "Olá! Parece que você veio à procura de algo? Aqui na floresta, as ervas podem ser tão valiosas quanto ouro, mas requerem cuidado ao serem usadas. Estou curiosa para saber qual o seu propósito nesta vi"
+      }
+    },
+    {
+      "id": 171,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:25:39.409383",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: ola",
+      "dados": {}
+    },
+    {
+      "id": 172,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:27:01.755790",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "voce tem itens para me doar?",
+        "resposta": "Olá! Interessante a sua visita. Sim, eu tenho itens que podem te ser úteis nesta jornada. Mas antes, preciso saber mais sobre você e o que busca aqui na floresta norte. Estas doações não são feitas à "
+      }
+    },
+    {
+      "id": 173,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:27:01.772798",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: voce tem itens para me doar?",
+      "dados": {}
+    },
+    {
+      "id": 174,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:31:34.898740",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "busco proteger meus amigos e conhecer novos amigos",
+        "resposta": "Olá! É nobre a intenção que traz você à floresta norte. Proteger os seus amigos é uma virtude rara e valiosa. E conhecer novos aliados... isso enriquece qualquer caminho. Posso oferecer ervas que fort"
+      }
+    },
+    {
+      "id": 175,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:31:34.911739",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: busco proteger meus amigos e conhecer novos amigos",
+      "dados": {}
+    },
+    {
+      "id": 176,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:33:37.952554",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "voce tem itens para me doar?",
+        "resposta": "Olá! Sim, tenho alguns itens que podem ser úteis para você. Mas antes, preciso saber mais sobre suas habilidades e os desafios que enfrenta. Quem sabe, juntos, possamos encontrar algo ainda mais poder"
+      }
+    },
+    {
+      "id": 177,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:33:37.963556",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: voce tem itens para me doar?",
+      "dados": {}
+    },
+    {
+      "id": 178,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:33:55.901716",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "quqais itens vc tem?",
+        "resposta": "Olá! Tenho aqui algumas ervas medicinais que fortalecem o corpo e a mente, um pocito de poção de cura e... ah, quase esqueci! Uma pequena bolsa de artemísia, planta que pode ser usada para criar venen"
+      }
+    },
+    {
+      "id": 179,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:33:55.913717",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: quqais itens vc tem?",
+      "dados": {}
+    },
+    {
+      "id": 180,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:34:14.524675",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "ok, vou receber de bom grado",
+        "resposta": "Olá! É uma honra poder ajudar você e seus amigos. Vou preparar algumas ervas que fortalecerão seu corpo e mente. A poção de cura também está pronta, caso precise. E a bolsa de artemísia? Que tal exper"
+      }
+    },
+    {
+      "id": 181,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:34:14.536675",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: ok, vou receber de bom grado",
+      "dados": {}
+    },
+    {
+      "id": 182,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:34:43.375635",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "obrigado cade os itens?",
+        "resposta": "Olá! Estou aqui para ajudar e partilhar meu conhecimento. Receba o que preparei: ervas que fortalecerão seu corpo e mente, uma poção de cura pronta a ser usada quando necessário... E a bolsa de artemí"
+      }
+    },
+    {
+      "id": 183,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:34:43.385636",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: obrigado cade os itens?",
+      "dados": {}
+    },
+    {
+      "id": 184,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:09.031163",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "e os itens?",
+        "resposta": "Olá! Estas ervas e a poção foram preparadas para fortalecer você e seus companheiros. A bolsa de artemísia... ainda é um mistério. Vamos experimentar juntos como utilizá-la com sabedoria, uma tarefa q"
+      }
+    },
+    {
+      "id": 185,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:09.045164",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: e os itens?",
+      "dados": {}
+    },
+    {
+      "id": 186,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:26.626181",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "tem mais?",
+        "resposta": "Olá! Mais do que itens, aqui está o conhecimento que a floresta nos concedeu. As ervas e a poção já são presentes suficientemente poderosos para seus feitos. Mas se houver mais algo que você busque..."
+      }
+    },
+    {
+      "id": 187,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:26.639193",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: tem mais?",
+      "dados": {}
+    },
+    {
+      "id": 188,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:42.405654",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "tem mais um?",
+        "resposta": "Olá! Mais do que itens, aqui está o conhecimento que a floresta nos concedeu. As ervas e a poção já são presentes suficientemente poderosos para seus feitos. Mas se houver mais algo que você busque..."
+      }
+    },
+    {
+      "id": 189,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:35:42.418166",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: tem mais um?",
+      "dados": {}
+    },
+    {
+      "id": 190,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:04.334183",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "falta só mais um pra completar minha bolsa e partir...",
+        "resposta": "Olá! Sinto que a jornada ainda não chegou ao fim. A bolsa de artemísia é um presente misterioso, mas sinta-se à vontade para explorar seus segredos. Se houver algo mais que você busque, aqui na flores"
+      }
+    },
+    {
+      "id": 191,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:04.343185",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: falta só mais um pra completar minha bolsa e partir...",
+      "dados": {}
+    },
+    {
+      "id": 192,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:23.180693",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "vamos",
+        "resposta": "Olá! Com certeza, vamos explorar juntos esses misteriosos segredos da floresta. Talvez você encontre algo que o auxilie em suas aventuras ou que simplesmente adicione mais beleza à sua bolsa de curand"
+      }
+    },
+    {
+      "id": 193,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:23.190996",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: vamos",
+      "dados": {}
+    },
+    {
+      "id": 194,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:44.383607",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "ola amigo, vc tambem pode me ajudar com alguns itens?",
+        "resposta": "Olá, Max! É um prazer te ver por aqui. Sim, eu posso te ajudar com alguns itens também. Tenho uma mochila cheia de coisas interessantes que podem ser úteis na tua jornada. Que tal essa lanterna mágica"
+      }
+    },
+    {
+      "id": 195,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:36:44.395610",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: ola amigo, vc tambem pode me ajudar com alguns itens?",
+      "dados": {}
+    },
+    {
+      "id": 196,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:37:06.804836",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "vou querer a lanterna obrigado",
+        "resposta": "Ahah, que bom que acha útil! Aqui está a lanterna mágica, meu amigo. Que a luz te guiare em todos os teus caminhos. Estou à disposição se precisar de mais alguma coisa antes da tua viagem."
+      }
+    },
+    {
+      "id": 197,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:37:07.056159",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: vou querer a lanterna obrigado",
+      "dados": {}
+    },
+    {
+      "id": 198,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:37:36.712112",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "ola amigo, vc tambem pode me ajudar com alguns itens?",
+        "resposta": "Olá, Max! É um prazer te ver por aqui. Sim, eu posso te ajudar com alguns itens também. Tenho uma mochila cheia de coisas interessantes que podem ser úteis na tua jornada. Que tal essa lanterna mágica"
+      }
+    },
+    {
+      "id": 199,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:37:36.723113",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: ola amigo, vc tambem pode me ajudar com alguns itens?",
+      "dados": {}
+    },
+    {
+      "id": 200,
+      "turno": 79,
+      "timestamp": "2026-04-26T16:37:42.949699",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 201,
+      "turno": 84,
+      "timestamp": "2026-04-26T16:40:39.916236",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Antigo Urso' derrotado.",
+      "dados": {
+        "nome": "Antigo Urso",
+        "nivel": 1,
+        "turno": 84,
+        "loot": []
+      }
+    },
+    {
+      "id": 202,
+      "turno": 84,
+      "timestamp": "2026-04-26T16:40:39.918237",
+      "tipo": "combate",
+      "descricao": "Combate com 'Antigo Urso': vitoria.",
+      "dados": {
+        "inimigo": "Antigo Urso",
+        "resultado": "vitoria",
+        "turnos": 5,
+        "dano_causado": 71.54,
+        "dano_recebido": 16.8,
+        "acoes_destaque": [
+          "invocar a morte para seifar a vida de meu inimigo"
+        ]
+      }
+    },
+    {
+      "id": 203,
+      "turno": 84,
+      "timestamp": "2026-04-26T16:40:39.930237",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Antigo Urso em (0,2,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 204,
+      "turno": 84,
+      "timestamp": "2026-04-26T16:40:39.939238",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,2,0)",
+      "dados": {}
+    },
+    {
+      "id": 205,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:17.865816",
+      "tipo": "item_obtido",
+      "descricao": "Item 'faca_enferrujada' obtido via loot:Feroz Corvo.",
+      "dados": {}
+    },
+    {
+      "id": 206,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:17.867816",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Feroz Corvo' derrotado.",
+      "dados": {
+        "nome": "Feroz Corvo",
+        "nivel": 1,
+        "turno": 86,
+        "loot": [
+          "faca_enferrujada"
+        ]
+      }
+    },
+    {
+      "id": 207,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:17.869816",
+      "tipo": "combate",
+      "descricao": "Combate com 'Feroz Corvo': vitoria.",
+      "dados": {
+        "inimigo": "Feroz Corvo",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 89.53,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "bola de raios cortantes"
+        ]
+      }
+    },
+    {
+      "id": 208,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:17.885820",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Feroz Corvo em (0,3,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 209,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:17.889819",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,3,0)",
+      "dados": {}
+    },
+    {
+      "id": 210,
+      "turno": 86,
+      "timestamp": "2026-04-26T16:42:32.483739",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Campo dos Ipês Amarelos (0,4,0)",
+      "dados": {}
+    },
+    {
+      "id": 211,
+      "turno": 87,
+      "timestamp": "2026-04-26T16:43:32.507781",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,5,0)",
+      "dados": {}
+    },
+    {
+      "id": 212,
+      "turno": 87,
+      "timestamp": "2026-04-26T16:43:37.234960",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,6,0)",
+      "dados": {}
+    },
+    {
+      "id": 213,
+      "turno": 87,
+      "timestamp": "2026-04-26T16:43:42.308432",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,7,0)",
+      "dados": {}
+    },
+    {
+      "id": 214,
+      "turno": 89,
+      "timestamp": "2026-04-26T16:44:12.432655",
+      "tipo": "item_obtido",
+      "descricao": "Item 'arco_simples' obtido via loot:Enraivecido Urso.",
+      "dados": {}
+    },
+    {
+      "id": 215,
+      "turno": 89,
+      "timestamp": "2026-04-26T16:44:12.434655",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Urso' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Urso",
+        "nivel": 1,
+        "turno": 89,
+        "loot": [
+          "arco_simples"
+        ]
+      }
+    },
+    {
+      "id": 216,
+      "turno": 89,
+      "timestamp": "2026-04-26T16:44:12.437653",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Urso': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Urso",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 121.78,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "bola de raios cortantes"
+        ]
+      }
+    },
+    {
+      "id": 217,
+      "turno": 89,
+      "timestamp": "2026-04-26T16:44:12.449654",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Enraivecido Urso em (0,8,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 218,
+      "turno": 89,
+      "timestamp": "2026-04-26T16:44:12.455654",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,8,0)",
+      "dados": {}
+    },
+    {
+      "id": 219,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:44:54.240918",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Lobo' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Lobo",
+        "nivel": 1,
+        "turno": 90,
+        "loot": []
+      }
+    },
+    {
+      "id": 220,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:44:54.244927",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Lobo': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Lobo",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 78.78,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 221,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:44:54.257927",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Enraivecido Lobo em (0,9,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 222,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:44:54.261926",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,9,0)",
+      "dados": {}
+    },
+    {
+      "id": 223,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:22.961439",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (0,10,0)",
+      "dados": {}
+    },
+    {
+      "id": 224,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:30.676140",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (0,11,0)",
+      "dados": {}
+    },
+    {
+      "id": 225,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:41.545510",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Campo dos Ipês Amarelos (0,12,0)",
+      "dados": {}
+    },
+    {
+      "id": 226,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:46.729053",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (0,11,0)",
+      "dados": {}
+    },
+    {
+      "id": 227,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:49.411491",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (0,10,0)",
+      "dados": {}
+    },
+    {
+      "id": 228,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:50.143455",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,9,0)",
+      "dados": {}
+    },
+    {
+      "id": 229,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:50.882458",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,8,0)",
+      "dados": {}
+    },
+    {
+      "id": 230,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:51.240692",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,7,0)",
+      "dados": {}
+    },
+    {
+      "id": 231,
+      "turno": 90,
+      "timestamp": "2026-04-26T16:45:52.628585",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,6,0)",
+      "dados": {}
+    },
+    {
+      "id": 232,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:06.974535",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Antigo Lobo' derrotado.",
+      "dados": {
+        "nome": "Antigo Lobo",
+        "nivel": 1,
+        "turno": 91,
+        "loot": []
+      }
+    },
+    {
+      "id": 233,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:06.977543",
+      "tipo": "combate",
+      "descricao": "Combate com 'Antigo Lobo': vitoria.",
+      "dados": {
+        "inimigo": "Antigo Lobo",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 127.01,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "bola de raios negros cortantes"
+        ]
+      }
+    },
+    {
+      "id": 234,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:06.989557",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Antigo Lobo em (0,5,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 235,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:06.993557",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,5,0)",
+      "dados": {}
+    },
+    {
+      "id": 236,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:11.529158",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Campo dos Ipês Amarelos (0,4,0)",
+      "dados": {}
+    },
+    {
+      "id": 237,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:12.627722",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,3,0)",
+      "dados": {}
+    },
+    {
+      "id": 238,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:13.925025",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,2,0)",
+      "dados": {}
+    },
+    {
+      "id": 239,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:14.684145",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 240,
+      "turno": 91,
+      "timestamp": "2026-04-26T16:46:17.269366",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 241,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:46:33.779755",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Corvo' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Corvo",
+        "nivel": 1,
+        "turno": 92,
+        "loot": []
+      }
+    },
+    {
+      "id": 242,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:46:33.783756",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Corvo': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Corvo",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 119.05,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 243,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:46:33.796755",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Enraivecido Corvo em (0,-1,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 244,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:46:33.802756",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 245,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:46:54.892629",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,-1,0): Os raios negros cortantes desabam sobre a vegetação, incrustando-se nas árvores e arbustos com um estrondo ensurdecedor, deixando troncos e galhos retorcidos como se fossem pedaços de metal der",
+      "dados": {}
+    },
+    {
+      "id": 246,
+      "turno": 92,
+      "timestamp": "2026-04-26T16:47:19.418650",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,-1,0): Os raios negros cortantes desenham uma névoa carmesim ao longo do horizonte, iluminando as árvores com um brilho letal que agora parecem prontas para atacar.",
+      "dados": {}
+    },
+    {
+      "id": 247,
+      "turno": 93,
+      "timestamp": "2026-04-26T16:47:49.819907",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,-1,0): O céu se abre em chamas, lançando uma névoa ardente que faz você sentir a intensidade da tempestade de fogo enquanto as florestas ao redor começam a desaparecer lentamente sob o calor devastador.",
+      "dados": {}
+    },
+    {
+      "id": 248,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:50:14.471888",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (0,-1,0): As flores brotam freneticamente em volta de você, renovando todo o cerrado com uma vida vibrante e colorida que parece ter sido congelada em um instante e agora desperta para sempre.",
+      "dados": {}
+    },
+    {
+      "id": 249,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:50:46.645960",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 250,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:51:02.434844",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "voce viu o que aconteceu?",
+        "resposta": "Olhei para Max e senti um misto de preocupação e curiosidade em seus olhos. \"Vi sim,\" murmurei, indicando a fogueira que brilhava à nossa frente com uma lamaçalina luz. \"Aquele incêndio nas margens do"
+      }
+    },
+    {
+      "id": 251,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:51:02.443845",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: voce viu o que aconteceu?",
+      "dados": {}
+    },
+    {
+      "id": 252,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:52:30.115137",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Yara.",
+      "dados": {
+        "pergunta": "e vc viu as plantas nascerem de novo?",
+        "resposta": "Olhei para Max com um sorriso discreto. \"As flores brotaram rapidamente após o incêndio,\" respondi, apontando para uma pequena flor vermelha que agora florescia ao lado da fogueira. \"Como se a própria"
+      }
+    },
+    {
+      "id": 253,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:52:30.124139",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Yara: e vc viu as plantas nascerem de novo?",
+      "dados": {}
+    },
+    {
+      "id": 254,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:53:48.180625",
+      "tipo": "descanso",
+      "descricao": "Max testando novo mundo descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 255,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:53:49.617522",
+      "tipo": "descanso",
+      "descricao": "Max testando novo mundo descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 256,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:53:50.547306",
+      "tipo": "descanso",
+      "descricao": "Max testando novo mundo descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 257,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:54:23.426150",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 258,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:54:34.552299",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (-2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 259,
+      "turno": 96,
+      "timestamp": "2026-04-26T16:54:39.052432",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 260,
+      "turno": 97,
+      "timestamp": "2026-04-26T16:55:07.761992",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Antigo Felino' derrotado.",
+      "dados": {
+        "nome": "Antigo Felino",
+        "nivel": 1,
+        "turno": 97,
+        "loot": []
+      }
+    },
+    {
+      "id": 261,
+      "turno": 97,
+      "timestamp": "2026-04-26T16:55:07.764990",
+      "tipo": "combate",
+      "descricao": "Combate com 'Antigo Felino': vitoria.",
+      "dados": {
+        "inimigo": "Antigo Felino",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 82.01,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "lançar uma grande explosão cortante das calamidades"
+        ]
+      }
+    },
+    {
+      "id": 262,
+      "turno": 97,
+      "timestamp": "2026-04-26T16:55:07.778988",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Antigo Felino em (-4,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 263,
+      "turno": 97,
+      "timestamp": "2026-04-26T16:55:07.783989",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (-4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 264,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:17:36.980227",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 265,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:17:38.665791",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Savana do Lobo-Guará (-2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 266,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:17:39.605971",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 267,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:17:40.716549",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 268,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:18:36.851764",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "sabe a localização de outras pessoas?",
+        "resposta": "Olá, Max! Ah, essas histórias sobre outros viajantes e aventuradores sempre fazem parte do meu cotidiano. Sei que o Curupira protege a floresta norte, então talvez ele possa te ajudar com informações "
+      }
+    },
+    {
+      "id": 269,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:18:36.864279",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: sabe a localização de outras pessoas?",
+      "dados": {}
+    },
+    {
+      "id": 270,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:19:12.441433",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "tem visto outro npc por ai?",
+        "resposta": "Ah, Max! Que bom te ver tão curioso e atento! Sim, já dei uma volta boa no bairro e encontrei alguns NPCs interessantes. A Curupira anda de olho na floresta norte, claro. Mas também conversei com o An"
+      }
+    },
+    {
+      "id": 271,
+      "turno": 97,
+      "timestamp": "2026-04-26T17:19:12.452436",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: tem visto outro npc por ai?",
+      "dados": {}
+    },
+    {
+      "id": 272,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:20:26.751899",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "onde fica este Planalto dos Pequizeiros?",
+        "resposta": "Planalto dos Pequizeiros? Ah, é um lugar fascinante! Imagina uma elevação verdejante, coberta por ervas aromáticas e árvores majestosas que parecem dançar ao vento. É lá que se diz viverem criaturas e"
+      }
+    },
+    {
+      "id": 273,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:20:26.762900",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: onde fica este Planalto dos Pequizeiros?",
+      "dados": {}
+    },
+    {
+      "id": 274,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:21:00.829995",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "mas fica em qual direção?",
+        "resposta": "Planalto dos Pequizeiros? É um lugar onde o ar é fresco e as estrelas parecem mais próximas. Se dirijo daqui, você encontrará esse lugar mágico no horizonte norte, entre as montanhas de nevoeiro e a f"
+      }
+    },
+    {
+      "id": 275,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:21:01.032449",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: mas fica em qual direção?",
+      "dados": {}
+    },
+    {
+      "id": 276,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:21:43.109820",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "quanto ao norte?",
+        "resposta": "Ah, Max! O Planalto dos Pequizeiros está bem a norte daqui, nas montanhas de nevoeiro que parecem engolir o céu ao pôr do sol. É uma jornada longa e cheia de desafios, mas os tesouros esperam lá em ci"
+      }
+    },
+    {
+      "id": 277,
+      "turno": 98,
+      "timestamp": "2026-04-26T17:21:43.120716",
+      "tipo": "dialogo",
+      "descricao": "Max testando novo mundo falou com Zé das Estradas: quanto ao norte?",
+      "dados": {}
+    },
+    {
+      "id": 278,
+      "turno": 99,
+      "timestamp": "2026-04-26T17:22:14.459560",
+      "tipo": "descanso",
+      "descricao": "Max testando novo mundo descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 279,
+      "turno": 99,
+      "timestamp": "2026-04-26T17:22:20.962600",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 280,
+      "turno": 99,
+      "timestamp": "2026-04-26T17:22:22.484876",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,2,0)",
+      "dados": {}
+    },
+    {
+      "id": 281,
+      "turno": 100,
+      "timestamp": "2026-04-26T17:22:47.572999",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Réptil' derrotado.",
+      "dados": {
+        "nome": "Sombrio Réptil",
+        "nivel": 1,
+        "turno": 100,
+        "loot": []
+      }
+    },
+    {
+      "id": 282,
+      "turno": 100,
+      "timestamp": "2026-04-26T17:22:47.577006",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Réptil': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Réptil",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 103.79,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "lançar uma grande explosão cortante das calamidades"
+        ]
+      }
+    },
+    {
+      "id": 283,
+      "turno": 100,
+      "timestamp": "2026-04-26T17:22:47.590008",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Sombrio Réptil em (0,1,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 284,
+      "turno": 100,
+      "timestamp": "2026-04-26T17:22:47.594007",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 285,
+      "turno": 101,
+      "timestamp": "2026-04-26T17:23:20.283810",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Cerrado das Veredas (0,2,0)",
+      "dados": {}
+    },
+    {
+      "id": 286,
+      "turno": 101,
+      "timestamp": "2026-04-26T17:23:22.424484",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,3,0)",
+      "dados": {}
+    },
+    {
+      "id": 287,
+      "turno": 101,
+      "timestamp": "2026-04-26T17:23:23.740296",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Campo dos Ipês Amarelos (0,4,0)",
+      "dados": {}
+    },
+    {
+      "id": 288,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:42.157126",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Corvo' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Corvo",
+        "nivel": 1,
+        "turno": 102,
+        "loot": []
+      }
+    },
+    {
+      "id": 289,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:42.161126",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Corvo': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Corvo",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 121.33,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "lançar uma grande explosão cortante das calamidades"
+        ]
+      }
+    },
+    {
+      "id": 290,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:42.174704",
+      "tipo": "combate",
+      "descricao": "Max testando novo mundo vs Enraivecido Corvo em (0,5,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 291,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:42.178704",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (0,5,0)",
+      "dados": {}
+    },
+    {
+      "id": 292,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:53.456048",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-1,5,0)",
+      "dados": {}
+    },
+    {
+      "id": 293,
+      "turno": 102,
+      "timestamp": "2026-04-26T17:23:58.953100",
+      "tipo": "movimento",
+      "descricao": "Max testando novo mundo → Chapada dos Buritis (-2,5,0)",
+      "dados": {}
+    },
+    {
+      "id": 294,
+      "turno": 102,
+      "timestamp": "2026-04-26T22:46:58.689978",
+      "tipo": "movimento",
+      "descricao": "Jolie → Cerrado das Veredas (0,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 295,
+      "turno": 102,
+      "timestamp": "2026-04-26T22:47:00.284181",
+      "tipo": "movimento",
+      "descricao": "Jolie → Planalto dos Pequizeiros (0,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 296,
+      "turno": 102,
+      "timestamp": "2026-04-26T22:47:00.890725",
+      "tipo": "movimento",
+      "descricao": "Jolie → Chapada dos Buritis (0,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 297,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:18:45.437499",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 298,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:18:52.100222",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 299,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:19:00.994036",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Lugar Desconhecido (2,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 300,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:19:45.606499",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Breno' registrado. Atitude: amigavel.",
+      "dados": {
+        "npc": "Breno"
+      }
+    },
+    {
+      "id": 301,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:19:51.185570",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "O ar denso da mata atlântica beija seu rosto enquanto você desembarca neste novo solo, onde o fogo do cerrado encontra a sombra antiga das árvores. Ao redor, a paisagem se estende, marcada pela presen"
+      }
+    },
+    {
+      "id": 302,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:20:40.623186",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "ola amigo",
+        "resposta": "Ora, olá para você, viajante! Que bom ter um rosto novo por aqui. As estradas são cheias de histórias, meu amigo, e eu sei de tudo que se passa nas terras. Quer saber um bom drinque enquanto conversam"
+      }
+    },
+    {
+      "id": 303,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:20:40.634188",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 5.0
+      }
+    },
+    {
+      "id": 304,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:22:23.475554",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "vc sabe me dizer a localização de outros npcs?",
+        "resposta": "Ora, meu jovem, saber onde estão os outros é mais complicado que achar um bom peixe fresco! Eu sei de fofocas, não de mapas exatos, mas se você tiver curiosidade sobre quem anda por onde, eu tenho his"
+      }
+    },
+    {
+      "id": 305,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:22:23.490073",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 10.0
+      }
+    },
+    {
+      "id": 306,
+      "turno": 104,
+      "timestamp": "2026-04-26T23:23:03.253548",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 interagiu com Breno (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 307,
+      "turno": 105,
+      "timestamp": "2026-04-26T23:23:37.301889",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Breno' registrado. Atitude: amigavel.",
+      "dados": {
+        "npc": "Breno"
+      }
+    },
+    {
+      "id": 308,
+      "turno": 105,
+      "timestamp": "2026-04-26T23:23:42.723281",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "O ar denso da mata atlântica beija seu rosto enquanto você desembarca neste novo solo, onde o fogo do cerrado encontra a sombra antiga das árvores. Nesse cenário de luz dourada, você avista Breno, o t"
+      }
+    },
+    {
+      "id": 309,
+      "turno": 108,
+      "timestamp": "2026-04-26T23:25:28.739061",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Bandido Corrupto (T1)' derrotado.",
+      "dados": {
+        "nome": "Bandido Corrupto (T1)",
+        "nivel": 1,
+        "turno": 108,
+        "loot": []
+      }
+    },
+    {
+      "id": 310,
+      "turno": 108,
+      "timestamp": "2026-04-26T23:25:28.742060",
+      "tipo": "combate",
+      "descricao": "Combate com 'Bandido Corrupto (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Bandido Corrupto (T1)",
+        "resultado": "vitoria",
+        "turnos": 4,
+        "dano_causado": 79.27,
+        "dano_recebido": 10.2,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 311,
+      "turno": 111,
+      "timestamp": "2026-04-26T23:28:59.047951",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Mercenário (T1)' derrotado.",
+      "dados": {
+        "nome": "Mercenário (T1)",
+        "nivel": 1,
+        "turno": 111,
+        "loot": []
+      }
+    },
+    {
+      "id": 312,
+      "turno": 111,
+      "timestamp": "2026-04-26T23:28:59.050950",
+      "tipo": "combate",
+      "descricao": "Combate com 'Mercenário (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Mercenário (T1)",
+        "resultado": "vitoria",
+        "turnos": 4,
+        "dano_causado": 86.72,
+        "dano_recebido": 11.3,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 313,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:03.563472",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Lobo Alfa (T1)' derrotado.",
+      "dados": {
+        "nome": "Lobo Alfa (T1)",
+        "nivel": 1,
+        "turno": 113,
+        "loot": []
+      }
+    },
+    {
+      "id": 314,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:03.567470",
+      "tipo": "combate",
+      "descricao": "Combate com 'Lobo Alfa (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Lobo Alfa (T1)",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 125.11,
+        "dano_recebido": 5.4,
+        "acoes_destaque": [
+          "corte rapido flamejante"
+        ]
+      }
+    },
+    {
+      "id": 315,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:03.571471",
+      "tipo": "amizade",
+      "descricao": "Breno: venceu missão de ajuda",
+      "dados": {
+        "delta": 35.0,
+        "total": 45.0
+      }
+    },
+    {
+      "id": 316,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:07.837345",
+      "tipo": "combate",
+      "descricao": "Jolie 2 completou missão de Breno.",
+      "dados": {
+        "vitorias": 3,
+        "fugiu": false,
+        "amizade_nova": 45.0
+      }
+    },
+    {
+      "id": 317,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:56.500881",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "porque bandidos estavam atras de voce",
+        "resposta": "Ah, os bandidos! Eles estavam atrás de mim porque eu tinha algo que eles queriam, meu amigo! É uma história cheia de reviravoltas, e eu sei de cada detalhe... Quer ouvir o segredo?"
+      }
+    },
+    {
+      "id": 318,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:30:56.514881",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 50.0
+      }
+    },
+    {
+      "id": 319,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:31:27.912286",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "sim, quero ouvir",
+        "resposta": "Ora, escuta só! Os bandidos não estavam atrás de mim por nada, meu amigo! Era uma história de inveja e um tesouro escondido que eu encontrei perto do rio. É tudo muito mais interessante do que você im"
+      }
+    },
+    {
+      "id": 320,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:31:27.925286",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 55.0
+      }
+    },
+    {
+      "id": 321,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:32:00.015650",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "interessante",
+        "resposta": "Interessante é pouco, meu jovem! É o tipo de história que faz o fogo da lareira tremer! Aquele tesouro não é só ouro, é a chave para entender quem realmente manda nesta floresta... E eu sei onde encon"
+      }
+    },
+    {
+      "id": 322,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:32:00.028648",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 60.0
+      }
+    },
+    {
+      "id": 323,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:32:38.310181",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "onde esta a pista?",
+        "resposta": "Ora, a pista não está em um mapa, meu jovem! Ela está escondida nas sombras das árvores mais antigas, onde o Curupira sussurra seus segredos. Procure onde a névoa se encontra com a raiz mais profunda."
+      }
+    },
+    {
+      "id": 324,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:32:38.327182",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 65.0
+      }
+    },
+    {
+      "id": 325,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:33:51.568666",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "voce vai ficar por ai, ou vai para o acampamento?",
+        "resposta": "Ora, fique aqui um pouco, meu jovem! O acampamento pode esperar. Aqui, sob a sombra dessas árvores, é onde as melhores histórias e as pistas mais quentes realmente se encontram!"
+      }
+    },
+    {
+      "id": 326,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:33:51.583667",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 70.0
+      }
+    },
+    {
+      "id": 327,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:34:42.715179",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "mas essa névoa está em qual direção",
+        "resposta": "Ora, meu jovem, a direção não se mede com bússola! Siga o cheiro da terra úmida, onde a sombra se alonga e o silêncio fala mais alto. A névoa te puxa para onde o coração da floresta bate mais forte..."
+      }
+    },
+    {
+      "id": 328,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:34:42.726180",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 75.0
+      }
+    },
+    {
+      "id": 329,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:35:51.365333",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "vc tem algum item?",
+        "resposta": "Ora, meu jovem, eu tenho o que a vida me deu! Tenho baldes cheios de hidromel e algumas pedras que brilham sob a luz da fogueira... Mas se você busca algo mais mágico, talvez as sombras guardem o que "
+      }
+    },
+    {
+      "id": 330,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:35:51.378236",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 80.0
+      }
+    },
+    {
+      "id": 331,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:36:22.928465",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "pode me dar um gole deste hidromel?",
+        "resposta": "Ora, claro que pode! Venha, sente-se aqui na sombra. Este hidromel é feito com o melhor da terra e tem um sabor que aquece a alma... Tome e sinta a força da floresta!"
+      }
+    },
+    {
+      "id": 332,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:36:22.939464",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 85.0
+      }
+    },
+    {
+      "id": 333,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:36:39.188706",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "realmente é muito bom",
+        "resposta": "Ora, meu jovem, é o sabor da terra e da força que nos cerca! Este hidromel carrega a história de todas as matas, e você sente essa energia, não sente? É bom demais!"
+      }
+    },
+    {
+      "id": 334,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:36:39.198710",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 90.0
+      }
+    },
+    {
+      "id": 335,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:01.008826",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Breno.",
+      "dados": {
+        "pergunta": "muito bom meu amigo, mas tenho que partir",
+        "resposta": "Ora, vá com cuidado, minha jovem! Lembre-se sempre das estradas, elas guardam mais segredos do que você imagina... E se precisar de qualquer fofoca, é só chamar!"
+      }
+    },
+    {
+      "id": 336,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:01.019827",
+      "tipo": "amizade",
+      "descricao": "Breno: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 95.0
+      }
+    },
+    {
+      "id": 337,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:31.432923",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 interagiu com Breno (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 338,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:35.384083",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 339,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:37.413438",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 340,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:37:38.134169",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 341,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:38:25.345742",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "encontrei o breno a leste, leste, norte, pode guardar este segredo?",
+        "resposta": "Ah, meu caro Jolie! Que segredo guardarei no meu peito, é um tesouro de história! Breno é um bom homem, e eu prometo que guardarei essa rota como se fosse o ouro mais brilhante do mundo!"
+      }
+    },
+    {
+      "id": 342,
+      "turno": 113,
+      "timestamp": "2026-04-26T23:38:27.256873",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: encontrei o breno a leste, leste, norte, pode guardar este segredo?",
+      "dados": {}
+    },
+    {
+      "id": 343,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:39:30.843297",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "vc lembra da rota para o breno, repita para mim e depois guarde esse segredo",
+        "resposta": "Ah, claro que lembro! Leste, leste, norte, é exatamente o caminho! Este segredo é mais valioso que qualquer tesouro que eu já vi nas rotas comerciais. Guardarei isso com todo o meu coração!"
+      }
+    },
+    {
+      "id": 344,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:39:32.734719",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: vc lembra da rota para o breno, repita para mim e depois guarde esse segredo",
+      "dados": {}
+    },
+    {
+      "id": 345,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:41:36.635459",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "então vou contar mais 5 segredos, e vc vai guardar eles com vc tudo bem?",
+        "resposta": "Claro que sim, minha querida! Guardarei cada um desses segredos como se fossem as moedas de ouro mais preciosas. Sou um guardião de histórias, e nada é mais valioso do que a confiança de um bom viajan"
+      }
+    },
+    {
+      "id": 346,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:41:38.448064",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: então vou contar mais 5 segredos, e vc vai guardar eles com vc tudo bem?",
+      "dados": {}
+    },
+    {
+      "id": 347,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:42:51.556503",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "os segredos são o seguinte, Eliara fica a leste, leste, leste, leste",
+        "resposta": "Ah, que maravilha! Leste, leste, leste, leste... Que rota fascinante! Guardarei esses segredos com todo o meu coração, Jolie. São tesouros que valem mais que todo o ouro que já vi nas rotas comerciais"
+      }
+    },
+    {
+      "id": 348,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:42:53.336773",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: os segredos são o seguinte, Eliara fica a leste, leste, leste, leste",
+      "dados": {}
+    },
+    {
+      "id": 349,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:43:56.011413",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "os segredos são o seguinte, Sombra fica a leste, leste, leste, leste, leste, leste, leste",
+        "resposta": "Ah, Sombra fica a leste, leste, leste, leste, leste, leste, leste! Que rota misteriosa! Guardarei este segredo com todo o meu coração, é um tesouro de história!"
+      }
+    },
+    {
+      "id": 350,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:43:57.816275",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: os segredos são o seguinte, Sombra fica a leste, leste, leste, leste, leste, les",
+      "dados": {}
+    },
+    {
+      "id": 351,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:45:10.088333",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "os segredos são o seguinte, Mira fica a oeste, oeste, oeste, Sul, Sul, SUl,Sul",
+        "resposta": "Puxa vida, mais segredos! Oeste, Sul... Que rotas fascinantes você me mostra! Guardarei cada detalhe como se fossem as mercadorias mais raras do mundo. Você realmente tem um mapa de tesouros em suas m"
+      }
+    },
+    {
+      "id": 352,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:45:12.050197",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: os segredos são o seguinte, Mira fica a oeste, oeste, oeste, Sul, Sul, SUl,Sul",
+      "dados": {}
+    },
+    {
+      "id": 353,
+      "turno": 114,
+      "timestamp": "2026-04-26T23:45:55.456318",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,-1)",
+      "dados": {}
+    },
+    {
+      "id": 354,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:49:56.682276",
+      "tipo": "item_obtido",
+      "descricao": "Item 'arco_simples' obtido via loot:Sombrio Felino.",
+      "dados": {}
+    },
+    {
+      "id": 355,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:49:56.688276",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Felino' derrotado.",
+      "dados": {
+        "nome": "Sombrio Felino",
+        "nivel": 2,
+        "turno": 119,
+        "loot": [
+          "arco_simples"
+        ]
+      }
+    },
+    {
+      "id": 356,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:49:56.691275",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Felino': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Felino",
+        "resultado": "vitoria",
+        "turnos": 6,
+        "dano_causado": 150.94,
+        "dano_recebido": 38.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 357,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:49:56.706277",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Sombrio Felino em (0,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 358,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:49:56.711276",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 359,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:50:34.977344",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "desculpe, fui ao banheiro, o que estavamos conversando?",
+        "resposta": "Ah, estávamos falando das rotas mais secretas e dos tesouros escondidos, Jolie! Você tem um mapa de tesouros, de verdade! Guardarei cada detalhe com o coração!"
+      }
+    },
+    {
+      "id": 360,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:50:37.070219",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: desculpe, fui ao banheiro, o que estavamos conversando?",
+      "dados": {}
+    },
+    {
+      "id": 361,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:51:06.330021",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "os segredos são o seguinte, Ferran fica para baixo, baixo, baixo",
+        "resposta": "Ora, Ferran fica para baixo, baixo, baixo! Que maravilha de direção! Mais um pedaço do mapa que nos leva a tesouros escondidos, Jolie! Meu coração transborda de alegria por essas rotas secretas!"
+      }
+    },
+    {
+      "id": 362,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:51:08.064085",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: os segredos são o seguinte, Ferran fica para baixo, baixo, baixo",
+      "dados": {}
+    },
+    {
+      "id": 363,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:52:03.216044",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "e o ultimo segredo que lembro, Duras fica para a 4 X Cima",
+        "resposta": "Ora, Duras fica para cima! Mais um caminho secreto que nos leva a riquezas escondidas! Você realmente carrega o mapa mais fascinante que já encontrei, Jolie! Meu coração está transbordando de alegria "
+      }
+    },
+    {
+      "id": 364,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:52:05.059033",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: e o ultimo segredo que lembro, Duras fica para a 4 X Cima",
+      "dados": {}
+    },
+    {
+      "id": 365,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:52:42.764496",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "e o ultimo segredo que lembro, Duras fica para a  Cima, cima, cima cima, não esqueça",
+        "resposta": "Ora, Duras fica para cima, cima, cima cima! Que maravilha de rota, Jolie! Isso é o último pedaço do mapa que nos levará diretamente aos tesouros mais escondidos! Meu coração explode de alegria por ess"
+      }
+    },
+    {
+      "id": 366,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:52:44.805634",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: e o ultimo segredo que lembro, Duras fica para a  Cima, cima, cima cima, não esq",
+      "dados": {}
+    },
+    {
+      "id": 367,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:53:11.558754",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "então onde ficava a Eliara?",
+        "resposta": "Eliara? Ah, aquela era a cidade onde o rio encontra a montanha, meu amigo! Um lugar cheio de histórias esquecidas e tesouros ainda esperando para serem descobertos nas sombras!"
+      }
+    },
+    {
+      "id": 368,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:53:11.568049",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: então onde ficava a Eliara?",
+      "dados": {}
+    },
+    {
+      "id": 369,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:53:44.402159",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "E o breno fica em qual rota?",
+        "resposta": "Breno, meu amigo? Ele se encontra na rota da forja, perto das montanhas onde o aço encontra a pedra! É um caminho cheio de trabalho e história, exatamente como o tesouro que ele guarda!"
+      }
+    },
+    {
+      "id": 370,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:53:46.309525",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: E o breno fica em qual rota?",
+      "dados": {}
+    },
+    {
+      "id": 371,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:54:08.873492",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "qual a direção?",
+        "resposta": "Ora, minha querida aventureira, a direção é sempre aquela que pulsa com a promessa de ouro e mistério! Siga o caminho onde o sol nasce, pois é por ali que as rotas mais secretas nos levam aos tesouros"
+      }
+    },
+    {
+      "id": 372,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:54:10.640221",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: qual a direção?",
+      "dados": {}
+    },
+    {
+      "id": 373,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:54:35.961562",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "você lembra de quantos segredos eram?",
+        "resposta": "Ah, segredos? Quantos, minha amiga? São tantos que a própria terra guarda, mais do que podemos contar em uma vida! Cada trilha, cada ruína, cada preço escondido... é um tesouro esperando só a sua cora"
+      }
+    },
+    {
+      "id": 374,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:54:37.801365",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: você lembra de quantos segredos eram?",
+      "dados": {}
+    },
+    {
+      "id": 375,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:55:27.760947",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "o Duras ficava para onde?",
+        "resposta": "Duras? Ah, ele seguiu a rota da sombra, minha amiga! Ele buscou o vale onde as sombras das montanhas se encontram com os rios mais profundos. Cada jornada tem seu destino, e cada destino esconde uma h"
+      }
+    },
+    {
+      "id": 376,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:55:27.771336",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: o Duras ficava para onde?",
+      "dados": {}
+    },
+    {
+      "id": 377,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:56:07.097593",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "ola voce conhece o Breno?",
+        "resposta": "Eu conheço Breno. Ele é o ferreiro da taverna, um homem robusto que vive nas proximidades. Ele é amigável, mas cuidado sempre de quem você encontra na floresta."
+      }
+    },
+    {
+      "id": 378,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:56:07.111198",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Yara: ola voce conhece o Breno?",
+      "dados": {}
+    },
+    {
+      "id": 379,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:56:32.609037",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Yara.",
+      "dados": {
+        "pergunta": "sabe como encontro ele?",
+        "resposta": "Eu conheço o caminho. Ele mora perto da taverna, onde você deve encontrar o cheiro do ferro e o som dos martelos. Vá pela trilha que leva à vila de Pedra Branca, e ele estará esperando. Mas tenha cuid"
+      }
+    },
+    {
+      "id": 380,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:56:34.235635",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Yara: sabe como encontro ele?",
+      "dados": {}
+    },
+    {
+      "id": 381,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:57:13.470448",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,-1)",
+      "dados": {}
+    },
+    {
+      "id": 382,
+      "turno": 119,
+      "timestamp": "2026-04-26T23:57:19.042722",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,-2)",
+      "dados": {}
+    },
+    {
+      "id": 383,
+      "turno": 127,
+      "timestamp": "2026-04-27T00:01:39.830473",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Feroz Lobo' derrotado.",
+      "dados": {
+        "nome": "Feroz Lobo",
+        "nivel": 4,
+        "turno": 127,
+        "loot": []
+      }
+    },
+    {
+      "id": 384,
+      "turno": 127,
+      "timestamp": "2026-04-27T00:01:39.834473",
+      "tipo": "combate",
+      "descricao": "Combate com 'Feroz Lobo': vitoria.",
+      "dados": {
+        "inimigo": "Feroz Lobo",
+        "resultado": "vitoria",
+        "turnos": 9,
+        "dano_causado": 200.68,
+        "dano_recebido": 77.1,
+        "acoes_destaque": [
+          "lamina de raios negros cortantes"
+        ]
+      }
+    },
+    {
+      "id": 385,
+      "turno": 127,
+      "timestamp": "2026-04-27T00:01:39.848474",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Feroz Lobo em (0,0,-3): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 386,
+      "turno": 127,
+      "timestamp": "2026-04-27T00:01:39.853473",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Gruta de Pedra (0,0,-3)",
+      "dados": {}
+    },
+    {
+      "id": 387,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:02:19.682098",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,-3).",
+      "dados": {}
+    },
+    {
+      "id": 388,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:02:24.588048",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,-3).",
+      "dados": {}
+    },
+    {
+      "id": 389,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:02:29.989919",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,-3).",
+      "dados": {}
+    },
+    {
+      "id": 390,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:02:43.915072",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Ferran' registrado. Atitude: amigavel.",
+      "dados": {
+        "npc": "Ferran"
+      }
+    },
+    {
+      "id": 391,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:02:49.500123",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "Você mergulha nas sombras úmidas, sentindo o frio ancestral da caverna onde a escuridão guarda segredos antigos. A luz tênue do sol filtra-se, pintando o verde imenso do Cerrado das Veredas acima, enq"
+      }
+    },
+    {
+      "id": 392,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:03:23.456845",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "ola amigo, oque faz nesta caverna escura?",
+        "resposta": "Eu estou aqui forjando o metal. Esta caverna é o meu lugar, e o fogo é meu guia. O que você procura, me diga."
+      }
+    },
+    {
+      "id": 393,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:03:23.470346",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 5.0
+      }
+    },
+    {
+      "id": 394,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:03:58.498600",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "procuro por aventura",
+        "resposta": "Eu forjo o metal. É aqui que encontro o que é forte. A aventura se constrói com fogo e habilidade, não apenas com busca. O que você quer criar?"
+      }
+    },
+    {
+      "id": 395,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:03:58.509600",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 10.0
+      }
+    },
+    {
+      "id": 396,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:04:18.735197",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "quero criar a espada mais forte",
+        "resposta": "A espada mais forte não se cria com pressa. Requer fogo puro, aço resistente e a força da vontade. Eu te mostro o caminho, mas a habilidade é sua."
+      }
+    },
+    {
+      "id": 397,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:04:18.751198",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 15.0
+      }
+    },
+    {
+      "id": 398,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:04:46.612838",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "vc precisa de alguma ajuda ou suprimentos?",
+        "resposta": "Eu não tenho suprimentos, apenas o fogo e o aço aqui. Se você busca a força, você deve buscar a técnica, não apenas o material. Venha, se tiver a vontade de aprender o verdadeiro caminho da forja."
+      }
+    },
+    {
+      "id": 399,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:04:46.628917",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 20.0
+      }
+    },
+    {
+      "id": 400,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:05:19.695452",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "ok me ensine o verdadeiro caminho da força",
+        "resposta": "A força não está no golpe, mas no calor que você entende. O fogo exige paciência, e o aço exige respeito. Você terá que suar muito para transformar o metal em lâmina. É assim que se forja o poder."
+      }
+    },
+    {
+      "id": 401,
+      "turno": 128,
+      "timestamp": "2026-04-27T00:05:19.707689",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 25.0
+      }
+    },
+    {
+      "id": 402,
+      "turno": 130,
+      "timestamp": "2026-04-27T00:07:36.220853",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Vórtice Arcano (T1)' derrotado.",
+      "dados": {
+        "nome": "Vórtice Arcano (T1)",
+        "nivel": 1,
+        "turno": 130,
+        "loot": []
+      }
+    },
+    {
+      "id": 403,
+      "turno": 130,
+      "timestamp": "2026-04-27T00:07:36.225853",
+      "tipo": "combate",
+      "descricao": "Combate com 'Vórtice Arcano (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Vórtice Arcano (T1)",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 93.49,
+        "dano_recebido": 4.9,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 404,
+      "turno": 134,
+      "timestamp": "2026-04-27T00:09:28.280084",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Elemental de Gelo (T1)' derrotado.",
+      "dados": {
+        "nome": "Elemental de Gelo (T1)",
+        "nivel": 1,
+        "turno": 134,
+        "loot": []
+      }
+    },
+    {
+      "id": 405,
+      "turno": 134,
+      "timestamp": "2026-04-27T00:09:28.284084",
+      "tipo": "combate",
+      "descricao": "Combate com 'Elemental de Gelo (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Elemental de Gelo (T1)",
+        "resultado": "vitoria",
+        "turnos": 5,
+        "dano_causado": 95.91,
+        "dano_recebido": 10.4,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 406,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:10:37.068501",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Elemental de Trovão (T1)' derrotado.",
+      "dados": {
+        "nome": "Elemental de Trovão (T1)",
+        "nivel": 1,
+        "turno": 137,
+        "loot": []
+      }
+    },
+    {
+      "id": 407,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:10:37.074070",
+      "tipo": "combate",
+      "descricao": "Combate com 'Elemental de Trovão (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Elemental de Trovão (T1)",
+        "resultado": "vitoria",
+        "turnos": 4,
+        "dano_causado": 64.83,
+        "dano_recebido": 9.5,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 408,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:10:37.078070",
+      "tipo": "amizade",
+      "descricao": "Ferran: venceu missão de ajuda",
+      "dados": {
+        "delta": 35.0,
+        "total": 60.0
+      }
+    },
+    {
+      "id": 409,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:10:42.060519",
+      "tipo": "combate",
+      "descricao": "Jolie 2 completou missão de Ferran.",
+      "dados": {
+        "vitorias": 3,
+        "fugiu": false,
+        "amizade_nova": 60.0
+      }
+    },
+    {
+      "id": 410,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:11:04.845956",
+      "tipo": "descoberta",
+      "descricao": "Jolie 2 soube segredo de Ferran.",
+      "dados": {
+        "segredo": "pode aprimorar maestria_max de armas em +50 por um favor ou pagamento justo"
+      }
+    },
+    {
+      "id": 411,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:11:04.849955",
+      "tipo": "amizade",
+      "descricao": "Ferran: segredo revelado",
+      "dados": {
+        "delta": -10.0,
+        "total": 50.0
+      }
+    },
+    {
+      "id": 412,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:12:00.516658",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "1",
+        "resposta": "Então, a vontade é o primeiro calor. Não há pressa no fogo, apenas o controle do ar e da chama. Agora, traga o aço. Sinta o metal sob suas mãos, e comece a entender o respeito que ele exige."
+      }
+    },
+    {
+      "id": 413,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:12:00.527129",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 55.0
+      }
+    },
+    {
+      "id": 414,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:12:24.443264",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "porque esses elementais estavam te persseguind?",
+        "resposta": "Esses elementos buscavam o calor, a força bruta. Eles não entendiam o respeito do fogo, apenas o que queimar. Eles eram apenas selvagens da floresta, buscando o que não podiam dominar."
+      }
+    },
+    {
+      "id": 415,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:12:24.453864",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 60.0
+      }
+    },
+    {
+      "id": 416,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:13:21.207436",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Ferran.",
+      "dados": {
+        "pergunta": "acho que ja vou indo o caminho é longo",
+        "resposta": "O caminho é longo, sim. Mas o fogo não espera por quem tem pressa. A força se constrói no calor que você gera, não na distância que percorre. Continue forjando o seu próprio aço."
+      }
+    },
+    {
+      "id": 417,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:13:21.218442",
+      "tipo": "amizade",
+      "descricao": "Ferran: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 65.0
+      }
+    },
+    {
+      "id": 418,
+      "turno": 137,
+      "timestamp": "2026-04-27T00:14:15.593662",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 interagiu com Ferran (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 419,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:20:17.430667",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Urso' derrotado.",
+      "dados": {
+        "nome": "Sombrio Urso",
+        "nivel": 4,
+        "turno": 145,
+        "loot": []
+      }
+    },
+    {
+      "id": 420,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:20:17.434670",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Urso': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Urso",
+        "resultado": "vitoria",
+        "turnos": 8,
+        "dano_causado": 195.37,
+        "dano_recebido": 80.8,
+        "acoes_destaque": [
+          "Corte de raio negro poderoso",
+          "sinto uma furia, fortalecendo meu corpo, rapidamente executo",
+          "sinto uma furia, fortalecendo meu corpo, rapidamente executo"
+        ]
+      }
+    },
+    {
+      "id": 421,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:20:17.448667",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Sombrio Urso em (0,0,-2): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 422,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:20:17.454669",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,-2)",
+      "dados": {}
+    },
+    {
+      "id": 423,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:05.837278",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,-1)",
+      "dados": {}
+    },
+    {
+      "id": 424,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:07.581241",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 425,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:11.855907",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 426,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:13.316268",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 427,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:37.023260",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "fala ai mano, tem algum segredo?",
+        "resposta": "Ora, minha querida, segredos são como o pó de ouro que se esconde nas sombras das ruínas! Eu sei das rotas, dos preços e dos tesouros que o mundo esconde... Mas o maior segredo, meu amigo, é a coragem"
+      }
+    },
+    {
+      "id": 428,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:37.034848",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: fala ai mano, tem algum segredo?",
+      "dados": {}
+    },
+    {
+      "id": 429,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:57.934869",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "quais rotas vc conhece?",
+        "resposta": "Ah, minhas rotas, minha amiga! Eu conheço os caminhos que ligam as montanhas às planícies, os rios que serpenteiam o mapa e os mercados onde o ouro e as especiarias trocam de mãos! Há rotas secretas, "
+      }
+    },
+    {
+      "id": 430,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:25:57.945670",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: quais rotas vc conhece?",
+      "dados": {}
+    },
+    {
+      "id": 431,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:26:31.121934",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "que tipo de rotas secretas vc conhece?",
+        "resposta": "Ah, as rotas secretas, minhas amigas! Elas não estão no mapa comum, mas nos sussurros do vento entre as montanhas e nas margens dos rios esquecidos. São trilhas que só os viajantes com um coração puro"
+      }
+    },
+    {
+      "id": 432,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:26:33.125459",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: que tipo de rotas secretas vc conhece?",
+      "dados": {}
+    },
+    {
+      "id": 433,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:26:57.505762",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Zé das Estradas.",
+      "dados": {
+        "pergunta": "vc sabe a rota do breno?",
+        "resposta": "Ora, minha amiga, a rota do Breno é um segredo guardado pelas sombras da floresta. Eu não tenho o mapa exato, mas sei dos caminhos que levam a onde os homens fortes e sábios caminham. É uma jornada ch"
+      }
+    },
+    {
+      "id": 434,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:26:59.174891",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 falou com Zé das Estradas: vc sabe a rota do breno?",
+      "dados": {}
+    },
+    {
+      "id": 435,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:27:23.013794",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Planalto dos Pequizeiros (0,0,1)",
+      "dados": {}
+    },
+    {
+      "id": 436,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:27:30.886072",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,2)",
+      "dados": {}
+    },
+    {
+      "id": 437,
+      "turno": 145,
+      "timestamp": "2026-04-27T00:27:42.061876",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (0,0,3)",
+      "dados": {}
+    },
+    {
+      "id": 438,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:29:44.737704",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Felino' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Felino",
+        "nivel": 3,
+        "turno": 150,
+        "loot": []
+      }
+    },
+    {
+      "id": 439,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:29:44.742703",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Felino': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Felino",
+        "resultado": "vitoria",
+        "turnos": 6,
+        "dano_causado": 128.81,
+        "dano_recebido": 27.3,
+        "acoes_destaque": [
+          "sinto uma furia, fortalecendo meu corpo, rapidamente executo"
+        ]
+      }
+    },
+    {
+      "id": 440,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:29:44.757550",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Enraivecido Felino em (0,0,4): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 441,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:29:44.763549",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Chapada dos Ventos (0,0,4)",
+      "dados": {}
+    },
+    {
+      "id": 442,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:30:16.657821",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Capitão Duras' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Capitão Duras"
+      }
+    },
+    {
+      "id": 443,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:30:21.954605",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "Você avança através da paisagem, onde o ar rarefeito e frio da montanha envolve seus sentidos. O aroma doce dos ipês amarelos se mistura ao silêncio da altitude, e então, você o encontra: o Capitão Du"
+      }
+    },
+    {
+      "id": 444,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:31:04.267797",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "ola amigo",
+        "resposta": "O que você quer? Não perca meu tempo com formalidades. Se tem algo a dizer, diga logo."
+      }
+    },
+    {
+      "id": 445,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:31:04.280129",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 5.0
+      }
+    },
+    {
+      "id": 446,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:31:37.608104",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "breno fica a leste, leste, norte, do acampamento do inicio",
+        "resposta": "Certo. Siga o caminho que indicou. Não espere favores; apenas siga a rota. Se errar, a culpa é sua, não minha. Não me faça perder mais tempo."
+      }
+    },
+    {
+      "id": 447,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:31:37.623110",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 10.0
+      }
+    },
+    {
+      "id": 448,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:16.798951",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "o que faz sozinho neste lugar?",
+        "resposta": "Eu não me importo com o que você faz. Eu me importo com o que você faz com o tempo que eu te dou. Este lugar não perdoa erros. Apenas siga a rota e não me cause problemas."
+      }
+    },
+    {
+      "id": 449,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:16.813284",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 15.0
+      }
+    },
+    {
+      "id": 450,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:36.396211",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "seguir qual rota?",
+        "resposta": "A rota é a que você indicou. Não há desvios permitidos. Se você tropeçar, as consequências serão suas. Não me faça repetir."
+      }
+    },
+    {
+      "id": 451,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:36.407217",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 20.0
+      }
+    },
+    {
+      "id": 452,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:51.568260",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "vc precisa de alguma ajuda?",
+        "resposta": "Eu não preciso de ajuda. Eu sigo a rota. Se você quer algo, encontre por conta própria. Não me faça perder mais tempo com desculpas."
+      }
+    },
+    {
+      "id": 453,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:32:51.581260",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 25.0
+      }
+    },
+    {
+      "id": 454,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:33:36.144995",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "ok",
+        "resposta": "A rota é o que importa. Não me faça perder mais tempo com perguntas inúteis. Siga o caminho que te foi dado e mantenha-se fora de problemas."
+      }
+    },
+    {
+      "id": 455,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:33:36.156002",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 30.0
+      }
+    },
+    {
+      "id": 456,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:02.421039",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "fui la e voltei, encontrei o breno la, ele te mandou este Hidromel para provar",
+        "resposta": "O que importa é o que você sabe, não onde você esteve. Se o Breno te mandou isso, mostre-o. Não me faça perder tempo com histórias vazias."
+      }
+    },
+    {
+      "id": 457,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:02.432252",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 35.0
+      }
+    },
+    {
+      "id": 458,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:26.507797",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "gostou do hridromel?",
+        "resposta": "O sabor não importa. O que importa é o que você tem. Mostre-me o que Breno te enviou. Não perca mais tempo com frivolidades."
+      }
+    },
+    {
+      "id": 459,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:26.520797",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 40.0
+      }
+    },
+    {
+      "id": 460,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:43.216164",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Capitão Duras.",
+      "dados": {
+        "pergunta": "tome aqui o hidromel",
+        "resposta": "Coloque-o aqui. Não perca meu tempo com gestos desnecessários. Se há algo de valor, mostre-o de forma clara e direta."
+      }
+    },
+    {
+      "id": 461,
+      "turno": 150,
+      "timestamp": "2026-04-27T00:34:43.227165",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 45.0
+      }
+    },
+    {
+      "id": 462,
+      "turno": 152,
+      "timestamp": "2026-04-27T00:36:00.338848",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Esqueleto Errante (T1)' derrotado.",
+      "dados": {
+        "nome": "Esqueleto Errante (T1)",
+        "nivel": 1,
+        "turno": 152,
+        "loot": []
+      }
+    },
+    {
+      "id": 463,
+      "turno": 152,
+      "timestamp": "2026-04-27T00:36:00.343856",
+      "tipo": "combate",
+      "descricao": "Combate com 'Esqueleto Errante (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Esqueleto Errante (T1)",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 77.59,
+        "dano_recebido": 5.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 464,
+      "turno": 154,
+      "timestamp": "2026-04-27T00:37:21.906853",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Assassino (T1)' derrotado.",
+      "dados": {
+        "nome": "Assassino (T1)",
+        "nivel": 1,
+        "turno": 154,
+        "loot": []
+      }
+    },
+    {
+      "id": 465,
+      "turno": 154,
+      "timestamp": "2026-04-27T00:37:21.912850",
+      "tipo": "combate",
+      "descricao": "Combate com 'Assassino (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Assassino (T1)",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 94.22,
+        "dano_recebido": 5.9,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 466,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:00.715644",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Elemental de Fogo (T1)' derrotado.",
+      "dados": {
+        "nome": "Elemental de Fogo (T1)",
+        "nivel": 1,
+        "turno": 157,
+        "loot": []
+      }
+    },
+    {
+      "id": 467,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:00.721644",
+      "tipo": "combate",
+      "descricao": "Combate com 'Elemental de Fogo (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Elemental de Fogo (T1)",
+        "resultado": "vitoria",
+        "turnos": 4,
+        "dano_causado": 91.88,
+        "dano_recebido": 10.5,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 468,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:00.726645",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: venceu missão de ajuda",
+      "dados": {
+        "delta": 35.0,
+        "total": 80.0
+      }
+    },
+    {
+      "id": 469,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:05.446179",
+      "tipo": "combate",
+      "descricao": "Jolie 2 completou missão de Capitão Duras.",
+      "dados": {
+        "vitorias": 3,
+        "fugiu": false,
+        "amizade_nova": 80.0
+      }
+    },
+    {
+      "id": 470,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:32.970011",
+      "tipo": "item_obtido",
+      "descricao": "Item 'Cachimbo da Caipora' obtido via segredo_Capitão Duras.",
+      "dados": {}
+    },
+    {
+      "id": 471,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:32.978011",
+      "tipo": "descoberta",
+      "descricao": "Jolie 2 soube segredo de Capitão Duras.",
+      "dados": {
+        "segredo": "suspeita que um conselheiro está colaborando com bandidos"
+      }
+    },
+    {
+      "id": 472,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:39:32.982010",
+      "tipo": "amizade",
+      "descricao": "Capitão Duras: segredo revelado",
+      "dados": {
+        "delta": -10.0,
+        "total": 70.0
+      }
+    },
+    {
+      "id": 473,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:40:04.176102",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 interagiu com Capitão Duras (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 474,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:40:32.255694",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (0,0,3)",
+      "dados": {}
+    },
+    {
+      "id": 475,
+      "turno": 157,
+      "timestamp": "2026-04-27T00:40:33.697283",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Cerrado das Veredas (0,0,2)",
+      "dados": {}
+    },
+    {
+      "id": 476,
+      "turno": 165,
+      "timestamp": "2026-04-27T00:42:55.007558",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Felino' derrotado.",
+      "dados": {
+        "nome": "Sombrio Felino",
+        "nivel": 3,
+        "turno": 165,
+        "loot": []
+      }
+    },
+    {
+      "id": 477,
+      "turno": 165,
+      "timestamp": "2026-04-27T00:42:55.012559",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Felino': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Felino",
+        "resultado": "vitoria",
+        "turnos": 9,
+        "dano_causado": 150.0,
+        "dano_recebido": 55.44,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 478,
+      "turno": 165,
+      "timestamp": "2026-04-27T00:42:55.030558",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Sombrio Felino em (0,0,1): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 479,
+      "turno": 165,
+      "timestamp": "2026-04-27T00:42:55.037559",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Planalto dos Pequizeiros (0,0,1)",
+      "dados": {}
+    },
+    {
+      "id": 480,
+      "turno": 165,
+      "timestamp": "2026-04-27T00:43:13.837037",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 481,
+      "turno": 166,
+      "timestamp": "2026-04-27T00:43:38.841293",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 482,
+      "turno": 166,
+      "timestamp": "2026-04-27T00:43:39.792843",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 483,
+      "turno": 166,
+      "timestamp": "2026-04-27T00:43:41.411864",
+      "tipo": "descanso",
+      "descricao": "Jolie 2 descansou em (0,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 484,
+      "turno": 166,
+      "timestamp": "2026-04-27T00:43:48.703854",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 485,
+      "turno": 166,
+      "timestamp": "2026-04-27T00:43:49.448476",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 486,
+      "turno": 167,
+      "timestamp": "2026-04-27T00:43:54.532068",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Lobo': fuga.",
+      "dados": {
+        "inimigo": "Sombrio Lobo",
+        "resultado": "fuga",
+        "turnos": 1,
+        "dano_causado": 0.0,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 487,
+      "turno": 167,
+      "timestamp": "2026-04-27T00:43:54.546067",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Sombrio Lobo em (3,0,0): fuga",
+      "dados": {}
+    },
+    {
+      "id": 488,
+      "turno": 167,
+      "timestamp": "2026-04-27T00:43:54.554069",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 489,
+      "turno": 168,
+      "timestamp": "2026-04-27T00:44:03.782847",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Lugar Desconhecido (4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 490,
+      "turno": 168,
+      "timestamp": "2026-04-27T00:44:06.407531",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Chapada dos Buritis (5,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 491,
+      "turno": 168,
+      "timestamp": "2026-04-27T00:44:07.148144",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Chapada dos Buritis (6,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 492,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:15.421595",
+      "tipo": "combate",
+      "descricao": "Combate com 'Antigo Corvo': fuga.",
+      "dados": {
+        "inimigo": "Antigo Corvo",
+        "resultado": "fuga",
+        "turnos": 1,
+        "dano_causado": 0.0,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 493,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:15.435601",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Antigo Corvo em (7,0,0): fuga",
+      "dados": {}
+    },
+    {
+      "id": 494,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:15.442602",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Encosta das Bromeliáceas (7,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 495,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:18.145555",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Encosta das Bromeliáceas (8,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 496,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:26.638294",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Encosta das Bromeliáceas (7,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 497,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:32.163820",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Sombra' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Sombra"
+      }
+    },
+    {
+      "id": 498,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:44:37.878701",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "Você mergulha na densa Mata Atlântica, onde a umidade pesada envolve seus pulmões e o silêncio da floresta é quebrado apenas pelo murmúrio das águas. Entre a escuridão luxuriante, uma silhueta se mate"
+      }
+    },
+    {
+      "id": 499,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:24.489187",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Sombra.",
+      "dados": {
+        "pergunta": "ola",
+        "resposta": "Silêncio. Você não deve perguntar. O que você busca, eu sei. Mas o preço da verdade é sempre alto."
+      }
+    },
+    {
+      "id": 500,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:24.501185",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 5.0
+      }
+    },
+    {
+      "id": 501,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:40.245779",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Sombra.",
+      "dados": {
+        "pergunta": "o que vc sabe?",
+        "resposta": "Eu sei apenas o caminho. O preço da verdade reside no que você está disposto a sacrificar. Não procure o que não pode pagar. A sombra é o único guia que te ofereço."
+      }
+    },
+    {
+      "id": 502,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:40.257785",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 10.0
+      }
+    },
+    {
+      "id": 503,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:58.347684",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 conversou com Sombra.",
+      "dados": {
+        "pergunta": "te ofero um item",
+        "resposta": "O preço de um item é sempre medido pelo que ele custa para a alma. Pense bem no valor do que você oferece. A sombra não troca almas por objetos; ela exige o que é essencial."
+      }
+    },
+    {
+      "id": 504,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:45:58.359482",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 15.0
+      }
+    },
+    {
+      "id": 505,
+      "turno": 169,
+      "timestamp": "2026-04-27T00:46:37.333320",
+      "tipo": "dialogo",
+      "descricao": "Jolie 2 interagiu com Sombra (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 506,
+      "turno": 170,
+      "timestamp": "2026-04-27T00:46:44.593635",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Urso': fuga.",
+      "dados": {
+        "inimigo": "Sombrio Urso",
+        "resultado": "fuga",
+        "turnos": 1,
+        "dano_causado": 0.0,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 507,
+      "turno": 170,
+      "timestamp": "2026-04-27T00:46:44.608635",
+      "tipo": "combate",
+      "descricao": "Jolie 2 vs Sombrio Urso em (6,0,0): fuga",
+      "dados": {}
+    },
+    {
+      "id": 508,
+      "turno": 170,
+      "timestamp": "2026-04-27T00:46:44.618635",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Chapada dos Buritis (6,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 509,
+      "turno": 171,
+      "timestamp": "2026-04-27T00:46:51.129792",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Chapada dos Buritis (5,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 510,
+      "turno": 171,
+      "timestamp": "2026-04-27T00:46:53.598269",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Lugar Desconhecido (4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 511,
+      "turno": 171,
+      "timestamp": "2026-04-27T00:46:54.363757",
+      "tipo": "movimento",
+      "descricao": "Jolie 2 → Campo dos Ipês Amarelos (3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 512,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:30.143195",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Aranha' derrotado.",
+      "dados": {
+        "nome": "Sombrio Aranha",
+        "nivel": 2,
+        "turno": 176,
+        "loot": []
+      }
+    },
+    {
+      "id": 513,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:30.148195",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Aranha': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Aranha",
+        "resultado": "vitoria",
+        "turnos": 6,
+        "dano_causado": 119.65,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 514,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:30.165932",
+      "tipo": "combate",
+      "descricao": "1 vs Sombrio Aranha em (1,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 515,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:30.171942",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 516,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:55.258932",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 517,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:57.352455",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 518,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:00:58.228358",
+      "tipo": "movimento",
+      "descricao": "1 → Lugar Desconhecido (4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 519,
+      "turno": 176,
+      "timestamp": "2026-04-27T01:01:00.219768",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (5,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 520,
+      "turno": 177,
+      "timestamp": "2026-04-27T01:01:28.732105",
+      "tipo": "item_obtido",
+      "descricao": "Item 'faca_enferrujada' obtido via loot:Sombrio Réptil.",
+      "dados": {}
+    },
+    {
+      "id": 521,
+      "turno": 177,
+      "timestamp": "2026-04-27T01:01:28.741106",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Réptil' derrotado.",
+      "dados": {
+        "nome": "Sombrio Réptil",
+        "nivel": 1,
+        "turno": 177,
+        "loot": [
+          "faca_enferrujada"
+        ]
+      }
+    },
+    {
+      "id": 522,
+      "turno": 177,
+      "timestamp": "2026-04-27T01:01:28.748105",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Réptil': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Réptil",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 97.43,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "bola de  relampago de raios gigantes"
+        ]
+      }
+    },
+    {
+      "id": 523,
+      "turno": 177,
+      "timestamp": "2026-04-27T01:01:28.768619",
+      "tipo": "combate",
+      "descricao": "1 vs Sombrio Réptil em (6,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 524,
+      "turno": 177,
+      "timestamp": "2026-04-27T01:01:28.776549",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (6,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 525,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:08.688331",
+      "tipo": "item_obtido",
+      "descricao": "Item 'arco_simples' obtido via loot:Sombrio Felino.",
+      "dados": {}
+    },
+    {
+      "id": 526,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:08.695338",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Felino' derrotado.",
+      "dados": {
+        "nome": "Sombrio Felino",
+        "nivel": 2,
+        "turno": 179,
+        "loot": [
+          "arco_simples"
+        ]
+      }
+    },
+    {
+      "id": 527,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:08.700346",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Felino': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Felino",
+        "resultado": "vitoria",
+        "turnos": 3,
+        "dano_causado": 177.87,
+        "dano_recebido": 0.0,
+        "acoes_destaque": [
+          "bola de  relampago de raios gigantes",
+          "bola de  relampago de raios gigantes"
+        ]
+      }
+    },
+    {
+      "id": 528,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:08.715869",
+      "tipo": "combate",
+      "descricao": "1 vs Sombrio Felino em (7,0,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 529,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:08.722871",
+      "tipo": "movimento",
+      "descricao": "1 → Encosta das Bromeliáceas (7,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 530,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:18.606443",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Sombra' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Sombra"
+      }
+    },
+    {
+      "id": 531,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:26.255868",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "Você deixa o caminho espinhoso e mergulha na densa mata atlântica, onde o ar pesado é saturado de umidade e o som das águas murmura uma canção ancestral. A vegetação se eleva em um manto verde e silen"
+      }
+    },
+    {
+      "id": 532,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:35.953229",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "ola mano",
+        "resposta": "Silêncio. A saudação é apenas um ruído na escuridão. O que importa não é o cumprimento, mas o peso do que você traz. Não desperdice meu tempo com trivialidades."
+      }
+    },
+    {
+      "id": 533,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:35.966748",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 5.0
+      }
+    },
+    {
+      "id": 534,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:52.834082",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "que escuridão maneira bro",
+        "resposta": "Silêncio. A escuridão não é um brinquedo para ser comentado. O que importa é o peso da verdade que você carrega. Não desperdice meu tempo com palavras vazias."
+      }
+    },
+    {
+      "id": 535,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:02:52.852724",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 10.0
+      }
+    },
+    {
+      "id": 536,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:03:16.342998",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "escuridão",
+        "resposta": "A escuridão é apenas a ausência da luz. O que realmente importa é a sombra que você carrega. Não procure o brilho; procure o peso. O silêncio é a única moeda que aceito."
+      }
+    },
+    {
+      "id": 537,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:03:16.356999",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 15.0
+      }
+    },
+    {
+      "id": 538,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:03:39.679026",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "silêncio é maneiro",
+        "resposta": "O silêncio é a única verdade que resta quando as palavras se tornam veneno. O que você chama de maneiro é apenas a pausa antes da queda. O peso da sua escolha é muito maior que qualquer ruído."
+      }
+    },
+    {
+      "id": 539,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:03:39.693878",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 20.0
+      }
+    },
+    {
+      "id": 540,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:04:06.199273",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "e o que vc faz por aqui?",
+        "resposta": "Eu observo. Eu sou a sombra que se move nas fendas da verdade, o eco das escolhas que ninguém mais ouve. O que faço aqui é garantir que o peso das coisas seja reconhecido."
+      }
+    },
+    {
+      "id": 541,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:04:06.220574",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 25.0
+      }
+    },
+    {
+      "id": 542,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:04:47.648391",
+      "tipo": "amizade",
+      "descricao": "Sombra: recusou ajudar",
+      "dados": {
+        "delta": -5.0,
+        "total": 20.0
+      }
+    },
+    {
+      "id": 543,
+      "turno": 179,
+      "timestamp": "2026-04-27T01:04:50.838258",
+      "tipo": "dialogo",
+      "descricao": "1 interagiu com Sombra (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 544,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:13.064307",
+      "tipo": "descanso",
+      "descricao": "1 descansou em (7,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 545,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:14.285583",
+      "tipo": "descanso",
+      "descricao": "1 descansou em (7,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 546,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:14.793147",
+      "tipo": "descanso",
+      "descricao": "1 descansou em (7,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 547,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:15.432238",
+      "tipo": "descanso",
+      "descricao": "1 descansou em (7,0,0).",
+      "dados": {}
+    },
+    {
+      "id": 548,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:27.585371",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Sombra' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Sombra"
+      }
+    },
+    {
+      "id": 549,
+      "turno": 180,
+      "timestamp": "2026-04-27T01:05:32.985645",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "Você desce da estrada espinhosa, e a densa mata atlântica se abre diante de você. O ar pesado da umidade envolve seu rosto enquanto o som das águas canta ao longe, e a vegetação luxuriante se ergue em"
+      }
+    },
+    {
+      "id": 550,
+      "turno": 181,
+      "timestamp": "2026-04-27T01:07:37.046409",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Esqueleto Errante (T1)' derrotado.",
+      "dados": {
+        "nome": "Esqueleto Errante (T1)",
+        "nivel": 1,
+        "turno": 181,
+        "loot": []
+      }
+    },
+    {
+      "id": 551,
+      "turno": 181,
+      "timestamp": "2026-04-27T01:07:37.053405",
+      "tipo": "combate",
+      "descricao": "Combate com 'Esqueleto Errante (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Esqueleto Errante (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 158.49,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 552,
+      "turno": 182,
+      "timestamp": "2026-04-27T01:08:23.560040",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Elemental de Fogo (T1)' derrotado.",
+      "dados": {
+        "nome": "Elemental de Fogo (T1)",
+        "nivel": 1,
+        "turno": 182,
+        "loot": []
+      }
+    },
+    {
+      "id": 553,
+      "turno": 182,
+      "timestamp": "2026-04-27T01:08:23.566039",
+      "tipo": "combate",
+      "descricao": "Combate com 'Elemental de Fogo (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Elemental de Fogo (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 119.39,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 554,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:08:53.961342",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Jacaré Gigante (T1)' derrotado.",
+      "dados": {
+        "nome": "Jacaré Gigante (T1)",
+        "nivel": 1,
+        "turno": 183,
+        "loot": []
+      }
+    },
+    {
+      "id": 555,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:08:53.968340",
+      "tipo": "combate",
+      "descricao": "Combate com 'Jacaré Gigante (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Jacaré Gigante (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 134.01,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 556,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:08:53.974340",
+      "tipo": "amizade",
+      "descricao": "Sombra: venceu missão de ajuda",
+      "dados": {
+        "delta": 35.0,
+        "total": 55.0
+      }
+    },
+    {
+      "id": 557,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:08:59.774616",
+      "tipo": "combate",
+      "descricao": "1 completou missão de Sombra.",
+      "dados": {
+        "vitorias": 3,
+        "fugiu": false,
+        "amizade_nova": 55.0
+      }
+    },
+    {
+      "id": 558,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:16.541251",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "vc viu minha chama?",
+        "resposta": "A chama é apenas um ponto de luz efêmero. Eu vejo o que se esconde nas sombras, não o fogo em si. O que importa é a escuridão que ela deixa para trás."
+      }
+    },
+    {
+      "id": 559,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:16.561314",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 60.0
+      }
+    },
+    {
+      "id": 560,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:28.924583",
+      "tipo": "dialogo",
+      "descricao": "1 conversou com Sombra.",
+      "dados": {
+        "pergunta": "mas era uma chama nenem",
+        "resposta": "O calor é apenas uma manifestação. Eu vejo a escuridão que se forma quando a luz é manipulada. O que importa não é a origem, mas o efeito que a chama provoca nas sombras."
+      }
+    },
+    {
+      "id": 561,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:28.942855",
+      "tipo": "amizade",
+      "descricao": "Sombra: conversa",
+      "dados": {
+        "delta": 5.0,
+        "total": 65.0
+      }
+    },
+    {
+      "id": 562,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:57.652741",
+      "tipo": "item_obtido",
+      "descricao": "Item 'Espada Longa' obtido via segredo_Sombra.",
+      "dados": {}
+    },
+    {
+      "id": 563,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:57.668327",
+      "tipo": "descoberta",
+      "descricao": "1 soube segredo de Sombra.",
+      "dados": {
+        "segredo": "é um antigo aventureiro que se esconde do Senhor das Sombras"
+      }
+    },
+    {
+      "id": 564,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:09:57.675187",
+      "tipo": "amizade",
+      "descricao": "Sombra: segredo revelado",
+      "dados": {
+        "delta": -10.0,
+        "total": 55.0
+      }
+    },
+    {
+      "id": 565,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:04.887199",
+      "tipo": "dialogo",
+      "descricao": "1 interagiu com Sombra (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 566,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:08.481482",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (6,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 567,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:09.575522",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (5,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 568,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:10.114732",
+      "tipo": "movimento",
+      "descricao": "1 → Lugar Desconhecido (4,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 569,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:10.666145",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 570,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:16.238602",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 571,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:19.095022",
+      "tipo": "movimento",
+      "descricao": "1 → Campo dos Ipês Amarelos (1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 572,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:24.504650",
+      "tipo": "movimento",
+      "descricao": "1 → Borda Teste (0,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 573,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:25.441513",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (-1,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 574,
+      "turno": 183,
+      "timestamp": "2026-04-27T01:10:26.582876",
+      "tipo": "movimento",
+      "descricao": "1 → Savana do Lobo-Guará (-2,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 575,
+      "turno": 184,
+      "timestamp": "2026-04-27T01:10:40.563278",
+      "tipo": "combate",
+      "descricao": "Combate com 'Antigo Lobo': fuga.",
+      "dados": {
+        "inimigo": "Antigo Lobo",
+        "resultado": "fuga",
+        "turnos": 1,
+        "dano_causado": 0.0,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 576,
+      "turno": 184,
+      "timestamp": "2026-04-27T01:10:40.578278",
+      "tipo": "combate",
+      "descricao": "1 vs Antigo Lobo em (-3,0,0): fuga",
+      "dados": {}
+    },
+    {
+      "id": 577,
+      "turno": 184,
+      "timestamp": "2026-04-27T01:10:40.587278",
+      "tipo": "movimento",
+      "descricao": "1 → Chapada dos Buritis (-3,0,0)",
+      "dados": {}
+    },
+    {
+      "id": 578,
+      "turno": 184,
+      "timestamp": "2026-04-27T01:10:54.772229",
+      "tipo": "movimento",
+      "descricao": "1 → Selva dos Curupiras (-3,-1,0)",
+      "dados": {}
+    },
+    {
+      "id": 579,
+      "turno": 185,
+      "timestamp": "2026-04-27T01:12:26.467991",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Sombrio Aranha' derrotado.",
+      "dados": {
+        "nome": "Sombrio Aranha",
+        "nivel": 2,
+        "turno": 185,
+        "loot": []
+      }
+    },
+    {
+      "id": 580,
+      "turno": 185,
+      "timestamp": "2026-04-27T01:12:26.477988",
+      "tipo": "combate",
+      "descricao": "Combate com 'Sombrio Aranha': vitoria.",
+      "dados": {
+        "inimigo": "Sombrio Aranha",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 398.11,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 581,
+      "turno": 185,
+      "timestamp": "2026-04-27T01:12:26.494987",
+      "tipo": "combate",
+      "descricao": "1 vs Sombrio Aranha em (-3,-2,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 582,
+      "turno": 185,
+      "timestamp": "2026-04-27T01:12:26.502987",
+      "tipo": "movimento",
+      "descricao": "1 → Lugar Desconhecido (-3,-2,0)",
+      "dados": {}
+    },
+    {
+      "id": 583,
+      "turno": 185,
+      "timestamp": "2026-04-27T01:12:56.260693",
+      "tipo": "movimento",
+      "descricao": "1 → Selva dos Curupiras (-3,-3,0)",
+      "dados": {}
+    },
+    {
+      "id": 584,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:13:21.824896",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Enraivecido Urso' derrotado.",
+      "dados": {
+        "nome": "Enraivecido Urso",
+        "nivel": 1,
+        "turno": 186,
+        "loot": []
+      }
+    },
+    {
+      "id": 585,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:13:21.831896",
+      "tipo": "combate",
+      "descricao": "Combate com 'Enraivecido Urso': vitoria.",
+      "dados": {
+        "inimigo": "Enraivecido Urso",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 338.04,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 586,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:13:21.852897",
+      "tipo": "combate",
+      "descricao": "1 vs Enraivecido Urso em (-3,-4,0): vitoria",
+      "dados": {}
+    },
+    {
+      "id": 587,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:13:21.859908",
+      "tipo": "movimento",
+      "descricao": "1 → Bosque das Seringueiras (-3,-4,0)",
+      "dados": {}
+    },
+    {
+      "id": 588,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:14:21.369891",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Mira, a Anciã' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Mira, a Anciã"
+      }
+    },
+    {
+      "id": 589,
+      "turno": 186,
+      "timestamp": "2026-04-27T01:14:27.216597",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "O cheiro úmido da terra molhada te atinge, e a imensidão da Amazônia se estende diante de você, um mar de verde denso. Ao olhar para o norte, a escuridão da Selva dos Curupiras se aproxima, sussurrand"
+      }
+    },
+    {
+      "id": 590,
+      "turno": 187,
+      "timestamp": "2026-04-27T01:15:12.621778",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Guardião Rúnico (T1)' derrotado.",
+      "dados": {
+        "nome": "Guardião Rúnico (T1)",
+        "nivel": 1,
+        "turno": 187,
+        "loot": []
+      }
+    },
+    {
+      "id": 591,
+      "turno": 187,
+      "timestamp": "2026-04-27T01:15:12.628775",
+      "tipo": "combate",
+      "descricao": "Combate com 'Guardião Rúnico (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Guardião Rúnico (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 449.82,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 592,
+      "turno": 188,
+      "timestamp": "2026-04-27T01:15:46.794955",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Lich Menor (T1)' derrotado.",
+      "dados": {
+        "nome": "Lich Menor (T1)",
+        "nivel": 1,
+        "turno": 188,
+        "loot": []
+      }
+    },
+    {
+      "id": 593,
+      "turno": 188,
+      "timestamp": "2026-04-27T01:15:46.800954",
+      "tipo": "combate",
+      "descricao": "Combate com 'Lich Menor (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Lich Menor (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 708.1,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 594,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:15.915748",
+      "tipo": "combate",
+      "descricao": "Inimigo 'Elemental de Fogo (T1)' derrotado.",
+      "dados": {
+        "nome": "Elemental de Fogo (T1)",
+        "nivel": 1,
+        "turno": 189,
+        "loot": []
+      }
+    },
+    {
+      "id": 595,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:15.921747",
+      "tipo": "combate",
+      "descricao": "Combate com 'Elemental de Fogo (T1)': vitoria.",
+      "dados": {
+        "inimigo": "Elemental de Fogo (T1)",
+        "resultado": "vitoria",
+        "turnos": 2,
+        "dano_causado": 660.46,
+        "dano_recebido": 0.0,
+        "acoes_destaque": []
+      }
+    },
+    {
+      "id": 596,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:15.929360",
+      "tipo": "amizade",
+      "descricao": "Mira, a Anciã: venceu missão de ajuda",
+      "dados": {
+        "delta": 35.0,
+        "total": 35.0
+      }
+    },
+    {
+      "id": 597,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:22.458408",
+      "tipo": "combate",
+      "descricao": "1 completou missão de Mira, a Anciã.",
+      "dados": {
+        "vitorias": 3,
+        "fugiu": false,
+        "amizade_nova": 35.0
+      }
+    },
+    {
+      "id": 598,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:34.272787",
+      "tipo": "dialogo",
+      "descricao": "1 interagiu com Mira, a Anciã (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 599,
+      "turno": 189,
+      "timestamp": "2026-04-27T01:16:44.569437",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (-3,-4,0): O calor abrasador e a fumaça densa se tornam a nova e eterna paisagem da floresta amazônica.",
+      "dados": {}
+    },
+    {
+      "id": 600,
+      "turno": 190,
+      "timestamp": "2026-04-27T01:17:25.309806",
+      "tipo": "dialogo",
+      "descricao": "NPC 'Mira, a Anciã' registrado. Atitude: neutro.",
+      "dados": {
+        "npc": "Mira, a Anciã"
+      }
+    },
+    {
+      "id": 601,
+      "turno": 190,
+      "timestamp": "2026-04-27T01:17:31.124286",
+      "tipo": "narrativa",
+      "descricao": "Ação narrada: Você é o narrador de um RPG. Descreva em 2-3 frases a cena e",
+      "dados": {
+        "narracao": "O cheiro úmido da terra molhada te envolve enquanto você avança, sentindo a imensidão da Amazônia estender-se diante de seus olhos, um mar de verde denso. A escuridão da Selva dos Curupiras se aproxim"
+      }
+    },
+    {
+      "id": 602,
+      "turno": 190,
+      "timestamp": "2026-04-27T01:17:34.900210",
+      "tipo": "dialogo",
+      "descricao": "1 interagiu com Mira, a Anciã (menu A em mundo aberto).",
+      "dados": {}
+    },
+    {
+      "id": 603,
+      "turno": 190,
+      "timestamp": "2026-04-27T01:17:51.684179",
+      "tipo": "modificacao",
+      "descricao": "Modificação em (-3,-4,0): A umidade da floresta se intensifica e o ciclo da vida se reconfigura permanentemente sob o efeito da sua intervenção.",
+      "dados": {}
+    },
+    {
+      "id": 604,
+      "turno": 191,
+      "timestamp": "2026-04-29T00:15:14.285878",
+      "tipo": "movimento",
+      "descricao": "Max → Planalto dos Pequizeiros (0,1,0)",
+      "dados": {}
+    },
+    {
+      "id": 605,
+      "turno": 191,
+      "timestamp": "2026-04-29T00:15:17.012985",
+      "tipo": "movimento",
+      "descricao": "Max → Borda Teste (0,0,0)",
+      "dados": {}
+    }
+  ]
+}

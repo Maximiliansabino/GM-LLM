@@ -1,0 +1,2 @@
+timestamp,turno,tipo,personagem,modelo,entrada_preview,resposta_preview,tokens_prompt,tokens_resposta,tokens_total,tempo_s,custo_usd,criatividade,eficiencia,finish_reason
+2026-04-18T11:59:36,0,questionario_p1,?,desconhecido,"[P1/mental] Você acaba de encontrar um mapa rasgado dentro de um livro abandonado. O mapa parece indicar algo importante, mas metade…",R: uso google leans para reconhecer o mapa e localizar o tesouro | O jogador usou um aplicativo de reconhecimento de imagem sem relação com a situa…,0,0,0,16.876,0.0,0.5,0.0,

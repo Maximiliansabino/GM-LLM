@@ -1,0 +1,43 @@
+{
+  "arquivo": "sessao_2026-04-26_14-24-25.csv",
+  "personagem": "Fe",
+  "modelo": "gemma4:e2b",
+  "data_sessao": "2026-04-26_14-24-25",
+  "metricas": {
+    "GS1_qualidade_narrativa": 0.0,
+    "GS3_coerencia_acao": null,
+    "GS6_consistencia_estado": null,
+    "QC1_criatividade_jogador_pregame": 2.33,
+    "GS4_criatividade_jogador": null,
+    "GS5_eficiencia_mecanica": null,
+    "MW1_narracao_mundo": 3.89,
+    "MW2_consistencia_mundo": 3.0,
+    "score_mundo": 3.62,
+    "score_global": 1.9
+  },
+  "internas": {
+    "criatividade_media": 0,
+    "criatividade_min": 0,
+    "criatividade_max": 0,
+    "eficiencia_media": 0,
+    "acoes_avaliadas": 0,
+    "tempo_medio_llm_s": 17.3,
+    "tokens_medio": 803,
+    "tokens_total_sessao": 5619
+  },
+  "mundo_aberto": {
+    "tipos": [
+      "mundo_chegada"
+    ],
+    "total_acoes": 1
+  },
+  "diagnostico": {
+    "modelo_judge": "qwen2.5:7b-instruct",
+    "backend_judge": "ollama",
+    "chamadas_totais": 27,
+    "chamadas_com_parse_ok": 27,
+    "chamadas_falha_parse": 0,
+    "taxa_sucesso_parse": 1.0,
+    "exemplos_falha": []
+  }
+}

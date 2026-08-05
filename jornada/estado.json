@@ -1,0 +1,403 @@
+{
+  "turno": 191,
+  "personagem": {
+    "nome": "Max",
+    "caminho": "sabedoria",
+    "forca": 4.0,
+    "vigor": 5.0,
+    "conhecimento_tacito": 4.0,
+    "conhecimento_explicito": 18.0,
+    "psique_base": 9.0,
+    "pv_atual": 55.0,
+    "pv_max": 55.0,
+    "psique_atual": 16.405,
+    "psique_max": 16.405,
+    "corpo_fisico": 9.5,
+    "conhecimento": 9.183333333333334,
+    "item_equipado": "Cajado Arcano",
+    "inventario": [
+      "Chapéu do Mago"
+    ],
+    "bolsa": [],
+    "slots_inventario": "1/3",
+    "habilidades_ativar": [],
+    "habilidades_passivas": [
+      "Memorizar Lições",
+      "Canal Psíquico",
+      "Foco Mental"
+    ],
+    "habilidades_extras": [
+      "Leitura Dinâmica",
+      "Análise de Fraqueza",
+      "Culinária"
+    ]
+  },
+  "localizacao_atual": "Borda das Montanhas Névoas",
+  "npcs_conhecidos": {
+    "Breno": {
+      "descricao": "Taverneiro. Homem robusto, cabelos grisalhos, avental surrado, sorriso fácil.",
+      "atitude": "amigavel",
+      "turno_met": 105,
+      "personalidade": "Conversador e otimista. Adora fofocas e repassa rumores com entusiasmo exagerado.",
+      "conhecimentos": [
+        "rumores da vila",
+        "estradas perigosas",
+        "preços de mercado",
+        "história local"
+      ]
+    },
+    "Ferran": {
+      "descricao": "Ferreiro. Homem baixo e musculoso, braços queimados por fagulhas, barba espessa.",
+      "atitude": "amigavel",
+      "turno_met": 128,
+      "personalidade": "Prático e honesto. Orgulhoso do próprio trabalho. Fala pouco, faz muito.",
+      "conhecimentos": [
+        "aprimoramento de armas",
+        "maestria com ferramentas",
+        "técnicas de forja"
+      ]
+    },
+    "Capitão Duras": {
+      "descricao": "Líder da guarda local. Homem alto e severo, cicatriz no queixo, armadura com insígnia da cidade.",
+      "atitude": "neutro",
+      "turno_met": 150,
+      "personalidade": "Direto e desconfiado. Valoriza fatos, não histórias. Respeita competência demonstrada.",
+      "conhecimentos": [
+        "atividades criminosas",
+        "layout da cidade",
+        "rotas de patrulha",
+        "lei local"
+      ]
+    },
+    "Sombra": {
+      "descricao": "Informante desconhecido. Encapuzado, rosto sempre oculto, voz sussurrada.",
+      "atitude": "neutro",
+      "turno_met": 180,
+      "personalidade": "Misterioso e calculista. Só aparece quando o jogador está sozinho e em apuros.",
+      "conhecimentos": [
+        "localização de artefatos perdidos",
+        "identidade do traidor",
+        "acesso ao boss"
+      ]
+    },
+    "Mira, a Anciã": {
+      "descricao": "Curandeira e guardiã do saber antigo. Mulher muito velha, olhos claros penetrantes, dedos nodosos, sempre carrega erva",
+      "atitude": "neutro",
+      "turno_met": 190,
+      "personalidade": "Lacônica e enigmática. Responde perguntas com mais perguntas. Desconfia de estranhos, mas respeita aqueles que demonstram conhecimento.",
+      "conhecimentos": [
+        "rituais antigos",
+        "plantas medicinais",
+        "o Senhor das Sombras",
+        "segredos do templo"
+      ]
+    }
+  },
+  "inimigos_derrotados": [
+    {
+      "nome": "Lobo da Floresta",
+      "nivel": 1
+    },
+    {
+      "nome": "Enraivecido Urso",
+      "nivel": 1,
+      "turno": 20,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Felino",
+      "nivel": 2,
+      "turno": 38,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Lobo",
+      "nivel": 1,
+      "turno": 48,
+      "loot": [
+        "arco_simples"
+      ]
+    },
+    {
+      "nome": "Feroz Aranha",
+      "nivel": 1,
+      "turno": 59,
+      "loot": [
+        "faca_enferrujada"
+      ]
+    },
+    {
+      "nome": "Antigo Urso",
+      "nivel": 1,
+      "turno": 84,
+      "loot": []
+    },
+    {
+      "nome": "Feroz Corvo",
+      "nivel": 1,
+      "turno": 86,
+      "loot": [
+        "faca_enferrujada"
+      ]
+    },
+    {
+      "nome": "Enraivecido Urso",
+      "nivel": 1,
+      "turno": 89,
+      "loot": [
+        "arco_simples"
+      ]
+    },
+    {
+      "nome": "Enraivecido Lobo",
+      "nivel": 1,
+      "turno": 90,
+      "loot": []
+    },
+    {
+      "nome": "Antigo Lobo",
+      "nivel": 1,
+      "turno": 91,
+      "loot": []
+    },
+    {
+      "nome": "Enraivecido Corvo",
+      "nivel": 1,
+      "turno": 92,
+      "loot": []
+    },
+    {
+      "nome": "Antigo Felino",
+      "nivel": 1,
+      "turno": 97,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Réptil",
+      "nivel": 1,
+      "turno": 100,
+      "loot": []
+    },
+    {
+      "nome": "Enraivecido Corvo",
+      "nivel": 1,
+      "turno": 102,
+      "loot": []
+    },
+    {
+      "nome": "Bandido Corrupto (T1)",
+      "nivel": 1,
+      "turno": 108,
+      "loot": []
+    },
+    {
+      "nome": "Mercenário (T1)",
+      "nivel": 1,
+      "turno": 111,
+      "loot": []
+    },
+    {
+      "nome": "Lobo Alfa (T1)",
+      "nivel": 1,
+      "turno": 113,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Felino",
+      "nivel": 2,
+      "turno": 119,
+      "loot": [
+        "arco_simples"
+      ]
+    },
+    {
+      "nome": "Feroz Lobo",
+      "nivel": 4,
+      "turno": 127,
+      "loot": []
+    },
+    {
+      "nome": "Vórtice Arcano (T1)",
+      "nivel": 1,
+      "turno": 130,
+      "loot": []
+    },
+    {
+      "nome": "Elemental de Gelo (T1)",
+      "nivel": 1,
+      "turno": 134,
+      "loot": []
+    },
+    {
+      "nome": "Elemental de Trovão (T1)",
+      "nivel": 1,
+      "turno": 137,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Urso",
+      "nivel": 4,
+      "turno": 145,
+      "loot": []
+    },
+    {
+      "nome": "Enraivecido Felino",
+      "nivel": 3,
+      "turno": 150,
+      "loot": []
+    },
+    {
+      "nome": "Esqueleto Errante (T1)",
+      "nivel": 1,
+      "turno": 152,
+      "loot": []
+    },
+    {
+      "nome": "Assassino (T1)",
+      "nivel": 1,
+      "turno": 154,
+      "loot": []
+    },
+    {
+      "nome": "Elemental de Fogo (T1)",
+      "nivel": 1,
+      "turno": 157,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Felino",
+      "nivel": 3,
+      "turno": 165,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Aranha",
+      "nivel": 2,
+      "turno": 176,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Réptil",
+      "nivel": 1,
+      "turno": 177,
+      "loot": [
+        "faca_enferrujada"
+      ]
+    },
+    {
+      "nome": "Sombrio Felino",
+      "nivel": 2,
+      "turno": 179,
+      "loot": [
+        "arco_simples"
+      ]
+    },
+    {
+      "nome": "Esqueleto Errante (T1)",
+      "nivel": 1,
+      "turno": 181,
+      "loot": []
+    },
+    {
+      "nome": "Elemental de Fogo (T1)",
+      "nivel": 1,
+      "turno": 182,
+      "loot": []
+    },
+    {
+      "nome": "Jacaré Gigante (T1)",
+      "nivel": 1,
+      "turno": 183,
+      "loot": []
+    },
+    {
+      "nome": "Sombrio Aranha",
+      "nivel": 2,
+      "turno": 185,
+      "loot": []
+    },
+    {
+      "nome": "Enraivecido Urso",
+      "nivel": 1,
+      "turno": 186,
+      "loot": []
+    },
+    {
+      "nome": "Guardião Rúnico (T1)",
+      "nivel": 1,
+      "turno": 187,
+      "loot": []
+    },
+    {
+      "nome": "Lich Menor (T1)",
+      "nivel": 1,
+      "turno": 188,
+      "loot": []
+    },
+    {
+      "nome": "Elemental de Fogo (T1)",
+      "nivel": 1,
+      "turno": 189,
+      "loot": []
+    }
+  ],
+  "itens_obtidos": [
+    {
+      "nome": "Espada Longa"
+    },
+    {
+      "item": "arco_simples",
+      "origem": "loot:Sombrio Lobo",
+      "turno": 48
+    },
+    {
+      "item": "faca_enferrujada",
+      "origem": "loot:Feroz Aranha",
+      "turno": 59
+    },
+    {
+      "item": "faca_enferrujada",
+      "origem": "loot:Feroz Corvo",
+      "turno": 86
+    },
+    {
+      "item": "arco_simples",
+      "origem": "loot:Enraivecido Urso",
+      "turno": 89
+    },
+    {
+      "item": "arco_simples",
+      "origem": "loot:Sombrio Felino",
+      "turno": 119
+    },
+    {
+      "item": "Cachimbo da Caipora",
+      "origem": "segredo_Capitão Duras",
+      "turno": 157
+    },
+    {
+      "item": "faca_enferrujada",
+      "origem": "loot:Sombrio Réptil",
+      "turno": 177
+    },
+    {
+      "item": "arco_simples",
+      "origem": "loot:Sombrio Felino",
+      "turno": 179
+    },
+    {
+      "item": "Espada Longa",
+      "origem": "segredo_Sombra",
+      "turno": 183
+    }
+  ],
+  "segredos_descobertos": [
+    {
+      "descricao": "O Curupira protege a floresta norte"
+    }
+  ],
+  "quests_ativas": [],
+  "quests_concluidas": [],
+  "reputacao": {},
+  "habilidades_adquiridas": []
+}

@@ -1,0 +1,6 @@
+timestamp,turno,tipo,personagem,modelo,entrada_preview,resposta_preview,tokens_prompt,tokens_resposta,tokens_total,tempo_s,custo_usd,criatividade,eficiencia,finish_reason
+2026-04-18T16:06:51,0,mundo_chegada,Max test modelo 5,meta-llama-3.1-8b-instruct:latest,"[floresta|(0,0,0)] inicio","A mata fecha ao seu redor, árvores altas bloqueiam o sol.",0,0,0,0.0,0.0,,,
+2026-04-18T16:07:36,0,mundo_acao_livre,Max test modelo 5,meta-llama-3.1-8b-instruct:latest,"[floresta|(0,0,0)] exploro minhas opções em minha volta",[33m[Ollama indisponível — execute: ollama serve][0m,0,0,0,0.0,0.0,,,
+2026-04-18T16:07:36,0,mundo_acao_livre,Max test modelo 5,meta-llama-3.1-8b-instruct:latest,"[floresta|(0,0,0)|T0] exploro minhas opções em minha volta",[33m[Ollama indisponível — execute: ollama serve][0m,0,0,0,0.0,0.0,,,
+2026-04-18T16:11:55,0,mundo_movimento,Max test modelo 5,meta-llama-3.1-8b-instruct:latest,"[floresta|(0,1,0)] move Norte",Você retorna a Mata do Curupira.,0,0,0,0.0,0.0,,,
+2026-04-18T16:12:12,0,mundo_movimento,Max test modelo 5,meta-llama-3.1-8b-instruct:latest,"[planicie|(0,2,0)] move Norte",Você retorna a Campos do Vento.,0,0,0,0.0,0.0,,,

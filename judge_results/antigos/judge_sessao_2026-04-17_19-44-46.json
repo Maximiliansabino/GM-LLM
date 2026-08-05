@@ -1,0 +1,32 @@
+{
+  "arquivo": "sessao_2026-04-17_19-44-46.csv",
+  "personagem": "?",
+  "modelo": "desconhecido",
+  "data_sessao": "2026-04-17_19-44-46",
+  "metricas": {
+    "GS1_qualidade_narrativa": 0.0,
+    "GS3_coerencia_acao": 0,
+    "GS6_consistencia_estado": 5.0,
+    "QC1_questionario": 1.33,
+    "GS4_criatividade_jogador": 0,
+    "GS5_eficiencia_mecanica": 0.0,
+    "MW1_narracao_mundo": 2.37,
+    "MW2_consistencia_mundo": 5.0,
+    "score_mundo": 3.16,
+    "score_global": 1.79
+  },
+  "internas": {
+    "criatividade_media": 0,
+    "criatividade_min": 0,
+    "criatividade_max": 0,
+    "eficiencia_media": 0,
+    "acoes_avaliadas": 0,
+    "tempo_medio_llm_s": 0.0,
+    "tokens_medio": 0,
+    "tokens_total_sessao": 0
+  },
+  "mundo_aberto": {
+    "tipos": [],
+    "total_acoes": 0
+  }
+}

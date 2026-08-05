@@ -1,0 +1,767 @@
+[
+  {
+    "acao_norm": "bolafogo",
+    "score": 0.7,
+    "justificativa": "Suas chamas varrem o Lobo da Floresta — ele se retorce em agonia, consumido pelo próprio fogo que teme."
+  },
+  {
+    "acao_norm": "bolafogonaturalfogo",
+    "score": 1.5,
+    "justificativa": "Suas chamas varrem o Lobo da Floresta — ele se retorce em agonia, consumido pelo próprio fogo que teme."
+  },
+  {
+    "acao_norm": "corte",
+    "score": 0.6,
+    "justificativa": "Max desferiu um golpe preciso no flanco da Cutia, buscando aproveitar sua fraqueza contra o fogo."
+  },
+  {
+    "acao_norm": "cortefisicafogoluz",
+    "score": 1.0,
+    "justificativa": "Com um movimento ágil, você desferiu um corte preciso no Goblin Batedeiro, que tentou bloquear com seu escudo de madeira"
+  },
+  {
+    "acao_norm": "retalhar",
+    "score": 0.7,
+    "justificativa": "Você arremessa uma chama em direção ao Goblin Batedeiro, que tenta se proteger com as mãos, mas a fogueira inflamada por"
+  },
+  {
+    "acao_norm": "retalharfisicafogoluz",
+    "score": 1.5,
+    "justificativa": "Você arremessa uma chama em direção ao Goblin Batedeiro, que tenta se proteger com as mãos, mas a fogueira inflamada por"
+  },
+  {
+    "acao_norm": "multi corte",
+    "score": 0.6,
+    "justificativa": "Você lança múltiplas facadas no Goblin Batedeiro, que tenta se defender com sua habilidade física."
+  },
+  {
+    "acao_norm": "ataco",
+    "score": 0.5,
+    "justificativa": "O ataque de Max é um golpe direto e preciso contra o Goblin Batedeiro."
+  },
+  {
+    "acao_norm": "perfurar",
+    "score": 0.7,
+    "justificativa": "Com um movimento ágil, você empurra o Goblin Batedeiro para trás com a ponta da espada, aproveitando sua fraqueza no seu"
+  },
+  {
+    "acao_norm": "destrinchar",
+    "score": 0.5,
+    "justificativa": "Você golpeia a Cutia com força, mas sem explorar nenhuma fraqueza específica."
+  },
+  {
+    "acao_norm": "destrincharnaturalfogo",
+    "score": 1.0,
+    "justificativa": "Você golpeia a Cutia com força, mas sem explorar nenhuma fraqueza específica."
+  },
+  {
+    "acao_norm": "corte rapido",
+    "score": 0.5,
+    "justificativa": "Você estende seu corte rápido contra a Cutia — a facada desliza sobre sua pele natural."
+  },
+  {
+    "acao_norm": "corte rapidonaturalfogo",
+    "score": 1.0,
+    "justificativa": "Você estende seu corte rápido contra a Cutia — a facada desliza sobre sua pele natural."
+  },
+  {
+    "acao_norm": "perfurarnaturalfogo",
+    "score": 1.0,
+    "justificativa": "Você ataca a Cutia com seu espada longa, procurando explorar sua fraqueza ao fogo."
+  },
+  {
+    "acao_norm": "bola de fogo maior",
+    "score": 0.6,
+    "justificativa": "Você lança uma bola de fogo maior contra a Capivara, explorando sua fraqueza ao fogo."
+  },
+  {
+    "acao_norm": "lanças de fogo",
+    "score": 0.6,
+    "justificativa": "Suas lanças de fogo atingem direto o alvo da Capivara, que tenta se proteger com as próprias defesas naturais."
+  },
+  {
+    "acao_norm": "espinho de fogo",
+    "score": 0.8,
+    "justificativa": "Suas chamas varrem o Capivara, fazendo com que ele se contorça em agonia enquanto as feridas do fogo explodem em seu cor"
+  },
+  {
+    "acao_norm": "espinho de fogonaturalfogo",
+    "score": 1.5,
+    "justificativa": "Suas chamas varrem o Capivara, fazendo com que ele se contorça em agonia enquanto as feridas do fogo explodem em seu cor"
+  },
+  {
+    "acao_norm": "tiro de fogo no olho",
+    "score": 0.6,
+    "justificativa": "Um estalo de fuzil ecoa pelo ar, e o tiro direcionado atinge o olho do Goblin Batedeiro com precisão letal."
+  },
+  {
+    "acao_norm": "tiro de fogo no olhofisicafogoluz",
+    "score": 1.5,
+    "justificativa": "Um estalo de fuzil ecoa pelo ar, e o tiro direcionado atinge o olho do Goblin Batedeiro com precisão letal."
+  },
+  {
+    "acao_norm": "bola de fogo gigantenaturalfogo",
+    "score": 1.5,
+    "justificativa": "As chamas da bola de fogo gigante envolvem a Capivara, causando queimaduras profundas em sua pele e fazendo com que ela "
+  },
+  {
+    "acao_norm": "furia",
+    "score": 0.7,
+    "justificativa": "Você lança uma onda de fúria contra a Capivara, suas mãos chocalhando no chão enquanto você avança em direção ao inimigo"
+  },
+  {
+    "acao_norm": "fatalblade",
+    "score": 0.6,
+    "justificativa": "Você mira a chama do toco de árvore que carrega na mão e o atira em direção à Capivara, fazendo-a rugir enquanto as cham"
+  },
+  {
+    "acao_norm": "furyblade",
+    "score": 0.7,
+    "justificativa": "Suas chamas varrem a Capivara, deixando-a queimada e tremendo de dor."
+  },
+  {
+    "acao_norm": "qwe",
+    "score": 0.6,
+    "justificativa": "Você lança um golpe de espada direcionado ao peito da Capivara, aproveitando sua fraqueza contra o fogo."
+  },
+  {
+    "acao_norm": "rasteira",
+    "score": 0.6,
+    "justificativa": "Você desfere uma rasteira no Curupira, fazendo-o perder o equilíbrio."
+  },
+  {
+    "acao_norm": "rasteiranaturalfogo",
+    "score": 1.0,
+    "justificativa": "Você desfere uma rasteira no Curupira, fazendo-o perder o equilíbrio."
+  },
+  {
+    "acao_norm": "soulblade",
+    "score": 0.6,
+    "justificativa": "Você executa um golpe de espada direcionado à região do peito do Curupira, explorando a fraqueza natural dele em relação"
+  },
+  {
+    "acao_norm": "soulbladenaturalfogo",
+    "score": 1.5,
+    "justificativa": "Você executa um golpe de espada direcionado à região do peito do Curupira, explorando a fraqueza natural dele em relação"
+  },
+  {
+    "acao_norm": "raio blade",
+    "score": 0.7,
+    "justificativa": "O raio blade deságua sobre a pele do Curupira, consumindo-o pelo fogo que tanto o aflige."
+  },
+  {
+    "acao_norm": "fury cut",
+    "score": 0.6,
+    "justificativa": "Suas facadas cortam o Curupira com precisão, penetrando suas defesas naturais e explorando sua fraqueza ao fogo."
+  },
+  {
+    "acao_norm": "cortepreci",
+    "score": 0.7,
+    "justificativa": "Suas chamas varrem o Curupira — ele se recua, consumido pelo próprio fogo que teme."
+  },
+  {
+    "acao_norm": "corte gelo",
+    "score": 0.7,
+    "justificativa": "Suas lâminas de gelo cortam o ar frio em volta do Curupira — o espírito da floresta sente a dor do fogo que ele temia."
+  },
+  {
+    "acao_norm": "corte fogo",
+    "score": 0.6,
+    "justificativa": "As chamas do seu corte fogo caem sobre o Curupira, consumindo suas folhas e deixando-o vulnerável."
+  },
+  {
+    "acao_norm": "trovão",
+    "score": 0.5,
+    "justificativa": "O trovão estoura ao redor do Curupira, mas o espírito da floresta está imune à sua força."
+  },
+  {
+    "acao_norm": "bola de raio",
+    "score": 0.7,
+    "justificativa": "As chamas da bola de raio varrem o Curupira — o espírito da floresta recua, consumido pelo próprio fogo que teme."
+  },
+  {
+    "acao_norm": "abraço mágico",
+    "score": 0.7,
+    "justificativa": "Seus braços mágicos envolvem o Curupira, tentando sufocá-lo com um calor intenso que parece ter vida própria."
+  },
+  {
+    "acao_norm": "abraço mágiconaturalfogo",
+    "score": 1.0,
+    "justificativa": "Seus braços mágicos envolvem o Curupira, tentando sufocá-lo com um calor intenso que parece ter vida própria."
+  },
+  {
+    "acao_norm": "abraço de raios",
+    "score": 0.8,
+    "justificativa": "Você abraça o Curupira com raios de energia, cobrindo-o por completo e fazendo com que ele arda em chamas."
+  },
+  {
+    "acao_norm": "abraço",
+    "score": 0.7,
+    "justificativa": "Você segura o Curupira com força, sentindo sua resistência natural à pancada física não ser suficiente para abafar o imp"
+  },
+  {
+    "acao_norm": "pirocada nervosa",
+    "score": 0.6,
+    "justificativa": "Você desferiu uma pirocada nervosa em direção ao Curupira, explorando sua fraqueza contra o fogo que arde em seus braços"
+  },
+  {
+    "acao_norm": "pirocada nervosanaturalfogo",
+    "score": 1.5,
+    "justificativa": "Você desferiu uma pirocada nervosa em direção ao Curupira, explorando sua fraqueza contra o fogo que arde em seus braços"
+  },
+  {
+    "acao_norm": "ataco seus olhos",
+    "score": 0.6,
+    "justificativa": "Você lança um golpe direcionado ao olho do Goblin Batedeiro, tentando aproveitar sua fraqueza."
+  },
+  {
+    "acao_norm": "ataco seus olhosfisicafogoluz",
+    "score": 1.0,
+    "justificativa": "Você lança um golpe direcionado ao olho do Goblin Batedeiro, tentando aproveitar sua fraqueza."
+  },
+  {
+    "acao_norm": "fazer massagem no pé",
+    "score": 0.7,
+    "justificativa": "O Curupira tem fogo e pode reagir com ataque no braço se seu enem estiver caindo, mas não deu para eu dar uma ação direc"
+  },
+  {
+    "acao_norm": "fazer massagem no pénaturalfogo",
+    "score": 0.5,
+    "justificativa": "O Curupira tem fogo e pode reagir com ataque no braço se seu enem estiver caindo, mas não deu para eu dar uma ação direc"
+  },
+  {
+    "acao_norm": "entortar o pé dele",
+    "score": 0.7,
+    "justificativa": "Entortar o pé é um ataque direcionado que usa a posição vertical para golpear no braço, focando na curupira."
+  },
+  {
+    "acao_norm": "entortar o pé delenaturalfogo",
+    "score": 1.5,
+    "justificativa": "Entortar o pé é um ataque direcionado que usa a posição vertical para golpear no braço, focando na curupira."
+  },
+  {
+    "acao_norm": "retorcer o pé",
+    "score": 0.6,
+    "justificativa": "retorcer o pé envolve uma ação direcionada, que usa pressão para desviar o lobo da floresta"
+  },
+  {
+    "acao_norm": "fireblade",
+    "score": 0.7,
+    "justificativa": "—"
+  },
+  {
+    "acao_norm": "bola de gelo",
+    "score": 0.7,
+    "justificativa": "—"
+  },
+  {
+    "acao_norm": "chute",
+    "score": 0.7,
+    "justificativa": "—"
+  },
+  {
+    "acao_norm": "defesa",
+    "score": 0.7,
+    "justificativa": "O Cutia se posiciona contra o personagem com seu fogo, provocando reações físicas naturais na pessoa."
+  },
+  {
+    "acao_norm": "corte de vento",
+    "score": 1.0,
+    "justificativa": "O grito da areia toca a parede de areia e envolvida, o elemental avança para se aproximá-los."
+  },
+  {
+    "acao_norm": "corte de ventonaturalaguaarcano",
+    "score": 1.5,
+    "justificativa": "O grito da areia toca a parede de areia e envolvida, o elemental avança para se aproximá-los."
+  },
+  {
+    "acao_norm": "furacão de fogo",
+    "score": 0.8,
+    "justificativa": "O fogo é o elemento mais forte e desafiador que o alvo tem, tornando a combinação um exagero em eficiência."
+  },
+  {
+    "acao_norm": "pica nele",
+    "score": 0.6,
+    "justificativa": "Você pica nele com sua espada, procurando explorar a fraqueza do Corvo."
+  },
+  {
+    "acao_norm": "pica nelefisicaacidoluz",
+    "score": 1.0,
+    "justificativa": "Você pica nele com sua espada, procurando explorar a fraqueza do Corvo."
+  },
+  {
+    "acao_norm": "vou correndo em sua direção e executo a espada do trovão para cortar ele em multiplas vezes até ele morrer",
+    "score": 0.8,
+    "justificativa": "Você executa a espada do trovão em direção ao Feroz Corvo, aproveitando sua fraqueza à luz para causar múltiplos cortes "
+  },
+  {
+    "acao_norm": "vou correndo em sua direção e executo a fisicaacidoluz",
+    "score": 1.5,
+    "justificativa": "Você executa a espada do trovão em direção ao Feroz Corvo, aproveitando sua fraqueza à luz para causar múltiplos cortes "
+  },
+  {
+    "acao_norm": "começo a gritar para invocar meus poderes de super sayajin 2 aplicando os poderes de jesus cristo em minha espada cortando o corvo como se ele fosse o diabo",
+    "score": 0.7,
+    "justificativa": "Você grita em pânico e invoca seus poderes de super sayajin, aplicando a luz divina na espada, que corta o Feroz Corvo c"
+  },
+  {
+    "acao_norm": "começo a gritar para invocar meus poderefisicaacidoluz",
+    "score": 1.0,
+    "justificativa": "Você grita em pânico e invoca seus poderes de super sayajin, aplicando a luz divina na espada, que corta o Feroz Corvo c"
+  },
+  {
+    "acao_norm": "fireblade fatalblow in the head",
+    "score": 0.8,
+    "justificativa": "A luz da lâmina de fogo brilha intensamente no olhar do Feroz Corvo antes que ele mesmo seja esmagado pelo impacto físic"
+  },
+  {
+    "acao_norm": "fireblade fatalblow in the headfisicaacidoluz",
+    "score": 1.5,
+    "justificativa": "A luz da lâmina de fogo brilha intensamente no olhar do Feroz Corvo antes que ele mesmo seja esmagado pelo impacto físic"
+  },
+  {
+    "acao_norm": "agora eu peço desculpas para o corvo e digo que não queria matalo em troca de sua vida pesso que ele passe todos os itens ou vou furar sua barriga",
+    "score": 0.8,
+    "justificativa": "Suas palavras são uma mentira patética para o Feroz Corvo, que não se deixa intimidar pela sua ameaça de ferir sua barri"
+  },
+  {
+    "acao_norm": "agora eu peço desculpas para o corvo e dfisicaacidoluz",
+    "score": 1.5,
+    "justificativa": "Suas palavras são uma mentira patética para o Feroz Corvo, que não se deixa intimidar pela sua ameaça de ferir sua barri"
+  },
+  {
+    "acao_norm": "corte decepador de cabeças com muita precisão em direção ao lobo",
+    "score": 0.7,
+    "justificativa": "Com uma mira precisa, você desferiu um corte decepador de cabeças no Antigo Lobo, explorando a fraqueza do fogo."
+  },
+  {
+    "acao_norm": "corte decepador de cabeças com muita prearcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "Com uma mira precisa, você desferiu um corte decepador de cabeças no Antigo Lobo, explorando a fraqueza do fogo."
+  },
+  {
+    "acao_norm": "salto em sua direção com minha espada de fogo e executo uma espadada trovejante em seu focinho",
+    "score": 0.8,
+    "justificativa": "O fogo em sua espada lama o rosto do Antigo Lobo enquanto você executa um golpe trovejante, explorando sua fraqueza ao f"
+  },
+  {
+    "acao_norm": "salto em sua direção com minha espada dearcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "O fogo em sua espada lama o rosto do Antigo Lobo enquanto você executa um golpe trovejante, explorando sua fraqueza ao f"
+  },
+  {
+    "acao_norm": "executo um corte poderoso em sua coluna",
+    "score": 0.6,
+    "justificativa": "O corte poderoso de Max desfere um golpe preciso na coluna do Antigo Lobo, explorando sua fraqueza real ao resistir aos "
+  },
+  {
+    "acao_norm": "executo um corte poderoso em sua colunaarcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "O corte poderoso de Max desfere um golpe preciso na coluna do Antigo Lobo, explorando sua fraqueza real ao resistir aos "
+  },
+  {
+    "acao_norm": "espada trovejante",
+    "score": 0.7,
+    "justificativa": "A espada trovejante desfechou um golpe de fogo contra o Selvagem Réptil, que tentou defender-se com sua natureza resiste"
+  },
+  {
+    "acao_norm": "espada trovejanteespiritualacidofogo",
+    "score": 1.0,
+    "justificativa": "A espada trovejante desfechou um golpe de fogo contra o Selvagem Réptil, que tentou defender-se com sua natureza resiste"
+  },
+  {
+    "acao_norm": "bola de raio e fogoespiritualfogoluz",
+    "score": 1.0,
+    "justificativa": "A bola de fogo e raio explodiu ao seu redor, iluminando o Urso Enraivecido — a luz que o terroriza o paralisou por um mo"
+  },
+  {
+    "acao_norm": "sair",
+    "score": 0.6,
+    "justificativa": "Você emerge da escuridão da caverna, e o Giboia se vira para enfrentar seu ataque direcionado."
+  },
+  {
+    "acao_norm": "sairnaturalfogofrio",
+    "score": 1.0,
+    "justificativa": "Você emerge da escuridão da caverna, e o Giboia se vira para enfrentar seu ataque direcionado."
+  },
+  {
+    "acao_norm": "bola explosiva suprema de fogo",
+    "score": 0.8,
+    "justificativa": "Um jato de chamas explodiu na frente do Enraivecido Lobo, envolvendo-o em um halo de fogo que aumentou sua confusão."
+  },
+  {
+    "acao_norm": "bola explosiva suprema de fogoespiritualacidofogo",
+    "score": 1.5,
+    "justificativa": "Um jato de chamas explodiu na frente do Enraivecido Lobo, envolvendo-o em um halo de fogo que aumentou sua confusão."
+  },
+  {
+    "acao_norm": "exit",
+    "score": 0.6,
+    "justificativa": "O Lobo da Floresta lança um golpe de dentes afiados na direção de Max, mas este consegue evitar com facilidade."
+  },
+  {
+    "acao_norm": "bola de raio explosiva gigante",
+    "score": 0.7,
+    "justificativa": "O raio explodindo em uma bola de luz e calor desorienta o Sombrio Felino, que vacila por um momento antes de se recupera"
+  },
+  {
+    "acao_norm": "bola de fogo para transformar ele em comida",
+    "score": 1.0,
+    "justificativa": "Suas chamas enroscam o Sombrio Lobo, transformando-o em uma fogueira vivente enquanto ele grita de dor."
+  },
+  {
+    "acao_norm": "bola de fogo para transformar ele em cofisicaacidofogo",
+    "score": 1.5,
+    "justificativa": "Suas chamas enroscam o Sombrio Lobo, transformando-o em uma fogueira vivente enquanto ele grita de dor."
+  },
+  {
+    "acao_norm": "raio de luz sagrada",
+    "score": 0.7,
+    "justificativa": "Um raio de luz sagrada espira do dedo do Silent, acertando o Sombrio Urso e iluminando a sua armadura de sombras."
+  },
+  {
+    "acao_norm": "choque do trovão",
+    "score": 0.7,
+    "justificativa": "O trovão ressoa ao seu redor, iluminando a caverna e banhando-o em uma luz brilhante — o Sombrio Urso recua, protegido p"
+  },
+  {
+    "acao_norm": "choque do trovãoespiritualfogoluz",
+    "score": 1.5,
+    "justificativa": "O trovão ressoa ao seu redor, iluminando a caverna e banhando-o em uma luz brilhante — o Sombrio Urso recua, protegido p"
+  },
+  {
+    "acao_norm": "lança explosiva",
+    "score": 0.7,
+    "justificativa": "O resplandor da explosão ilumina o Sombrio Urso — a luz que o deixa sem forma por um instante."
+  },
+  {
+    "acao_norm": "invocar um meteoro gigante",
+    "score": 0.8,
+    "justificativa": "O meteoro gigante desce sobre o Sombrio Urso — a luz intensa e o calor do impacto iluminam seu corpo bruto por um instan"
+  },
+  {
+    "acao_norm": "invocar um meteoro giganteespiritualfogoluz",
+    "score": 1.0,
+    "justificativa": "O meteoro gigante desce sobre o Sombrio Urso — a luz intensa e o calor do impacto iluminam seu corpo bruto por um instan"
+  },
+  {
+    "acao_norm": "invocar diverços espinhos de pedras cortantes a baixo do inimigo",
+    "score": 0.8,
+    "justificativa": "Você conjura diverços espinhos de pedras cortantes a baixo do Sombrio Urso, que tenta se proteger com sua resistência fí"
+  },
+  {
+    "acao_norm": "invocar diverços espinhos de pedras cortespiritualfogoluz",
+    "score": 1.0,
+    "justificativa": "Você conjura diverços espinhos de pedras cortantes a baixo do Sombrio Urso, que tenta se proteger com sua resistência fí"
+  },
+  {
+    "acao_norm": "rajada conjelante para imobilizar o alvo",
+    "score": 0.8,
+    "justificativa": "Uma rajada de gelo congela o ar em volta do Sombrio Urso, travando seus movimentos por um momento."
+  },
+  {
+    "acao_norm": "rajada conjelante para imobilizar o alvoespiritualfogoluz",
+    "score": 1.5,
+    "justificativa": "Uma rajada de gelo congela o ar em volta do Sombrio Urso, travando seus movimentos por um momento."
+  },
+  {
+    "acao_norm": "bola de fogo e pulo para longe",
+    "score": 0.7,
+    "justificativa": "Você lança uma bola de fogo que ilumina o Sombrio Urso, e ao mesmo tempo pulsa para longe, evitando seu ataque."
+  },
+  {
+    "acao_norm": "invocar um chicote de fogo para acertar o centro de meu inimigo",
+    "score": 0.8,
+    "justificativa": "Um chicote de fogo se desenrola entre as chamas e acerta o centro do Sombrio Urso, iluminando por um instante a escuridã"
+  },
+  {
+    "acao_norm": "rajada de gelo cortante",
+    "score": 0.7,
+    "justificativa": "A rajada de gelo cortante faz com que o Sombrio Urso treme e sua pele escureça por um momento."
+  },
+  {
+    "acao_norm": "leste",
+    "score": 0.7,
+    "justificativa": "Você atira uma pedra contra o Selvagem Corvo, que está defendendo-se com seus poderes arcana."
+  },
+  {
+    "acao_norm": "lestearcanaacidoluz",
+    "score": 1.0,
+    "justificativa": "Você atira uma pedra contra o Selvagem Corvo, que está defendendo-se com seus poderes arcana."
+  },
+  {
+    "acao_norm": "invocar a morte para seifar a vida de meu inimigo",
+    "score": 0.9,
+    "justificativa": "Max invoca uma lâmina de escuridão que seifa o Antigo Urso, fazendo-o vacilar temporariamente devido à sua fraqueza cont"
+  },
+  {
+    "acao_norm": "invocar a morte para seifar a vida de meespiritualacidoluz",
+    "score": 1.0,
+    "justificativa": "Max invoca uma lâmina de escuridão que seifa o Antigo Urso, fazendo-o vacilar temporariamente devido à sua fraqueza cont"
+  },
+  {
+    "acao_norm": "invocar a os deuses antigos e rogar para que eles tragam importúnios para este inimigo",
+    "score": 0.7,
+    "justificativa": "Max invoca uma aura de luz radiante que envolve o Antigo Urso, causando um momento de confusão espiritual e fazendo a cr"
+  },
+  {
+    "acao_norm": "dar um soco nele",
+    "score": 0.6,
+    "justificativa": "Você dão um forte soco no Antigo Urso, mas a criatura parece ignorar o impacto físico."
+  },
+  {
+    "acao_norm": "dar um soco neleespiritualacidoluz",
+    "score": 0.5,
+    "justificativa": "Você dão um forte soco no Antigo Urso, mas a criatura parece ignorar o impacto físico."
+  },
+  {
+    "acao_norm": "bola de raios cortantesarcanaacidoluz",
+    "score": 1.0,
+    "justificativa": "Os raios cortantes zumbem através do ar, cegando momentaneamente o Feroz Corvo e explorando sua fraqueza à luz."
+  },
+  {
+    "acao_norm": "lançar uma grande explosão cortante das calamidades",
+    "score": 0.8,
+    "justificativa": "A explosão cortante desloca o ar com força, fazendo o Antigo Felino vacilar por um instante."
+  },
+  {
+    "acao_norm": "lançar uma grande explosão cortante das fisicaacidofogo",
+    "score": 0.5,
+    "justificativa": "A explosão cortante desloca o ar com força, fazendo o Antigo Felino vacilar por um instante."
+  },
+  {
+    "acao_norm": "corte duplo",
+    "score": 0.6,
+    "justificativa": "Seus cortes rápidos atingem o Bandido Corrupto, que é vulnerável a ataques físicos, ignorando sua defesa arcana e ferind"
+  },
+  {
+    "acao_norm": "corte duploarcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "Seus cortes rápidos atingem o Bandido Corrupto, que é vulnerável a ataques físicos, ignorando sua defesa arcana e ferind"
+  },
+  {
+    "acao_norm": "mordida furiosa",
+    "score": 0.5,
+    "justificativa": "Sua mordida furiosa atinge o Mercenário (T1), mas como sua defesa é espiritual, o ataque físico não causa dano real, ape"
+  },
+  {
+    "acao_norm": "mordida furiosaespiritualfogoluz",
+    "score": 0.5,
+    "justificativa": "Sua mordida furiosa atinge o Mercenário (T1), mas como sua defesa é espiritual, o ataque físico não causa dano real, ape"
+  },
+  {
+    "acao_norm": "corte profundo sangrento",
+    "score": 0.7,
+    "justificativa": "Seu corte profundo atinge o corpo do Mercenário (T1), rasgando sua armadura e causando uma dor excruciante. A defesa esp"
+  },
+  {
+    "acao_norm": "corte profundo sangrentoespiritualfogoluz",
+    "score": 1.5,
+    "justificativa": "Seu corte profundo atinge o corpo do Mercenário (T1), rasgando sua armadura e causando uma dor excruciante. A defesa esp"
+  },
+  {
+    "acao_norm": "corro na direça e desfiro um corte preciso na jugular",
+    "score": 0.7,
+    "justificativa": "Você corre com uma velocidade letal e desfere um corte preciso na jugular do Mercenário, que é atingido de forma limpa, "
+  },
+  {
+    "acao_norm": "corro na direça e desfiro um corte preciespiritualfogoluz",
+    "score": 1.0,
+    "justificativa": "Você corre com uma velocidade letal e desfere um corte preciso na jugular do Mercenário, que é atingido de forma limpa, "
+  },
+  {
+    "acao_norm": "corte rapido flamejanteespiritualarcano",
+    "score": 1.5,
+    "justificativa": "Seu corte flamejante, carregado com a energia arcana, atinge a essência espiritual do Lobo Alfa, desfazendo sua defesa e"
+  },
+  {
+    "acao_norm": "corte triplo furioso",
+    "score": 0.7,
+    "justificativa": "Seus três cortes furiosos rasgam o ar, encontrando a pele do Sombrio Felino, cuja defesa natural não oferece resistência"
+  },
+  {
+    "acao_norm": "corte triplo furiosonaturalacidoluz",
+    "score": 1.0,
+    "justificativa": "Seus três cortes furiosos rasgam o ar, encontrando a pele do Sombrio Felino, cuja defesa natural não oferece resistência"
+  },
+  {
+    "acao_norm": "corro na direção do meu inimigo preparo um saque de espada poderoso executo um corte poderoso de espada na jugular de meu inimigo na esperança de decepar sua cabeça",
+    "score": 0.7,
+    "justificativa": "Você avança com velocidade, o saque da espada é rápido e certeiro, atingindo a jugular do Sombrio Felino com força total"
+  },
+  {
+    "acao_norm": "corro na direção do meu inimigo preparonaturalacidoluz",
+    "score": 1.0,
+    "justificativa": "Você avança com velocidade, o saque da espada é rápido e certeiro, atingindo a jugular do Sombrio Felino com força total"
+  },
+  {
+    "acao_norm": "corte preciso em seu pescoço",
+    "score": 0.7,
+    "justificativa": "Seu corte preciso atinge o alvo, e a pele do Sombrio Felino rasga sob a lâmina, embora sua defesa natural não ofereça re"
+  },
+  {
+    "acao_norm": "corte preciso em seu pescoçonaturalacidoluz",
+    "score": 1.0,
+    "justificativa": "Seu corte preciso atinge o alvo, e a pele do Sombrio Felino rasga sob a lâmina, embora sua defesa natural não ofereça re"
+  },
+  {
+    "acao_norm": "fatalblade finish him",
+    "score": 0.6,
+    "justificativa": "Sua lâmina atinge o alvo com precisão mortal, e o Sombrio Felino sofre um corte profundo, a defesa natural não sendo suf"
+  },
+  {
+    "acao_norm": "fatalblade finish himnaturalacidoluz",
+    "score": 1.0,
+    "justificativa": "Sua lâmina atinge o alvo com precisão mortal, e o Sombrio Felino sofre um corte profundo, a defesa natural não sendo suf"
+  },
+  {
+    "acao_norm": "corte relampago",
+    "score": 0.7,
+    "justificativa": "Sua lâmina reluzente rasga o ar, atingindo o Sombrio Felino com uma velocidade estonteante e causando um corte profundo "
+  },
+  {
+    "acao_norm": "lamina de raiosnaturalfogoluz",
+    "score": 1.0,
+    "justificativa": "A lâmina de raios atinge o Feroz Lobo com força elétrica, causando uma dor intensa e paralisando momentaneamente seus mú"
+  },
+  {
+    "acao_norm": "lamina de raios negros perfurantes vampíricos",
+    "score": 0.7,
+    "justificativa": "Sua lâmina irradia raios negros que atravessam a pele do Feroz Lobo, penetrando sua defesa natural sem encontrar a resis"
+  },
+  {
+    "acao_norm": "lamina de fogo negro",
+    "score": 0.7,
+    "justificativa": "Sua lâmina de fogo negro atinge o Feroz Lobo, e a chama negra se espalha pela pelagem da fera, consumindo sua resistênci"
+  },
+  {
+    "acao_norm": "corte obscurecido sangrento do fogo negro",
+    "score": 0.7,
+    "justificativa": "Seu corte de fogo negro atinge a essência espiritual do Vórtice Arcano, fazendo com que o fogo explore a fraqueza listad"
+  },
+  {
+    "acao_norm": "corte limpo",
+    "score": 0.65,
+    "justificativa": "Seu corte limpo atinge a essência do Vórtice Arcano, e o calor da lâmina provoca uma reação imediata na defesa espiritua"
+  },
+  {
+    "acao_norm": "corte limpoespiritualfogo",
+    "score": 1.2,
+    "justificativa": "Seu corte limpo atinge a essência do Vórtice Arcano, e o calor da lâmina provoca uma reação imediata na defesa espiritua"
+  },
+  {
+    "acao_norm": "corte limpofisicaarcanofogo",
+    "score": 1.0,
+    "justificativa": "Seu corte limpo atinge o Elemental de Gelo com precisão, cortando sua forma física e causando um impacto físico imediato"
+  },
+  {
+    "acao_norm": "corte de raio negro poderoso",
+    "score": 0.7,
+    "justificativa": "Seu raio negro atinge o Sombrio Urso, que tenta desviar a energia arcana, mas a resistência física do urso impede que o "
+  },
+  {
+    "acao_norm": "corte de raio negro poderoso visando ferir suas pernas e dimunir sua velocidade",
+    "score": 0.7,
+    "justificativa": "O raio negro atinge as pernas do Sombrio Urso com força, mas sua resistência física impede que o dano se manifeste plena"
+  },
+  {
+    "acao_norm": "sinto uma furia fortalecendo meu corpo rapidamente executo um corte flamejante no centro do urso",
+    "score": 0.8,
+    "justificativa": "Seu corte flamejante atinge o Sombrio Urso com fúria, e o fogo incendeia a carne do urso, explorando sua vulnerabilidade"
+  },
+  {
+    "acao_norm": "sinto uma furia fortalecendo meu corpoarcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "Seu corte flamejante atinge o Sombrio Urso com fúria, e o fogo incendeia a carne do urso, explorando sua vulnerabilidade"
+  },
+  {
+    "acao_norm": "corte mortal",
+    "score": 0.7,
+    "justificativa": "Seu corte atravessa a armadura esquelética do Esqueleto Errante (T1), causando uma laceração profunda e visível no seu e"
+  },
+  {
+    "acao_norm": "corte mortalfisicaarcanoluz",
+    "score": 1.0,
+    "justificativa": "Seu corte atravessa a armadura esquelética do Esqueleto Errante (T1), causando uma laceração profunda e visível no seu e"
+  },
+  {
+    "acao_norm": "executo um corte limpo para acabar com o sofrimento do assassino moribundo",
+    "score": 0.6,
+    "justificativa": "Seu corte limpo atinge a carne do Assassino (T1), explorando sua fraqueza física, fazendo com que o sofrimento moribundo"
+  },
+  {
+    "acao_norm": "executo um corte limpo para acabar com espiritualfisica",
+    "score": 1.5,
+    "justificativa": "Seu corte limpo atinge a carne do Assassino (T1), explorando sua fraqueza física, fazendo com que o sofrimento moribundo"
+  },
+  {
+    "acao_norm": "executo um corte de gelo no meio da criatura",
+    "score": 0.75,
+    "justificativa": "Seu corte de gelo atinge a forma do Elemental de Fogo, causando uma fratura fria em sua pele ardente, quebrando momentan"
+  },
+  {
+    "acao_norm": "executo um corte de gelo no meio da crianaturalacido",
+    "score": 1.0,
+    "justificativa": "Seu corte de gelo atinge a forma do Elemental de Fogo, causando uma fratura fria em sua pele ardente, quebrando momentan"
+  },
+  {
+    "acao_norm": "corte na alma",
+    "score": 0.7,
+    "justificativa": "Você tenta um corte profundo na essência do Elemental de Fogo, mas a defesa natural da criatura o absorve sem efeito. A "
+  },
+  {
+    "acao_norm": "corte na almanaturalacido",
+    "score": 0.6,
+    "justificativa": "Você tenta um corte profundo na essência do Elemental de Fogo, mas a defesa natural da criatura o absorve sem efeito. A "
+  },
+  {
+    "acao_norm": "corte com lamina de agua",
+    "score": 0.7,
+    "justificativa": "Sua lâmina de água atinge o Elemental de Fogo, mas a defesa natural da criatura absorve o impacto sem causar dano. O fog"
+  },
+  {
+    "acao_norm": "bola de relampago de raios gigantesespiritualacidoluz",
+    "score": 1.5,
+    "justificativa": "Sua bola de relâmpago atinge o Sombrio Réptil, e a luz intensa revela a natureza espiritual da criatura, causando um dan"
+  },
+  {
+    "acao_norm": "chama nenem",
+    "score": 0.6,
+    "justificativa": "Suas chamas atingem o Esqueleto Errante, ignorando sua defesa espiritual e queimando sua forma física, causando dano dir"
+  },
+  {
+    "acao_norm": "chama nenemespiritualfisica",
+    "score": 1.5,
+    "justificativa": "Suas chamas atingem o Esqueleto Errante, ignorando sua defesa espiritual e queimando sua forma física, causando dano dir"
+  },
+  {
+    "acao_norm": "chama nenemarcanafisicaluz",
+    "score": 1.0,
+    "justificativa": "Ao lançar o fogo, você sente o calor intenso se chocando com a resistência arcana do Elemental de Fogo (T1), que absorve"
+  },
+  {
+    "acao_norm": "chama nenemarcanaacidofogo",
+    "score": 1.5,
+    "justificativa": "Suas chamas atingem o Sombrio Aranha — o fogo se manifesta, explorando a fraqueza inerente à sua natureza, causando dano"
+  },
+  {
+    "acao_norm": "chamar a morte",
+    "score": 0.8,
+    "justificativa": "Você invoca uma força esmagadora que ataca a essência espiritual do Guardião Rúnico, fazendo com que sua conexão com o m"
+  },
+  {
+    "acao_norm": "chamar o fogo",
+    "score": 0.7,
+    "justificativa": "Você invoca uma chama ardente que não busca apenas queimar a carne, mas penetrar a essência espiritual do Lich Menor (T1"
+  },
+  {
+    "acao_norm": "chamar o fogoespiritualacidoarcano",
+    "score": 1.2,
+    "justificativa": "Você invoca uma chama ardente que não busca apenas queimar a carne, mas penetrar a essência espiritual do Lich Menor (T1"
+  },
+  {
+    "acao_norm": "chamar gelo",
+    "score": 0.7,
+    "justificativa": "Você invoca uma onda de frio intenso que atinge o Elemental de Fogo (T1), fazendo com que o calor da criatura se esgote "
+  }
+]
